@@ -16,28 +16,25 @@ mission "Wormholes 0.1"
 	description "Transport a passenger to Bourne in the Gamma Corvi system."
 	passengers 1 
 	deadline 21
-	destination Mons
-	minor
+	destination Bourne
 	source
 		attributes planet
 		not attributes uninhabited
 		government "Free Worlds" Republic Syndicate
 	to offer
-		random < 10
 		has "Avgi: First Contact: done"
-		has "First Contact: Bunrodea (Hostile): done"
-		has "Coalition: First Contact: done"
-		has "First Contact: Gegno Vi: done"
-		has "First Contact: Gegno Scin: offered"
-		has "First Contact: Hai: offered"
-		has "free worlds plot completed"
-		has "First Contact: Korati Efreti: offered"
-		has "Ruin: Landing: offered"
-		has "First Contact: Quarg: offered"
-		has "First Contact: Remnant: offered"
-		or
-			has "First Contact: Wanderer: offered"
-			has "First Contact: Wanderer (Before Hai): offered"
+#		has "First Contact: Bunrodea (Hostile): done"
+#		has "Coalition: First Contact: done"
+#		has "First Contact: Gegno Vi: done"
+#		has "First Contact: Gegno Scin: offered"
+#		has "First Contact: Hai: offered"
+#		has "free worlds plot completed"
+#		has "Ruin: Landing: offered"
+#		has "First Contact: Quarg: offered"
+#		has "First Contact: Remnant: offered"
+#		or
+#			has "First Contact: Wanderer: offered"
+#			has "First Contact: Wanderer (Before Hai): offered"
 	on offer
 		conversation
 			`In the <source> spaceport, you see a man sleeping on a bench with a sign that says: "Bourne or bust."`
@@ -119,7 +116,7 @@ mission "Wormholes 0.2"
 				goto talk
 			label freed
 			`	"Thank you, please wait a moment." The Hai exits the room and reenters a moment later with a key and unlocks the straps holding your arms down.`
-			`	"Please follow me" the Hai says."
+			`	"Please follow me" the Hai says."`
 			`	You get up and follow the Hai through a door into a large office panelled with a material you can't identify. It gestures you to a seat and begins.`
 			label talk
 			`	"There are many conflicts in the galaxy going all the time, the Gegno refuse to unite, the Korath will not reconcile soon, even our own Unfettered continue to kill the Wanderers without mercy. Fortunately, most races are separated by gaps insupperable without jump drives, but all get closer to the discovery of the same by the day. Some races are farther than others, like yours, but They have decided that diplomatic channels should be readily available should they be required. They have even managed to ensure cooperation between the Pug and the Quarg, if that gives you any idea of the value placed on this scheme.`
@@ -130,7 +127,7 @@ mission "Wormholes 0.2"
 					goto questions
 				`	"Yes."`
 					goto yes
-				`	"No."
+				`	"No."`
 					goto no
 				`	"I'm not sure."`
 			`	"If you have any questions I would be happy to answer them."`
@@ -164,22 +161,22 @@ mission "Wormholes 0.2"
 					goto yes
 			label whoarethey
 			`	"I thought you would know, They are the Drak, who else?"`
-			goto questions
+				goto questions
 			label anyother
 			`	"Yes, quite a few in fact, and we already have delegates from the Republic and the Remnant. Possible delegates from the Deep and the Syndicate are having similar conversations to ours right now."`
-			goto questions
+				goto questions
 			label howlong
 			`	"It has already taken many decades, but we are very near completion. There are very few factions still unrepresented."`
-			goto questions
+				goto questions
 			label getpaid
 			`	"If you wish."`
-			goto questions
+				goto questions
 			label whyyou
 			`	"I am the representative for the peaceful Hai, and the other humans are still being acquainted with the system. They thought it better that something relatively familiar would have a better chance of convincing you."`
-			goto questions
+				goto questions
 			label dangerous
 			`	"It can be at times, although that is mostly past."`
-			goto questions
+				goto questions
 			label notsure
 			`	"That is understandable. You will have three weeks to decide. If you choose to continue, jump to the system that has been revealed near Gamma Corvi. We will be waiting. Unfortunately this may sting a little." The Hai stands up and pulls a normal taser out of his desk and shoots you in the chest. You wake up an hour later in your ship.`
 				accept
@@ -218,7 +215,7 @@ mission "Wormholes 0.2"
 		ship "Pug Arfecta" "Pug Detail 97"
 		system "Hub: Sol"
 	npc
-		personality stay forbearing
+		personality staying forbearing
 		government Drak
 		ship "Pug Arfecta" "Pug Detail 12"
 		ship "Quarg Wyvern" "Quarg Detail 9"

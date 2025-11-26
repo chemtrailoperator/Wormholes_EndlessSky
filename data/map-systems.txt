@@ -127,7 +127,6 @@ system "Olympus"
 	object Mons
 		sprite planet/ringworld
 			scale 0.5
-		scale 0.5
 		distance 812
 		period 349.820
 		offset 340
