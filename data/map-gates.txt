@@ -1,65 +1,37 @@
 color "wormhole: Drak" 0 0 0 0
 
 planet "Gate: Sol"
-	wormhole "Gate: Sol"
-
-wormhole "Gate: Sol"
-	mappable
-	link "Hub: Sol" Olympus
-	link Olympus "Hub: Sol"
-	color "wormhole: Drak"
 
 planet "Gate: Ya Hai"
-	wormhole "Gate: Ya Hai"
-
-wormhole "Gate: Ya Hai"
-	mappable
-	link "Hub: Ya Hai" Olympus
-	link Olympus "Hub: Ya Hai"
-	color "wormhole: Drak"
-
 
 planet "Gate: Ki War Ek"
-	wormhole "Gate: Ki War Ek"
-
-wormhole "Gate: Ki War Ek"
-	mappable
-	link "Hub: Ki War Ek" Olympus
-	link Olympus "Hub: Ki War Ek"
-	color "wormhole: Drak"
 
 planet "Gate: Concerto"
-	wormhole "Gate: Concerto"
-
-wormhole "Gate: Concerto"
-	mappable
-	link "Hub: Concerto" Olympus
-	link Olympus "Hub: Concerto"
-	color "wormhole: Drak"
 
 planet "Gate: Erabu Lemeta"
-	wormhole "Gate: Erabu Lemeta"
-
-wormhole "Gate: Erabu Lemeta"
-	mappable
-	link "Hub: Erabu Lemeta" Olympus
-	link Olympus "Hub: Erabu Lemeta"
-	color "wormhole: Drak"
 
 planet "Gate: Heutesl"
-	wormhole "Gate: Heutesl"
-
-wormhole "Gate: Heutesl"
-	mappable
-	link "Hub: Heutesl" Olympus
-	link Olympus "Hub: Heutesl"
-	color "wormhole: Drak"
 
 planet "Gate: Ka'ch'chrai"
-	wormhole "Gate: Ka'ch'chrai"
 
-wormhole "Gate: Ka'ch'chrai"
-	mappable
-	link "Hub: Ka'ch'chrai" Olympus
-	link Olympus "Hub: Ka'ch'chrai"
-	color "wormhole: Drak"
+planet "Gate: Gamma Corvi"
+
+planet "Gate: Epsilon Leonis"
+
+planet "Gate: Arculus"
+
+planet "Gate: Markab"
+
+planet "Gate: Wah Yoot"
+
+planet "Gate: Sol Kimek"
+
+planet "Gate: Sol Saryd"
+
+planet "Gate: Sol Arach"
+
+planet "Gate: Mego Inito"
+
+planet "Gate: Zeinar"
+
+planet "Gate: Kaliptari"

@@ -12,3 +12,126 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 mission "Wormholes 0.1"
+	name "Bourne or Bust"
+	description "Transport a passenger to Bourne in the Gamma Corvi system."
+	passengers 1 
+	minor
+	source
+		attributes planet
+		not attributes uninhabited
+		government "Free Worlds" Republic Syndicate
+	to offer
+		random < 10
+		has "Avgi: First Contact: done"
+		has "First Contact: Bunrodea (Hostile): done"
+		has "Coalition: First Contact: done"
+		has "First Contact: Gegno Vi: done"
+		has "First Contact: Gegno Scin: offered"
+		has "First Contact: Hai: offered"
+		has "free worlds plot completed"
+		has "First Contact: Korati Efreti: offered"
+		has "Ruin: Landing: offered"
+		has "First Contact: Quarg: offered"
+		has "First Contact: Remnant: offered"
+		or
+			has "First Contact: Wanderer: offered"
+			has "First Contact: Wanderer (Before Hai): offered"
+	on offer
+		conversation
+			`In the <source> spaceport, you see a man sleeping on a bench with a sign that says: "Bourne or bust."`
+			choice
+				`	(Wake him up.)`
+				`	(Move On.)`
+					goto move
+			`	It takes a few tries, but finally he wakes up. He sits up, then slides off the bench immediately. You help him up and he begins to speak slowly and precisely; "My sincerest apologies for giving out, but I haven't had sleep in days. I missed my flight back to Bourne two days ago and I haven't been able to make it back. You wouldn't happen to be going that way would you? I can pay you handsomely or I can work on your ship for the passage."`
+			`	You notice he has a thick briefcase by his side.`
+			choice
+				`	"I'll take you for free."`
+					goto free
+				`	"I'll take on my crew."`
+					goto crew
+				`	"I'll take you if you can pay."`
+					goto pay
+				`	"Sorry, I'm not going that way anytime soon."`
+					defer
+			label free
+			`	"Are you sure? It's a long way to Gamma Corvi, and I need to get there without much delay."`
+			choice
+				`	"On second thought, I'll take your money."`
+					goto money
+				`	"I don't need your money."`
+					goto dontneed
+			label money
+			`	"Fair enough, I can give you 30,000 credits."`
+			choice
+				`	"That's fine, you can go get stowed on the <ship>."`
+					accept
+				`	"No thanks, I'll be on my way."`
+					decline
+			label dontneed
+			`	"Thank you then," He says, "I wish more captains were like you." He leaves to get stowed on the <ship>."`
+				accept
+			label crew
+			`	"Thank you, I can do good work, I used to be an engineer. I will go get stowed without delay."`
+				accept
+			label pay
+			`	"Thank you, I can give you 50,000 credits, but at that price I'd like to go direct." He leaves to get stowed on the <ship>`
+				accept
+			label move
+			`	He'll probably be fine.`
+				defer
+	on enter "Gamma Corvi"
+		payment 50000
+		conversation
+			`	You got to know the man quite a bit along the way, you even regret a little that your trip is coming to an end so quickly.`
+	
+mission "Wormholes 0.2"
+	landing
+	source Bourne
+	name "Report to Galactic Command"
+	description "Report to Mons in the Olympus system."
+	destination Mons
+	to offer
+		has "Wormholes 0.1: done"
+	on offer
+		conversation
+			`When you've concluded your landing checklists you here a step behind you in the cockpit. You turn around and see your passenger pointing a strange device at you. You sit in stunned silence for a moment before he speaks.`
+			`	"Look <last>, I don't know who you are, what you did, or why I'm supposed to do this. I actually kind of like you." He activates the device and a dart launches into your chest. Your vision blurs and begins to swirl as you topple to the floor dramatically.`
+			choice
+				`	(Fall Unconscious.)`
+			choice
+				`	(Stay Unconscious.)`
+			choice
+				`	(Stay Unconscious.)`
+			choice
+				`	(Stay Unconscious.)`
+			`	You should probably wake up now.`
+			choice
+				`	(Wake Up.)`
+			`	You open your eyes to see a tall Hai staring at you. "You are probably feeling a little queasy right now, but that will soon pass. I am sorry we had to take such drastic measures, but there was not another way we could get you here reliably without delay. Do not worry, your ship is secured and it will not come to harm." The Hai speaks slowly and carefully without any trace of an accent. "There is something that is of utmost importance that They would like you to know of. It would be easier for both of us if you could be transferred to a more comfortable area. Can we count on your cooperation?" You notice that there are tight bindings on your arms and legs.`
+			choice
+				`	"Screw You"`
+				`	"I won't try anything."`
+					goto freed
+			`	Very well, I understand that you must be under a lot of stress right now. We can have our discussion right here.`
+				goto talk
+			label freed
+			`	"Thank you, please wait a moment." The Hai exits the room and reenters a moment later with a key and unlocks the straps holding your arms down.`
+			`	"Please follow me" the Hai says."
+			`	You get up and follow the Hai through a door into a large office panelled with a material you can't identify. It gestures you to a seat and begins.`
+			label talk
+			`	"There are many conflicts in the galaxy going all the time, the Gegno refuse to unite, the Korath will not reconcile soon, even our own Unfettered continue to kill the Wanderers without mercy. Fortunately, most races are separated by gaps insupperable without jump drives, but all get closer to the discovery of the same by the day. Some races are farther than others, like yours, but They have decided that diplomatic channels should be readily available should they be required. They have even managed to ensure cooperation between the Pug and the Quarg, if that gives you any idea of the value placed on this scheme.`
+			`	They have organized a great technological masterpiece using an empty system in the far east of the galaxy. It is a ringworld containing wormholes, courtesy of the Pug, to every capital of every civilization. Systems are present or have been created in close proximity to the capitals and they have been hidden by technology that I am proud to say came from the Hai, although the Remnant assisted as well. Your own race has been kind enough to provide the use and knowledge from its massive hyperspace relay system. Even the Gegno, with their rudimentary, even primitive, technology have found a way to contribute.`
+			`	Every faction of every civilization is sending delegates to facilitate communication and avoid conflict. This brings us to you. Several in the Free Worlds, as you humans so call it, have recommended you as their representative due to your extensive exploration and communication with other species, as well as the fact you are not currently involved in time consuming state duties. There is great responsibility involved, but little real labor, and you will not be hindered much from continuing your life as it is now. Do you accept?"`
+			choice
+				`	"I have some questions first."`
+					goto questions
+				`	"Yes."`
+					goto yes
+				`	"No."
+					goto no
+				`	"I'm not sure."`
+			`	"If you have any questions I would be happy to answer them."`
+			label questions
+			choice
+				
