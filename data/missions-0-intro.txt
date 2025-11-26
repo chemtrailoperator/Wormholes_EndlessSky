@@ -121,7 +121,7 @@ mission "Wormholes 0.2"
 			label talk
 			`	"There are many conflicts in the galaxy going all the time, the Gegno refuse to unite, the Korath will not reconcile soon, even our own Unfettered continue to kill the Wanderers without mercy. Fortunately, most races are separated by gaps insupperable without jump drives, but all get closer to the discovery of the same by the day. Some races are farther than others, like yours, but They have decided that diplomatic channels should be readily available should they be required. They have even managed to ensure cooperation between the Pug and the Quarg, if that gives you any idea of the value placed on this scheme.`
 			`	They have organized a great technological masterpiece using an empty system in the far east of the galaxy. It is a ringworld containing wormholes, courtesy of the Pug, to every capital of every civilization. Systems are present or have been created in close proximity to the capitals and they have been hidden by technology that I am proud to say came from the Hai, although the Remnant assisted as well. Your own race has been kind enough to provide the use and knowledge from its massive hyperspace relay system. Even the Gegno, with their rudimentary, even primitive, technology have found a way to contribute.`
-			`	Every faction of every civilization is sending delegates to facilitate communication and avoid conflict. This brings us to you. Several in the Free Worlds, as you humans so call it, have recommended you as their representative due to your extensive exploration and communication with other species, as well as the fact you are not currently involved in time consuming state duties. There is great responsibility involved, but little real labor, and you will not be hindered much from continuing your life as it is now. Do you accept?"`
+			`	Every faction of every civilization is sending delegates to facilitate communication and avoid conflict. This brings us to you. Several in the Free Worlds, as you humans so call it, have recommended you as their chief representative due to your extensive exploration and communication with other species, as well as the fact you are not currently involved in time consuming state duties. There is great responsibility involved, but little real labor, and you will not be hindered much from continuing your life as it is now. Do you accept?"`
 			choice
 				`	"I have some questions first."`
 					goto questions
@@ -163,7 +163,7 @@ mission "Wormholes 0.2"
 			`	"I thought you would know, They are the Drak, who else?"`
 				goto questions
 			label anyother
-			`	"Yes, quite a few in fact, and we already have delegates from the Republic and the Remnant. Possible delegates from the Deep and the Syndicate are having similar conversations to ours right now."`
+			`	"Yes, quite a few in fact, and we already have multiple delegates from the Republic and the Remnant. Possible delegates from the Deep and the Syndicate are having similar conversations to ours right now."`
 				goto questions
 			label howlong
 			`	"It has already taken many decades, but we are very near completion. There are very few factions still unrepresented."`
