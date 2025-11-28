@@ -14,6 +14,9 @@ planet "Gate: Ki War Ek"
 planet "Gate: Concerto"
 	attributes "requires: quantum keystone"
 
+planet "Gate: Kashikt"
+	attributes "requires: quantum keystone"
+
 planet "Gate: Erabu Lemeta"
 	attributes "requires: quantum keystone"
 

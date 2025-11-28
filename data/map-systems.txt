@@ -118,7 +118,7 @@ system "Olympus"
 		distance 812
 		period 349.820
 		offset 300
-	object Mons
+	object "Gate: Kashikt"
 		sprite planet/ringworld
 			scale 0.5
 		distance 812
@@ -311,6 +311,36 @@ system "Hub: Concerto"
 		distance 812
 		period 349.820
 	object "Gate: Concerto"
+		sprite planet/jumpring
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 20
+	object
+		sprite "planet/ringworld left"
+			scale 0.5
+		distance 812
+		period 349.820
+		offset 40
+
+system "Hub: Kashikt"
+	hidden
+	pos -73.5695 -199.812
+	government "Drak"
+	attributes capital command
+	arrival 700
+	departure 1000
+	habitable 700
+	belt 1245
+	object
+		sprite star/nova-small
+		period 10
+	object
+		sprite "planet/ringworld right"
+			scale 0.5
+		distance 812
+		period 349.820
+	object "Gate: Kashikt"
 		sprite planet/jumpring
 			scale 0.5
 		distance 812
