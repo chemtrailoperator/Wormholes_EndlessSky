@@ -20,21 +20,24 @@ mission "Wormholes 0.1"
 	source
 		attributes planet
 		not attributes uninhabited
-		government "Free Worlds" "Republic" "Syndicate"
+		government
+			Republic
+			"Free Worlds"
+			Syndicate
 	to offer
-		has "Avgi: First Contact: done"
-#		has "First Contact: Bunrodea (Hostile): done"
-#		has "Coalition: First Contact: done"
-#		has "First Contact: Gegno Vi: done"
-#		has "First Contact: Gegno Scin: offered"
-#		has "First Contact: Hai: offered"
-#		has "free worlds plot completed"
-#		has "Ruin: Landing: offered"
-#		has "First Contact: Quarg: offered"
-#		has "First Contact: Remnant: offered"
-#		or
-#			has "First Contact: Wanderer: offered"
-#			has "First Contact: Wanderer (Before Hai): offered"
+		has "Avgi: First Contact: offered"
+		has "First Contact: Bunrodea (Hostile): offered"
+		has "Coalition: First Contact: offered"
+		has "First Contact: Gegno Vi: offered"
+		has "First Contact: Gegno Scin: offered"
+		has "First Contact: Hai: offered"
+		has "free worlds plot completed"
+		has "Ruin: Landing: offered"
+		has "First Contact: Quarg: offered"
+		has "First Contact: Remnant: offered"
+		or
+			has "First Contact: Wanderer: offered"
+			has "First Contact: Wanderer (Before Hai): offered"
 	on offer
 		conversation
 			`In the <source> spaceport, you see a man sleeping on a bench with a sign that says: "Bourne or bust."`
