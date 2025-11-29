@@ -23,10 +23,10 @@ system "Olympus"
 	object
 		sprite star/nova-small
 		period 10
-	object "Gate: Sol Unlocked"
+	object "Gate: Sol"
 		sprite planet/jumpring
 			scale 0.5
-		distance 812
+		distance 813
 		period 349.820
 	object Mons
 		sprite planet/ringworld
@@ -119,7 +119,7 @@ system "Olympus"
 		period 349.820
 		offset 300
 	object "Gate: Kashikt"
-		sprite planet/ringworld
+		sprite planet/jumpring
 			scale 0.5
 		distance 812
 		period 349.820
@@ -155,10 +155,10 @@ system "Hub: Sol"
 		distance 812
 		period 349.820
 		offset 240
-	object "Gate: Gamma Corvi Unlocked"
+	object "Gate: Gamma Corvi"
 		sprite planet/jumpring
 			scale 0.5
-		distance 812
+		distance 813
 		period 349.820
 		offset 260
 	object
@@ -167,10 +167,10 @@ system "Hub: Sol"
 		distance 812
 		period 349.820
 		offset 280
-	object "Gate: Sol Unlocked"
+	object "Gate: Sol"
 		sprite planet/jumpring
 			scale 0.5
-		distance 812
+		distance 813
 		period 349.820
 		offset 300
 	object
@@ -263,7 +263,7 @@ system "Hub: Ki War Ek"
 		period 349.820
 		offset 20
 	object "Gate: Sol Kimek"
-		sprite planet/ringworld
+		sprite planet/jumpring
 			scale 0.5
 		distance 812
 		period 349.820
@@ -382,7 +382,7 @@ system "Hub: Erabu Lemeta"
 		distance 812
 		period 349.820
 		offset 40
-	object
+	object "Gate: Mego Inito"
 		sprite planet/jumpring
 			scale 0.5
 		distance 812
@@ -424,7 +424,7 @@ system "Hub: Heutesl"
 		distance 812
 		period 349.820
 		offset 40
-	object
+	object "Gate: Zeinar"
 		sprite planet/jumpring
 			scale 0.5
 		distance 812
@@ -466,7 +466,7 @@ system "Hub: Ka'ch'chrai"
 		distance 812
 		period 349.820
 		offset 40
-	object
+	object "Gate: Kaliptari"
 		sprite planet/jumpring
 			scale 0.5
 		distance 812
@@ -496,10 +496,10 @@ system "Terminal: Gamma Corvi"
 			scale 0.5
 		distance 812
 		period 349.820
-	object "Gate: Gamma Corvi Unlocked"
+	object "Gate: Gamma Corvi"
 		sprite planet/jumpring
 			scale 0.5
-		distance 812
+		distance 813
 		period 349.820
 		offset 20
 	object
@@ -721,7 +721,7 @@ system "Terminal: Sol Saryd"
 
 system "Terminal: Mego Inito"
 	hidden
-	pos 374.9 -235.3
+	pos 414.9 -235.3
 	government "Drak"
 	attributes terminal command
 	arrival 700

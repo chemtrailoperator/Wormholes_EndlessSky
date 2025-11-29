@@ -1,0 +1,20 @@
+# Copyright (c) 2025 by ChemtrailOperator
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Galactic License"
+	series "Licenses"
+	index 40602
+	category "Licenses"
+	thumbnail "outfit/galacticlicense"
+	"galactic license" 1
+	description "This small band is a piece of Yottrite-Diamond compound, that has data encoded directly to its crystalline structure. It unlocks the wormhole gates used by Galactic Command."

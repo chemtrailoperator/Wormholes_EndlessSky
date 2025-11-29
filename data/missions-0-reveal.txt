@@ -18,8 +18,7 @@ mission "Wormholes 0.1"
 	deadline 21
 	destination Bourne
 	source
-		attributes planet
-		not attributes uninhabited
+		not attributes uninhabited station
 		government
 			Republic
 			"Free Worlds"
@@ -40,7 +39,7 @@ mission "Wormholes 0.1"
 			has "First Contact: Wanderer (Before Hai): offered"
 	on offer
 		conversation
-			`In the <source> spaceport, you see a man sleeping on a bench with a sign that says: "Bourne or bust."`
+			`In the <origin> spaceport, you see a man sleeping on a bench with a sign that says: "Bourne or bust."`
 			choice
 				`	(Wake him up.)`
 				`	(Move On.)`
@@ -184,7 +183,7 @@ mission "Wormholes 0.2"
 			`	"That is understandable. You will have three weeks to decide. If you choose to continue, jump to the system that has been revealed near Gamma Corvi. We will be waiting. Unfortunately this may sting a little." The Hai stands up and pulls a normal taser out of his desk and shoots you in the chest. You wake up an hour later in your ship.`
 				accept
 			label yes
-			`	"Very good. You will find that a system has been revealed near Gamma Corvi. We will be waiting. Unfortunately this will probably hurt, but it is necessary." The Hai stands up and pulls a normal taser out of his desk and shoots you in the chest. You wake up an hour later in your ship.`
+			`	"Very good. You will find that a system has been revealed near Gamma Corvi. We will be waiting. There are two more things. First, you must only take one ship with you, the gate can only be opened for one from the inside and you must leave any more ships you bring. Secondly, this will probably hurt, but it is necessary." The Hai stands up and pulls a normal taser out of his desk and shoots you in the chest. You wake up an hour later in your ship.`
 				accept
 			label no
 			`	"I am sorry to hear that, but it is your decision to make. This may sting." The Hai stands up and pulls a normal taser out of his desk and shoots you in the chest.`
@@ -192,8 +191,10 @@ mission "Wormholes 0.2"
 				decline
 	on accept
 		event "Reveal Gamma Corvi Route"
-#		outfit "Galactic Temporary Passkey"
+	on enter
+		mark "Terminal: Gamma Corvi"
 	on enter "Terminal: Gamma Corvi"
+		unmark "Terminal: Gamma Corvi"
 		dialog `A pug ship hails you and instructs you to enter the wormhole.`
 	on enter "Hub: Sol"
 		dialog `The wormhole takes you to a system that contains a few more wormholes. You only have access to one.`
@@ -201,8 +202,7 @@ mission "Wormholes 0.2"
 		dialog `You enter the system to see a massive ringworld with a large number of sections that appear to be holding wormholes. You receive a hail telling you to land on the ringworld.`
 	on complete
 		event "all wormholes revealed"
-		outfit "Quantum Keystone"
-#		require "Galactic Temporary Passkey"
+		outfit "Galactic License"
 		conversation	
 			`As soon as you step out of your ship you are met by an entourage containing both Pug and Quarg. You are led to a large room filled with an inconceivable variety of colors and shapes. There are at least three of every alien you have met present, and a few that you have never seen before. There seems to be an important discussion going on, but you are hurried past it into an adjoining room. A tall Quarg sitting at a table inside stands and offers you a seat. "Thnak you for joining us today, our system is still in its infancy, but you will help it along its way. You are given full access to all the wormholes we currently operate. We recognize that these systems could very easily be turned into means of war, so each faction has received the right of passage for a single ship, which is not enough to constitute any great danger. To identify yourself and your ship, you will have this.`
 			scene "outfit/keystone"
@@ -234,43 +234,11 @@ event "Reveal Gamma Corvi Route"
 		remove hidden
 
 event "all wormholes revealed"
-	system "Olympus"
-		remove object "Gate: Sol Unlocked"
-			sprite planet/jumpring
-				scale 0.5
-			distance 812
-			period 349.820
-		add object "Gate: Sol"
-			sprite planet/jumpring
-				scale 0.5
-			distance 812
-			period 349.820
-
-	system "Hub: Sol"
-		remove object "Gate: Sol Unlocked"
-			sprite planet/jumpring
-				scale 0.5
-			distance 812
-			period 349.820
-
-		add object "Gate: Sol"
-			sprite planet/jumpring
-				scale 0.5
-			distance 812
-			period 349.820
-		remove object "Gate: Gamma Corvi Unlocked"
-			sprite planet/jumpring
-				scale 0.5
-			distance 812
-			period 349.820
-			offset 260
-		add object "Gate: Gamma Corvi"
-			sprite planet/jumpring
-				scale 0.5
-			distance 812
-			period 349.820
-			offset 260
-
+	"reputation: Drak" = 100
+	planet "Gate: Sol"
+		add attributes "requires: galactic license"
+	planet "Gate: Gamma Corvi"
+		add attributes "requires: galactic license"
 	system "Hub: Ya Hai"
 		remove hidden
 	system "Hub: Ki War Ek"
@@ -282,6 +250,8 @@ event "all wormholes revealed"
 	system "Hub: Heutesl"
 		remove hidden
 	system "Hub: Ka'ch'chrai"
+		remove hidden
+	system "Hub: Kashikt"
 		remove hidden
 	system "Terminal: Gamma Corvi"
 		remove object "Gate: Gamma Corvi Unlocked"

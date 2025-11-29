@@ -1,65 +1,74 @@
+# Copyright (c) 2025 by ChemtrailOperator
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
 color "wormhole: Drak" 0 0 0 0
 
 planet "Gate: Sol"
-	attributes "requires: quantum keystone"
-
-planet "Gate: Sol Unlocked"
 
 planet "Gate: Ya Hai"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Ki War Ek"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Concerto"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Kashikt"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Erabu Lemeta"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Heutesl"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Ka'ch'chrai"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Gamma Corvi"
-	attributes "requires: quantum keystone"
 
 planet "Gate: Gamma Corvi Unlocked"
 
 planet "Gate: Epsilon Leonis"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Arculus"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Markab"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Wah Yoot"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Sol Kimek"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Sol Saryd"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Sol Arach"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Mego Inito"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Zeinar"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet "Gate: Kaliptari"
-	attributes "requires: quantum keystone"
+	attributes "requires: galactic license"
 
 planet Mons
 	attributes command
