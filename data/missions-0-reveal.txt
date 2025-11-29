@@ -194,7 +194,7 @@ mission "Wormholes 0.2"
 		event "Reveal Gamma Corvi Route"
 #		outfit "Galactic Temprorary Passkey"
 	on enter "Terminal: Gamma Corvi"
-		dialog `A pug ship hails you and isntruts you to enter the wormhole.`
+		dialog `A pug ship hails you and isntructs you to enter the wormhole.`
 	on enter "Hub: Sol"
 		dialog `The wormhole takes you to a system that contains a few more wormholes. You only have access to one.`
 	on enter "Olympus"
