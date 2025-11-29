@@ -171,7 +171,7 @@ mission "Wormholes 0.2"
 			`	"It has already taken many decades, but we are very near completion. There are very few factions still unrepresented."`
 				goto questions
 			label getpaid
-			`	"If you wish."`
+			`	"If you wish. Although you do not have any need for more money."`
 				goto questions
 			label whyyou
 			`	"I am the representative for the peaceful Hai, and the other humans are still being acquainted with the system. They thought it better that something relatively familiar would have a better chance of convincing you."`
