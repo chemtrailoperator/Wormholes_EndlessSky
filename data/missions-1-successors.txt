@@ -20,7 +20,7 @@ mission "Wormholes 1.2"
 	priority
 	source "Mons"
 	name "Travel to the Successors"
-	description "Carry diplomats to Tuur-Aasa-Kaska in the Tuur-Kella system."
+	description "Carry diplomats to Tuur-Aasa-Kaska in the Tuur-Kella system. Reccomended route is through the wormholes to Arculus, then through the Graveyard and Precursor space."
 	destination "Tuur-Aasa-Kaska"
 	clearance
 	to offer 
@@ -41,7 +41,6 @@ mission "Wormholes 1.2"
 				goto chilia
 			label huh
 			`	"Don't tell me you've forgotten already!?"`
-
 			choice
 				`	("Forgotten what?")`
 					goto forgotten
@@ -76,6 +75,7 @@ mission "Wormholes 1.2"
 			`	"Ah, of course, I shall lead then." He takes off at a brisk walk through the passages he took you through before until he arrives at the docking bay that holds your ship. It is a massive airlock big enough to hold multiple capital ships.`
 			`	It takes longer than you anticipated to get everyone situated on your ship, partly because of the size of the Saryd not being ideal for your compartments and hatches, but also because the Pug and the Quargs vehemently insist that they will not be berthed near each other. Chilia comes to you after it is all finished and advises you to take off immediately. "It does not do to waste a single minute when you have a Pug and a Quarg in such close proximity, after all, they are on blowing each other up terms. The fastest route is through the wormholes to Arculus, then through the Graveyard and Precursor space."`
 				accept
+<<<<<<< HEAD
 #	on enter "Ferinus"
 #		conversation
 #			`There is a loud bang in the cargo compartment.`
@@ -89,6 +89,21 @@ mission "Wormholes 1.2"
 #				`	(Leave.)`
 #			`You take a step but immediately slip on the dented bearings littering the floor, unfortunately Deep Sky's finest. The Pug shoves the tank back where it came from immediately and they both stand still for a few moments. "My apologies Captain, we did not mean to make such a ruckus." says the Pug. "It will not happen again." says the Quarg. They walk past you and disappear into your ship.`
 #			label end
+=======
+	on enter "Farinus"
+		conversation
+			`There is a loud bang in the cargo compartment.`
+			choice
+				`	(Ignore.)`
+					goto end
+				`	(Investigate.)`
+			`You walk through your ship and hear a few more bangs on your way. You throw open the hatch to see the Quarg you have not spoken to throw a crate at the Pug, who deflects it with his staff. The Pug sticks his staff into a bale of food and slings it at the Quarg, hitting him squarely and knocking him back against the wall despite attempts to dodge. The Quarg, apparently unhurt, leaps up immediately and grabs a handful of ball bearings rolling about on the floor and launches them with baleful accuracy one by one at the Pug. After being hit several times without effect, the Pug jumps with surprising agility into another pile of crates, getting hit along the way by more bearings. One or two miss, however, hitting the hull resulting in bangs of surprising volume. The Pug drops his staff and picks up a water tank and lifts it above his head, no doubt to drop on the Quarg below.`
+			choice
+				`	(Intervene.)`
+				`	(Leave.)`
+			`You take a step but immediately slip on the dented bearings littering the floor, unfortunately Deep Sky's finest. The Pug shoves the tank back where it came from immediately and they both stand still for a few moments. "My apologies Captain, we did not mean to make such a ruckus." says the Pug. "It will not happen again." says the Quarg. They walk past you and disappear into your ship.`
+			label end
+>>>>>>> d7c5042849e96c2337add131ef498871c857b401
 	on enter "Delia"
 		conversation
 			`You walk into the common area of the ship to see a small model sitting on a table.`
@@ -115,8 +130,18 @@ mission "Wormholes 1.2"
 			label end
 	on complete
 		log "People" "Chilia" "Chilia has been a galactic diplomat for quite some time now, taking up the task long before you have. He helped orchestrate the Human side of the coalition."
+
+mission "Wormholes 1.3"
+	landing
+	source "Tuur-Aasa-Kaska"
+	name "Return to Mons"
+	description "Return to Mons in the Olympus system as quickly as you can."
+	destination "Mons"
+	to offer
+		has "Wormholes 1.2: done"
+	on offer
 		conversation
-			`"Forewarned of your arrival, several medium warships and a large number of smaller ones take off and escort your ship in a complex formation. Once landed on a bare sheet of rock protruding out of an ocean, a large group of Successors approaches. Chilia, leading the group, addresses the front Successor. "Greetings, esteemed rulers, thank you for accepting our delegation."`
+			`"Forewarned of your arrival, several medium warships and a large number of smaller ones take off and escort your ship in a complex formation. Once landed on a bare sheet of rock protruding out of an ocean, a large group of Successors approaches. Chilia, leading your group, addresses the front Successor. "Greetings, esteemed rulers, thank you for accepting our delegation."`
 			`	Waves of color traverse the leader of the group for a few seconds before it speaks. "The High Houses of the Successors thank thee as well. Please enter with us so that we may begin negotiations in a more comfortable environment." A large doorway slides open in the rock, and for a moment it seems as if you'll be going underwater. Thankfully, the door leads to a steeply inclined passageway with another door at the bottom, which in turn opens into a wide room. The leader faces about once inside and begins speaking again. "The High Houses have determined that it would be more advisable to here each delegates proposition separately. Is this acceptable?" "It will have to be." Chlia replies. "Let us here your pitch first then." Chilia follows the group out of the room through a different door and you are left alone with the rest of the group.`
 			`	The Saryd and the two Arachi move off into a corner while the Pug and the Quargs find opposite corners to wait in. The Remnant man goes off in search of facilities and the other human finds sits down against a wall. The Avgi remove themselves from their walking suits and alight on one of the many odd prominences in the walls.`
 			label strike
@@ -205,33 +230,45 @@ mission "Wormholes 1.2"
 			`	He sticks out his hand, you shake it, and he begins. "We've seen much of each other over the past week but I haven't had the opportunity to introduce myself properly. I am Stephen Sills, assistant representative from the Republic. I must say I was glad to see you sitting with Chilia back on the ring. I hadn't seen any of my kind for weeks, and to see you out of all of them." Upon closer inspection he proves to be a much younger man than you thought would be holding such a position. "How do you know who I am?" you ask.`
 			`	"Oh, yes." he laughs dryly, "you wouldn't know. My father was Sawyer, the Syndicate nuclear engineer that was such a stir in the Civil War. Remember? He defected and spread the word that the Syndicate was making nukes. He told me all about you when he got home. That very day I went and looked you up. You may not know it, but there were a few articles on you at the time circulating around because of your decisive involvement in the war, and there are dozens more today. What I saw in those articles, a broke new pilot becoming a war hero through his grit and daring, inspired me to become a pilot as well." He shifts a bit and continues.`
 			`	"I wanted to be a pilot and my conditions couldn't have been better. After the war, the Syndicate gave my father a large sum of money as an apology and we moved into the Deep. After his experiences in the war, my father couldn't settle back into normal life, he was always looking over his shoulder and jumping at random noises. He was also paranoid about the Syndicate, justly enough I suppose, but he took it to an extreme that made it difficult to live with him. We parted on good terms, he gave me a chunk of money and I used it to change my name, buy a freighter, and start a business as a pilot. I would have bought a warship, but my father wouldn't allow it, he said it was too dangerous.`
-			`	My business thrived, and it is now worth several billion credits, but I soon got bored of it and started exploring. I found alien civilizations, made friends with a few, and outfitted a ship to my needs. Pretty soon I was hardly ever in Human space, but I had a run in with the Korath, my fancy ship was destroyed, and I only escaped by about an inch, quite literally. Then I got captured by pirates on my way back and spent a few months as a slave. I escaped when the ship I was on was disabled and I went back to my business which hadn't done well in my absence and I settled down to manage it a little more thoroughly. Over the years I built another, better ship and I still use it often, but I wasn't ever going to risk my skin for the fun of it again."`
+			`	My business thrived, and it is now worth several billion credits, but I soon got bored of it and started exploring. I found alien civilizations, made friends with a few, and outfitted a ship to my needs. Pretty soon I was hardly ever in Human space, but I had a run in with the Korath, my fancy ship was destroyed, and I only escaped by about an inch, quite literally. Then I got captured by pirates on my way back and spent a few months as a slave. I escaped when the ship I was on was disabled and I went back to my business which hadn't done well in my absence. I was forced to settle down to manage it a little more thoroughly. Over the years I built another, better ship and I still use it often, but I wasn't ever going to risk my skin for the fun of it again."`
 			`	"So how did you get here?"`
 			`	"Same way as you did I assume, I was drugged and taken away to some shed and talked to by some man and then a Quarg so I said I'd do it and here I am. They even helped me set up a system so I can communicate with my businesss managers from my office back on Mons."`
 			`	You talk together for a while on ships, their design and defence, business, politics, and many other topics.`
 			label returned
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			
+			`	Chilia walks back into the room without warning. "Come on, wake up the Avgi, they want to talk to them since they're the closest race, and therefore the most concerned." He walks over undernreath the makeshift perches and begins yelling at the Avgi. The chief is woken up by one of your ball bearings, seemingly thrown by a Quarg from across the room. The Avgi hastily clamber into their walking suits while having a hushed conversation with Chilia. They depart through the familiar door and Chilia walks over to you.`
+			`"I would be ready to speak to the Houses next, they asked a few questions about you, like whether you were a delegate or just carrying us here. They seemed very interested in the hierarchy of Galactic Command. The Avgis will probably convince them to join us, they are very amenable to the idea anyway, and the Avgi can be convincing talkers. Are you confident you can face them alone?"`
+			choice
+				`	("I got this, I've been in my share of negotiations.")`
+					goto sure
+				`	("What if I'm not?")`
+			`	"Don't worry about it, worst case scenario you fail and the others have a harder job. Best case you convince them and earn yourself some clout."`
+				goto avgireturn
+			label sure
+			`	"Just the same, be careful, you could make it difficult for the other delegates."`
+			label avgireturn
+			`	The Avgis return followed by a Successor wearing large plates of armor. It lifts it up on its tentacles and booms; "The High Houses call Captain <first> <last>." It turns around and disappears down the hallway.`
+			choice
+				`	(Follow the Successor.)`
+			`	The Successor leads you to a large room where a multitude are arrayed in splendor, you are led to a pedestal in the center of the room and left to your own devices. There are representatives from the houses you know, and many that you do not. Even the New Houses were allowed a presence. They all appear to be engaged in energetic conversation, resulting in a hubbub that not even the Galactic Keystone can decode. A Successor directly in front of you calls something and the room falls silent immediately. "Greetings Captain, the High Houses are glad to see you again. We have deliberated and come to the conclusion that involvement in this scheme would be beneficial. We know that you share our interests and are familiar with our ways. Therefore we have but one question; do you think that we, the Successors, should pursue this?`
+			choice
+				`	("Absolutely.")`
+					goto absolutely
+				`	("I really would not reccomend it.")`
+			`	"Why not?"`
+			choice
+				`	("I think that its a waste of time.")`
+				`	("Its just another avenue of attack from outsiders.")`
+			`	"Thank you for your concern in this undertaking, but we have been assured that involvement can be accomplished at a quite manageable cost to us and precautions have been taken for defense. Thank you again, there is nothing more we need from you." The armored Successor approaches and leads you back out to the room you were in before.`
+				goto commonroom
+			label absolutely
+			`	"Outstanding. We require nothing more of you." The armored Successor approaches and leads you back out to the room you were in before.`
+			label commonroom
+			`	You sit down against the wall again. In a few minutes the Remnant that left earlier returns. "Apparently this room is usually filled with water." he announces to the general room, "I didn't find any facilities, but I've been all over this place and the engineering is quite interesting. Its designed to sink when filled, but there are massive pumps and tanks that allow it to control its depth quite efficiently"`
+			`	A large entourage enters through a different door. The lead holds up a data-sphere that liquefies and displays a large array of Successor letters. "The Successor begins to speak, "The Houses of the Successors agree to the terms dictated in this treaty, please return to your leaders and notify them that construction of the wormholes may commence."`
+			`	The Successors retreat back into their door and there is a general stir. A large hatch in the wall slides open revealing the passageway to the surface. "Lets go, there isn't a moment to be lost." says Chilia. Its time to head back to Mons.`
+				launch
+	on complete
+		log "Carried a dimplomatic mission at Galactic Command to and from the Successors. Treaty confirmed, wormholes engaged to the Successors."
+		conversation
+			`You land without ceremony and the members of the delegation disperse into the ring. Chilia turns to you on his way out. "Thank you for your help <last>, everything is in train now, the Quarg will handle it. You are free to go your own way and do what you please, I hope we meet again soon."`
+		event: reveal successors wormhole
