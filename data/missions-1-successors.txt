@@ -23,7 +23,6 @@ mission "Wormholes 1.2"
 	description "Carry diplomats to Tuur-Aasa-Kaska in the Tuur-Kella system."
 	destination "Tuur-Aasa-Kaska"
 	clearance
-	
 	to offer 
 		has "Wormholes 1.1: done"
 	on offer
@@ -64,7 +63,7 @@ mission "Wormholes 1.2"
 				`	("Why do you know so much about this?")`
 					goto knowledge
 				`	("The Drak built all this?")`
-			`	"Not quite, the Drak just provided blueprints and resources to the Quarg and the Pug, and they built this. Each individual species helped with their own section of the ring. You will find that there are even more lavish accomodations in the part of the ring adjacent to the Sol wormhole. Most of that area is taken up by the machinery needed to operate the wormhole, but there is still huge areas left to our own design. As with this area here, only us humans have unrestricted access to it. There there is everything that we could require in an extended stay, and I reccomend you take up residence there if you come here often."`
+			`	"Not quite, the Drak just provided blueprints and resources to the Quarg and the Pug, and they built this. Each individual species helped with their own section of the ring. You will find that there are even more lavish accomodations in the part of the ring adjacent to the Sol wormhole. Most of that area is taken up by the machinery needed to operate the wormhole engines, but there is still huge areas left to our own design. As with this area here, only us humans have unrestricted access to it. There there is everything that we could require in an extended stay, and I reccomend you take up residence there if you come here often."`
 				goto team
 			label knowledge
 			`	"I have been part of this for quite a long time, although I only became the Remnant's chief delegate a few years ago. There is an even larger area devoted to humans in the parts of the ring adjacent to the Sol wormhole. Most of that area is taken up by the equipment necessary to operate the wormhole, but there are still huge areas available for our use. Like this here, it is restricted to all but humans. There is everything that we could require for a long stay, I reccomend you take up residence there if you make coming here a habit."`
@@ -77,19 +76,19 @@ mission "Wormholes 1.2"
 			`	"Ah, of course, I shall lead then." He takes off at a brisk walk through the passages he took you through before until he arrives at the docking bay that holds your ship. It is a massive airlock big enough to hold multiple capital ships.`
 			`	It takes longer than you anticipated to get everyone situated on your ship, partly because of the size of the Saryd not being ideal for your compartments and hatches, but also because the Pug and the Quargs vehemently insist that they will not be berthed near each other. Chilia comes to you after it is all finished and advises you to take off immediately. "It does not do to waste a single minute when you have a Pug and a Quarg in such close proximity, after all, they are on blowing each other up terms. The fastest route is through the wormholes to Arculus, then through the Graveyard and Precursor space."`
 				accept
-	on enter "Ferinus"
-		conversation
-			`There is a loud bang in the cargo compartment.`
-			choice
-				`	(Ignore.)`
-					goto end
-				`	(Investigate.)`
-			`You walk through your ship and hear a few more bangs on your way. You throw open the hatch to see the Quarg you have not spoken to throw a crate at the Pug, who deflects it with his staff. The Pug sticks his staff into a bale of food and slings it at the Quarg, hitting him squarely and knocking him back against the wall despite attempts to dodge. The Quarg, apparently unhurt, leaps up immediately and grabs a handful of ball bearings rolling about on the floor and launches them with baleful accuracy one by one at the Pug. After being hit several times without effect, the Pug jumps with surprising agility into another pile of crates, getting hit along the way by more bearings. One or two miss, however, hitting the hull resulting in bangs of surprising volume. The Pug drops his staff and picks up a water tank and lifts it above his head, no doubt to drop on the Quarg below.`
-			choice
-				`	(Intervene.)`
-				`	(Leave.)`
-			`You take a step but immediately slip on the dented bearings littering the floor, unfortunately Deep Sky's finest. The Pug shoves the tank back where it came from immediately and they both stand still for a few moments. "My apologies Captain, we did not mean to make such a ruckus." says the Pug. "It will not happen again." says the Quarg. They walk past you and disappear into your ship.`
-			label end
+#	on enter "Ferinus"
+#		conversation
+#			`There is a loud bang in the cargo compartment.`
+#			choice
+#				`	(Ignore.)`
+#					goto end
+#				`	(Investigate.)`
+#			`You walk through your ship and hear a few more bangs on your way. You throw open the hatch to see the Quarg you have not spoken to throw a crate at the Pug, who deflects it with his staff. The Pug sticks his staff into a bale of food and slings it at the Quarg, hitting him squarely and knocking him back against the wall despite attempts to dodge. The Quarg, apparently unhurt, leaps up immediately and grabs a handful of ball bearings rolling about on the floor and launches them with baleful accuracy one by one at the Pug. After being hit several times without effect, the Pug jumps with surprising agility into another pile of crates, getting hit along the way by more bearings. One or two miss, however, hitting the hull resulting in bangs of surprising volume. The Pug drops his staff and picks up a water tank and lifts it above his head, no doubt to drop on the Quarg below.`
+#			choice
+#				`	(Intervene.)`
+#				`	(Leave.)`
+#			`You take a step but immediately slip on the dented bearings littering the floor, unfortunately Deep Sky's finest. The Pug shoves the tank back where it came from immediately and they both stand still for a few moments. "My apologies Captain, we did not mean to make such a ruckus." says the Pug. "It will not happen again." says the Quarg. They walk past you and disappear into your ship.`
+#			label end
 	on enter "Delia"
 		conversation
 			`You walk into the common area of the ship to see a small model sitting on a table.`
