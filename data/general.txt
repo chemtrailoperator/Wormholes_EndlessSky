@@ -20,18 +20,10 @@ outfit "Galactic Keystone"
 	description "This small band is a piece of Yottrite-Diamond compound that has data encoded directly to its crystalline structure. It unlocks the wormhole gates used by Galactic Command when authenticated by a scan of the bearer's genetic code. It also functions as a universal translator."
 	
 event "reveal successors wormhole"
-	system Mons
-		remove object
-			sprite planet/jumpring-unpowered
-				scale 0.5
-			distance 811
-			period 349.820
-			offset 280
-		add object "Gate: Tuur-Kella"
-			sprite planet/jumpring
-				scale 0.5
-			distance 812
-			period 349.820
-			offset 280
+	planet "Gate: Tuur-Kella"
+		sprite planet/jumpring
+		remove "requires: wormhole locker"
 	system "Hub: Tuur-Kella"
 		remove hidden
+		
+color "Invisible Wormhole" 0 0 0 0
