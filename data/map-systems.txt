@@ -11,15 +11,91 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
+galaxy "Galactic Command"
+	sprite ui/olympus_galaxy
+	pos 10000 -20000
+
+system "Watcher 1"
+	"display name" " "
+	link "Watcher 2"
+	link "Watcher 8"
+	link Olympus
+	government "Drak"
+	pos 10000 -20071
+
+system "Watcher 2"
+	"display name" " "
+	link "Watcher 3"
+	link "Watcher 1"
+	link Olympus
+	government "Drak"
+	pos 10050 -20050
+	
+system "Watcher 3"
+	"display name" " "
+	link "Watcher 4"
+	link "Watcher 2"
+	link Olympus
+	government "Drak"
+	pos 10071 -20000
+	
+system "Watcher 4"
+	"display name" " "
+	link "Watcher 5"
+	link "Watcher 3"
+	link Olympus
+	government "Drak"
+	pos 10050 -19950
+	
+system "Watcher 5"
+	"display name" " "
+	link "Watcher 6"
+	link "Watcher 4"
+	link Olympus
+	government "Drak"
+	pos 10000 -19929
+	
+system "Watcher 6"
+	"display name" " "
+	link "Watcher 7"
+	link "Watcher 5"
+	link Olympus
+	government "Drak"
+	pos 9950 -19950
+	
+system "Watcher 7"
+	"display name" " "
+	link "Watcher 8"
+	link "Watcher 6"
+	link Olympus
+	government "Drak"
+	pos 9929 -20000
+	
+system "Watcher 8"
+	"display name" " "
+	link "Watcher 1"
+	link "Watcher 7"
+	link Olympus
+	government "Drak"
+	pos 9950 -20050
+	
 system "Olympus"
 	hidden
-	pos 1500 0
+	pos 10000 -20000
 	government "Drak"
 	attributes command
 	arrival 700
 	departure 1000
 	habitable 700
 	belt 1245
+	link "Watcher 1"
+	link "Watcher 2"
+	link "Watcher 3"
+	link "Watcher 4"
+	link "Watcher 5"
+	link "Watcher 6"
+	link "Watcher 7"
+	link "Watcher 8"
 	object
 		sprite "star/patir core"
 		period 10
@@ -130,7 +206,26 @@ system "Olympus"
 		distance 812
 		period 349.820
 		offset 340
-
+	object
+		sprite planet/archon-dead
+		distance 8000
+		period 1000
+	object
+		sprite planet/archon-dead
+		distance 8000
+		period 1000
+		offset 90
+	object
+		sprite planet/archon-dead
+		distance 8000
+		period 1000
+		offset 180
+	object
+		sprite planet/archon-dead
+		distance 8000
+		period 1000
+		offset 270
+		
 system "Hub: Sol"
 	hidden
 	pos -420 80
