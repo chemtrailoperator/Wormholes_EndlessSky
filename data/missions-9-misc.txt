@@ -14,7 +14,61 @@
 # This file was written in Notepad++ with the EndlessSkyDark UDL. Available on the wiki for this plugin.
 
 
-#-------------------------------------------------------------------start of archon storyline (coming soon)----------------------------------------------------------------------- \open
+#-------------------------------------------------------------------start of archon storyline (in progress)-----------------------------------------------------------------------
+
+# X9.1 (NPC Mission for Watcher Guards) \open
+mission "Wormholes X9.1 Watcher Guards"
+	invisible
+	landing
+	repeat
+	to offer
+		not "Wormholes X9.1 Watcher Guards: active"
+# Backwards compatibility patch for previous mission name
+		not "Watcher Guards: active"
+	to complete
+		never
+	npc save
+		government Drak
+		personality heroic vindictive staying frugal forbearing
+		system "Watcher 1"
+		ship "Archon" "Ulnak's Folly"
+	npc save
+		government Drak
+		personality heroic vindictive staying frugal forbearing
+		system "Watcher 2"
+		ship "Archon B" "Blade of Babylon"
+	npc save
+		government Drak
+		personality heroic vindictive staying frugal forbearing
+		system "Watcher 3"
+		ship "Archon C" "Rains of Ten Pole Cur"
+	npc save
+		government Drak
+		personality heroic vindictive staying frugal forbearing
+		system "Watcher 4"
+		ship "Archon" "Heupenitili's Misfortune"
+	npc save
+		government Drak
+		personality heroic vindictive staying frugal forbearing
+		system "Watcher 5"
+		ship "Archon B" "Spear of Ararat"
+	npc save
+		government Drak
+		personality heroic vindictive staying frugal forbearing
+		system "Watcher 6"
+		ship "Archon C" "Knife of Argus"
+	npc save
+		government Drak
+		personality heroic vindictive staying frugal forbearing
+		system "Watcher 7"
+		ship "Archon" "Shield of Atlantis"
+	npc save
+		government Drak
+		personality heroic vindictive staying frugal forbearing
+		system "Watcher 8"
+		ship "Archon B" "Thunder of Ares"
+
+# 9.1.1 \fold
 mission "Wormholes 9.1.1"
 	invisible
 	landing
@@ -31,10 +85,35 @@ mission "Wormholes 9.1.1"
 		dialog "This system is empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
 		set "visited the watchers"
 	
-
-
-
-#-------------------------------------------------------------------end of archon storyline--------------------------------------------------------------------------------------- \close
+# 9.1.2 \fold
+mission "Wormholes 9.1.2"
+	landing
+	source Mons
+	to offer
+		has "visited the watchers"
+		"not interested in the watchers" < 3
+	on offer
+		conversation
+			`Do you want to find someone to ask about the archons surrounding this system?`
+			choice
+				`	(Sure.)`
+					goto food
+				`	(Not Interested.)`
+					defer
+			label food
+			`	You figure the best place to find someone who can spare some time is the food court.`
+			`	Inside the normal packed bustle, you find a man from the Remnant who looks like he is bored.`
+			choice
+				`	(Approach him.)`
+				`	(Forget it.)`
+					decline
+			
+			
+			
+	on defer
+		"not interested in the watchers" ++
+#\close
+#-------------------------------------------------------------------end of archon storyline---------------------------------------------------------------------------------------
 
 #-------------------------------------------------------------------start of Quarg outfits storyline (coming soon)-----------------------------------------------------------------------
 #-------------------------------------------------------------------end of Quarg outfits storyline---------------------------------------------------------------------------------------
