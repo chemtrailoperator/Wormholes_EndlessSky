@@ -1,5 +1,20 @@
 
-# ------------------------------------------------------------------start of accusation storyline-------------------------------------------------------------------
+# Copyright (c) 2026 by ChemtrailOperator and Living_Adblocker
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+# This file was written in Notepad++ with the EndlessSkyDark UDL. Available on the wiki for this plugin.
+
+
+# ------------------------------------------------------------------start of accusation storyline------------------------------------------------------------------- \open
 
 mission "Wormholes 9.1"
 	name "Protect Trinket"
@@ -125,7 +140,6 @@ mission "Wormholes 9.2.1"
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
 
-
 mission "Wormholes 9.2.2"
 	landing
 	name "Subpeona"
@@ -215,7 +229,6 @@ mission "Wormholes 9.2.2"
 				flee
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
-
 
 mission "Wormholes 9.2.3"
 	landing
@@ -440,6 +453,8 @@ mission "Wormholes 9.3"
 			`	The police clear a path through the reporters again and you find your way to your ship.`
 		log "Had your case dismissed due to the savviness of your lawyer."
 
+
+
 # This mission is supposed to be an obnoxious time waster that you can buy your way out of, or just slog through to save money. At the end, state that your case has been dismissed anyway.
 mission "Wormholes 9.3.1"
 	landing
@@ -460,7 +475,7 @@ mission "Wormholes 9.3.1"
 	on complete
 		conversation
 		`	complete conversation`
-		
+	
 mission "Wormholes 9.4"
 	priority
 	name "Wormholes 9.4"
@@ -545,7 +560,7 @@ mission "Wormholes 9.4"
 			`	Going for his legs proves to have been a good choice. You kick one of his knees and he loses his balance for a second. He doesn't let you push the advantage. As you close he turns and throws a spinning kick at your head, which you only barely block. He follows up with a powerful kick to your chest that sends you flying backward into the edge of a table. He draws a long, slim knife from his waistband and leaps on top of you. He sends the knife speeding towards your chest, but the blue shield appears yet again and the tip of the knife snaps against it. He brings his hand back to strike again, but you get a hand free to block. The jagged tip of the knife bites into your forearm, but you get your other hand free.`
 				goto rollchoice
 			label phasetwo
-			`	This time, he feints a punch and delivers a slicing kick into your abdomen. You swing for his head, but he ducks under it, spinning his body to set up powerful hook that almost knocks you out. Suddenly he is at your side. He sticks a leg in front of you and shoves you over it, planting a kick in your lower back as you fall which lays you out fairly effectively.`
+			`	This time, he feints a punch and delivers a slicing kick into your abdomen. You swing for his head, but he ducks under it, spinning his body to set up powerful hook that almost knocks you out. Suddenly he is at your side. He sticks a leg in front of you and shoves you over it, planting a kick in your lower back as you fall, which lays you out fairly effectively.`
 			`	There is a zapping sound and his body crashes down next to you, quivering. A Hai bends over you and sniffs disdainfully. "You must improve your fighting skills if you are to continue in this line of work."`
 			choice
 				`	"Thanks for that."`
@@ -558,10 +573,10 @@ mission "Wormholes 9.4"
 			label talk
 			`You would not have come to much more injury, however, you can only barely stand I see. Lets get you patched up." He walks over to the bar, hops over, and digs around underneath. Soon, he emerges with a first aid kit and begins to wrap you forearm with bandages. The door to the transport tube slides open and a quarg steps out holding a small box. It glances around the room, taking notice of the shell casings, the weapons, and the trail of blood you've left. "I see you had the opor`
 	
-#-------------------------------------------------------------------end of accusation storyline-----------------------------------------------------------------------------------
+#-------------------------------------------------------------------end of accusation storyline----------------------------------------------------------------------------------- \close
 
-#-------------------------------------------------------------------start of archon storyline (coming soon)-----------------------------------------------------------------------
-#-------------------------------------------------------------------end of archon storyline---------------------------------------------------------------------------------------
+#-------------------------------------------------------------------start of archon storyline (coming soon)----------------------------------------------------------------------- \open
+#-------------------------------------------------------------------end of archon storyline--------------------------------------------------------------------------------------- \close
 
 #-------------------------------------------------------------------start of Quarg outfits storyline (coming soon)-----------------------------------------------------------------------
 #-------------------------------------------------------------------end of Quarg outfits storyline---------------------------------------------------------------------------------------
