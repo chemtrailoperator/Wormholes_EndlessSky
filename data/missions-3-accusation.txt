@@ -1,3 +1,4 @@
+
 # Copyright (c) 2026 by ChemtrailOperator and Living_Adblocker
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
@@ -13,8 +14,9 @@
 # This file was written in Notepad++ with the EndlessSkyDark UDL. Available on the wiki for this plugin.
 
 
-# ------------------------------------------------------------------start of accusation storyline------------------------------------------------------------------- \open
+# ------------------------------------------------------------------start of accusation storyline-------------------------------------------------------------------
 
+# 3.1.1 \open
 mission "Wormholes 3.1.1"
 	name "Protect Trinket"
 	description "Protect Trinket in the Sargas system from a Marauder raid."
@@ -49,6 +51,7 @@ mission "Wormholes 3.1.1"
 		payment 5000000
 		dialog phrase "generic pirate attack payment dialog"
 
+#3.1.2 \fold
 mission "Wormholes 3.1.2"
 	landing
 	name "Subpeona"
@@ -139,6 +142,7 @@ mission "Wormholes 3.1.2"
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
 
+#3.1.3 \fold
 mission "Wormholes 3.1.3"
 	landing
 	name "Subpeona"
@@ -228,7 +232,7 @@ mission "Wormholes 3.1.3"
 				flee
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
-
+#3.1.4 \fold
 mission "Wormholes 3.1.4"
 	landing
 	name "Subpeona"
@@ -318,7 +322,7 @@ mission "Wormholes 3.1.4"
 				flee
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
-
+# 3.1.223.1 \fold
 mission "Wormholes 3.1.223.1"
 	landing
 	name "Subpeona"
@@ -342,6 +346,7 @@ mission "Wormholes 3.1.223.1"
 	on complete
 		log "Killed a reporter that was attacking you, told by police that apparently it wasn't illegal. Received a subpeona to appear in court on Bourne for a different matter."
 
+# 3.1.5 \fold
 mission "Wormholes 3.1.5"
 	landing
 	name "On trial"
@@ -452,7 +457,7 @@ mission "Wormholes 3.1.5"
 			`	The police clear a path through the reporters again and you find your way to your ship.`
 		log "Had your case dismissed due to the savviness of your lawyer."
 
-
+# 3.1.5.1 \fold
 
 # This mission is supposed to be an obnoxious time waster that you can buy your way out of, or just slog through to save money. At the end, state that your case has been dismissed anyway.
 mission "Wormholes 3.1.5.1"
@@ -469,12 +474,15 @@ mission "Wormholes 3.1.5.1"
 			has "Wormholes 3.1.4: failed"
 			has "Wormholes 3.1.5: failed"
 	on offer
+# Under Construction
 		conversation
 		`	offer conversation`
 	on complete
 		conversation
 		`	complete conversation`
-	
+# Under Construction
+
+# 3.1.6 \fold
 mission "Wormholes 3.1.6"
 	priority
 	name "Wormholes 3.1.6"
@@ -591,6 +599,6 @@ mission "Wormholes 3.1.6"
 			label findout
 			`	You wake up after an indeterminate length of time to see a light flashing above the phone on the table in the room.`
 			
-				
+#\close				
 
-#-------------------------------------------------------------------end of accusation storyline----------------------------------------------------------------------------------- \close
+#-------------------------------------------------------------------end of accusation storyline-----------------------------------------------------------------------------------
