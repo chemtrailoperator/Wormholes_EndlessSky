@@ -18,7 +18,7 @@ outfit "Galactic Keystone"
 	thumbnail "outfit/galacticlicense"
 	"unique" 1
 	"galactic license" 1
-	description "This small band is a piece of Yottrite-Diamond compound that has data encoded directly to its crystalline structure. It unlocks the wormhole gates used by Galactic Command when authenticated by a scan of the bearer's genetic code. It also functions as a universal translator."
+	description "This small band is a piece of Yottrite-Diamond compound that has data encoded directly to its crystalline structure. It unlocks the wormhole gates used by Galactic Command when authenticated by a scan of the bearer's genetic code. It also somehow functions as a universal translator."
 	
 event "reveal successors wormhole"
 	planet "Gate: Tuur-Kella"
@@ -28,52 +28,3 @@ event "reveal successors wormhole"
 		remove hidden
 		
 color "Drak Wormhole" 1 0.5 1
-
-mission "Watcher Guards"
-	invisible
-	landing
-	repeat
-	to offer
-		not "Watcher Guards: active"
-	to complete
-		never
-	npc save
-		government Drak
-		personality heroic vindictive staying frugal forbearing
-		system "Watcher 1"
-		ship "Archon" "Ulnak's Folly"
-	npc save
-		government Drak
-		personality heroic vindictive staying frugal forbearing
-		system "Watcher 2"
-		ship "Archon B" "Blade of Babylon"
-	npc save
-		government Drak
-		personality heroic vindictive staying frugal forbearing
-		system "Watcher 3"
-		ship "Archon C" "Rains of Ten Pole Cur"
-	npc save
-		government Drak
-		personality heroic vindictive staying frugal forbearing
-		system "Watcher 4"
-		ship "Archon" "Heupenitili's Misfortune"
-	npc save
-		government Drak
-		personality heroic vindictive staying frugal forbearing
-		system "Watcher 5"
-		ship "Archon B" "Spear of Ararat"
-	npc save
-		government Drak
-		personality heroic vindictive staying frugal forbearing
-		system "Watcher 6"
-		ship "Archon C" "Knife of Argus"
-	npc save
-		government Drak
-		personality heroic vindictive staying frugal forbearing
-		system "Watcher 7"
-		ship "Archon" "Shield of Atlantis"
-	npc save
-		government Drak
-		personality heroic vindictive staying frugal forbearing
-		system "Watcher 8"
-		ship "Archon B" "Thunder of Ares"
