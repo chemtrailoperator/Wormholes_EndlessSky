@@ -562,10 +562,10 @@ mission "Wormholes 3.3.1"
 			has "Wormholes 3.2.1234: failed"
 	on offer
 		conversation
-		`	test`
+			`	test`
 	on complete
 		conversation
-		`	test`
+			`	test`
 	
 mission "Wormholes 3.4"
 	priority
@@ -606,6 +606,9 @@ mission "Wormholes 3.4"
 					goto quarters
 				`	(Go to the door marked 'Conferences')`
 			`	The door opens to a huge room, clearly designed to be divided if necessary, but otherwise completely empty. No chairs, no tables. There isn't much to see here. You turn around and leave.`
+				goto conferencereturn
+			label quarters
+			`	You find your room among the others. It is simple and neat, with a small bed and a table. Blank shelves and empty cupboards line the walls. You'll have to get some books to fill them. At the back of the room there is another door leading into another room that is a closet on one side and a bathroom on the other. You find your way back out to the main room.`
 				goto conferencereturn
 			label offices
 			`	You go through the door and follow the signs to your office. You open the door and are stopped in your tracks. One wall of your office, ten feet high and at least sixteen wide, is a clear unbroken window with a view across the section of the ring containing the wormhole back to human space. It is a stunning view, the fluctuating pinks and purples of the wormhole standing out against the black of space. You stand captivated by the view, until a change shocks you out of your reverrie. A little dot in the middle of the wormhole becomes brighter and brighter until it disappears in an instant. Just as suddenly, the center caves in an expands again, a ship rocketing out of it. It stabilizes and you recognize it, it is a Carrier, in normal Republic colors, but with quite abnormal weaponry, mostly defensive. The ship lights its engines, Korath in origin, and passes out of view heading towards a nearby section of the ring. You look around to get the other details of the room. The opposite side is lined floor to ceiling with bookshelves, empty, while a desk and chair stand in one corner. The other corners contain small tables with chairs next to them. Sitting on the desk is a model of your flagship on a stand, perfect in every detail. The stand has a plaque reading Captain <first> <last>, Chief Representative, Free Worlds. A screen rises up out of the seemingly solid wood of the desk. A quiet chime plays and words scroll across the screen. "Representative Stephen Sills, Assistant for the Republic, has arrived at the ring."`
