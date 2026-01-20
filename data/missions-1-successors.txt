@@ -237,7 +237,7 @@ mission "Wormholes 1.3"
 			choice
 				`	"Absolutely."`
 					goto absolutely
-				`	"I really would not reccomend it."`
+				`	"I really would not reccommend it."`
 			`	"Why not?"`
 			choice
 				`	"I think that its a waste of time."`
