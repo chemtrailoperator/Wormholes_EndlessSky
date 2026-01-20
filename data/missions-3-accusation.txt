@@ -16,15 +16,19 @@
 
 # ------------------------------------------------------------------start of accusation storyline-------------------------------------------------------------------
 
+<<<<<<< HEAD
 # 3.1.1 \open
 mission "Wormholes 3.1.1"
+=======
+mission "Wormholes 3.1"
+>>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	name "Protect Trinket"
 	description "Protect Trinket in the Sargas system from a Marauder raid."
 	minor
 	deadline 3
 	to offer
 		"combat rating" > 8000
-		has "Wormholes 2.3: done"
+		has "Wormholes 1.3: done"
 	source Trinket
 	npc kill
 		government "Pirate"
@@ -51,8 +55,12 @@ mission "Wormholes 3.1.1"
 		payment 5000000
 		dialog phrase "generic pirate attack payment dialog"
 
+<<<<<<< HEAD
 #3.1.2 \fold
 mission "Wormholes 3.1.2"
+=======
+mission "Wormholes 3.2.1"
+>>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -61,7 +69,7 @@ mission "Wormholes 3.1.2"
 	source
 		government "Syndicate" "Free Worlds" "Republic"
 	to offer
-		has "Wormholes 3.1.1: declined"
+		has "Wormholes 3.1: declined"
 	on offer
 		conversation
 			`	As you exit your ship multiple news crews rush up to you and begin clammering questions. It is completely unintelligible for a little while before, seeing your confusion, the mass settles down and begins to speak clearly. The gaggle retreats and confers for a few moments before most of the group retires to a respectful distance. A pair of reporters approaches you with a cameraman following behind. One of the reporters looks fairly normal but the other is wearing an ugly pink shirt and has her hair done in a manner that brings a Sparrow to mind. Upon reaching you, she begins talking in an extremely high-pitched voice while swaying back and forth aggressively.`
@@ -142,8 +150,12 @@ mission "Wormholes 3.1.2"
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
 
+<<<<<<< HEAD
 #3.1.3 \fold
 mission "Wormholes 3.1.3"
+=======
+mission "Wormholes 3.2.2"
+>>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -152,7 +164,7 @@ mission "Wormholes 3.1.3"
 	source
 		government "Syndicate" "Free Worlds" "Republic"
 	to offer
-		has "Wormholes 3.1.1: failed"
+		has "Wormholes 3.1: failed"
 	on offer
 		conversation
 			`	As you exit your ship multiple news crews rush up to you and begin clammering questions. It is completely unintelligible for a little while before, seeing your confusion, the mass settles down and begins to speak clearly. The gaggle retreats and confers for a few moments before most of the group retires to a respectful distance. A pair of reporters approaches you with a cameraman following behind. One of the reporters looks fairly normal but the other is wearing an ugly pink shirt and has her hair done in a manner that brings a Sparrow to mind. Upon reaching you, she begins talking in an extremely high-pitched voice while swaying back and forth aggressively.`
@@ -232,8 +244,13 @@ mission "Wormholes 3.1.3"
 				flee
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
+<<<<<<< HEAD
 #3.1.4 \fold
 mission "Wormholes 3.1.4"
+=======
+
+mission "Wormholes 3.2.3"
+>>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -242,7 +259,98 @@ mission "Wormholes 3.1.4"
 	source
 		government "Syndicate" "Free Worlds" "Republic"
 	to offer
-		has "Wormholes 3.1.1: declined"
+		has "Wormholes 3.1: done"
+	on offer
+		conversation
+			`	As you exit your ship multiple news crews rush up to you and begin clammering questions. It is completely unintelligible for a little while before, seeing your confusion, the mass settles down and begins to speak clearly. The gaggle retreats and confers for a few moments before most of the group retires to a respectful distance. A pair of reporters approaches you with a cameraman following behind. One of the reporters looks fairly normal but the other is wearing an ugly pink shirt and has her hair done in a manner that brings a Sparrow to mind. Upon reaching you, she begins talking in an extremely high-pitched voice while swaying back and forth aggressively.`
+			`	"Captain <last>, we are hear today with <source> News Weekly and we'd like to ask you a few questions. Do we have your consent to record this interview?"`
+			choice
+				`	(Run away across the landing pads.)`
+					goto runaway
+				`	("Absolutely not.")`
+					goto absolutelynot
+				`	("Sure, ask away.")`
+					goto questions
+				`	(Run back into your ship and take off.)`
+			`	The cameraman and the normal reporter seem a little confused as to what to do, but the pink-shirted one follows you into your ship despite your efforts to close the door in front of her. You try to avoid her by running into the cargo compartment but she corners you in a pile of crates.`
+			choice
+				`	(Shoot her.)`
+					goto shoot
+				`	(Kick her.)`
+					goto kick
+				`	(Ask her to leave.)`
+					goto leave
+				`	(Go ahead with the interview.)`
+					goto questions
+			label runaway
+			`	You dart around the cameraman and take off running across the landing pads. The pink-shirted reporter follows you, making surprisingly good speed in her tall heels. You race past the tail of a freighter conducting its preflight, just missing the hot exhaust coming out of the engines. The reporter is not so lucky, she catches the full blast of the engines as the ship begins to lift off and is incinerated immediately.`
+			`	After running for another minute or two you are thrown to the ground by the blast of a heavy warship coming in to land. The last thing you see is the base of the main landing gear heading straight towards you.`
+				die
+			label absolutelynot
+			`	She gives the cameraman a sign and he retreats to the expectant group of reporters.`
+			`	"We will have to make do without him," she says quietly to her companion, turning to you she says, "legally we can still record audio of this interview."`
+				goto questions
+			label shoot
+			`	You pull out your sidearm and shoot her in the chest. It leaves a surprisingly large hole and your ship is filled with the smell of burnt flesh and plastic. Now what?`
+			choice
+				`	(Take off.)`
+					goto takeoff
+				`	(Exit your ship.)`
+			`	The crowd of reporters outside your ship, hearing the shot, has been enraged to a frenzy. They make a stampede towards you with various blunt instruments, but a few well placed shots takes care of the bigger problems. The remaining reporters flee back to their vehicles and speed off towards the spaceport. You really shouldn't stay here any longer.`
+					goto fleeing
+			label takeoff
+			`	You dump her body out of the airlock on your way out of the atmosphere.`
+				goto fleeing
+			label kick
+			`	You plant a kick squarely on her chest which sends her realing backwards. She trips over a pile of small boxes and falls backwards onto a rack of weapons, impaling herself deeply on a spear (why do you even have those in here?!). She begins scrabbling around trying to free herself. Finally the spear comes off the rack and she falls down in the puddle of blood, which is growing larger by the second.`
+			choice
+				`	(Help her.)`
+					goto help
+				`	(Nah.)`
+			`	She bleeds out quickly but lasts longer than you would have expected. You dump her body out of the airlock as you flee the planet.`
+				goto fleeing
+			label help
+			`	You run to find a first aid kit but she is dead when you get back. You dump her body out of the airlock as you flee the planet.`
+				goto fleeing
+			label leave
+			`	"Why would I do that?"`
+			`	She is not going to leave.`
+			choice
+				`	(Shoot her.)`
+					goto shoot
+				`	(Kick her.)`
+					goto kick
+				`	(Go ahead with the interview.)`
+					goto questions
+			label questions
+			`	"Thank you, firstly, is it true that you, a seasoned warrior, foolishly mishandled combat, resulting in the destruction of five military vessels and the deaths of dozens of Free Worlds officers?"`
+			`	"What?!... No..`
+			`	"Given the legal action that will be levied against you, what will your course of action be?"`
+			`	"Legal action?!?!"`
+			`	"You haven't heard of the legal action? The family of one of the officers killed in the fight is suing you for 700 million credits. How do you plan to deal with this?"`
+			`	"I'm not answering any more questions." You say.`
+			`	"Oh well," she says, "see you later I hope." She departs the area quickly. Out of nowhere a uniformed police officer hands you a folder and leaves.`
+			choice
+				`	(Open the folder.)`
+			`	The folder contains a sheaf of official documents, the first of which is subpeona instructing you to be present at the Bourne district court within a month.`
+				accept
+			label fleeing
+			`	A police ship waiting for you in orbit tells you that you are free to go. As it turns out, its completely legal to defend yourself from people who are attacking you or have entered your ship without your consent.`
+				flee
+	on complete
+		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
+
+
+mission "Wormholes 3.2.4"
+	landing
+	name "Subpeona"
+	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
+	destination Bourne
+	deadline 30
+	source
+		government "Syndicate" "Free Worlds" "Republic"
+	to offer
+		has "Wormholes 3.1: declined"
 	on offer
 		conversation
 			`	As you exit your ship multiple news crews rush up to you and begin clammering questions. It is completely unintelligible for a little while before, seeing your confusion, the mass settles down and begins to speak clearly. The gaggle retreats and confers for a few moments before most of the group retires to a respectful distance. A pair of reporters approaches you with a cameraman following behind. One of the reporters looks fairly normal but the other is wearing an ugly pink shirt and has her hair done in a manner that brings a Sparrow to mind. Upon reaching you, she begins talking in an extremely high-pitched voice while swaying back and forth aggressively.`
@@ -322,8 +430,13 @@ mission "Wormholes 3.1.4"
 				flee
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
+<<<<<<< HEAD
 # 3.1.223.1 \fold
 mission "Wormholes 3.1.223.1"
+=======
+
+mission "Wormholes 3.2.1234"
+>>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -333,9 +446,11 @@ mission "Wormholes 3.1.223.1"
 		government "Syndicate" "Free Worlds" "Republic"
 	to offer
 		or
-			has "Wormholes 3.1.2: declined"
-			has "Wormholes 3.1.3: declined"
-			has "Wormholes 3.1.4: declined"
+			has "Wormholes 3.2.1: declined"
+			has "Wormholes 3.2.2: declined"
+			has "Wormholes 3.2.3: declined"
+			has "Wormholes 3.2.4: declined"
+
 	on offer
 		conversation
 			`	A uniformed police officer is waiting outside your ship. He gulps and hands you a folder of papers and leaves at a run. A large group of reporters is filming you from a distance but they do not approach.`
@@ -346,15 +461,18 @@ mission "Wormholes 3.1.223.1"
 	on complete
 		log "Killed a reporter that was attacking you, told by police that apparently it wasn't illegal. Received a subpeona to appear in court on Bourne for a different matter."
 
+<<<<<<< HEAD
 # 3.1.5 \fold
 mission "Wormholes 3.1.5"
+=======
+mission "Wormholes 3.3"
+>>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	landing
 	name "On trial"
 	description "You are on trial for your actions regarding pirate attack on Trinket recently."
 	source "Bourne"
 	destination "Bourne"
 	deadline 7
-	payment -10000
 	to offer
 		or
 			has "Wormholes 3.1.223.1: done"
@@ -460,7 +578,7 @@ mission "Wormholes 3.1.5"
 # 3.1.5.1 \fold
 
 # This mission is supposed to be an obnoxious time waster that you can buy your way out of, or just slog through to save money. At the end, state that your case has been dismissed anyway.
-mission "Wormholes 3.1.5.1"
+mission "Wormholes 3.3.1"
 	landing
 	name "Arrested for missing your court date."
 	description "Arrested for missing your court date."
@@ -468,28 +586,36 @@ mission "Wormholes 3.1.5.1"
 		government "Syndicate" "Free Worlds" "Republic"
 	to offer
 		or
-			has "Wormholes 3.1.223.1: failed"
-			has "Wormholes 3.1.2: failed"
-			has "Wormholes 3.1.3: failed"
-			has "Wormholes 3.1.4: failed"
-			has "Wormholes 3.1.5: failed"
+			has "Wormholes 3.2.1: failed"
+			has "Wormholes 3.2.2: failed"
+			has "Wormholes 3.2.3: failed"
+			has "Wormholes 3.2.4: failed"
+			has "Wormholes 3.2.1234: failed"
 	on offer
 # Under Construction
 		conversation
-		`	offer conversation`
+		`	test`
 	on complete
 		conversation
+<<<<<<< HEAD
 		`	complete conversation`
 # Under Construction
 
 # 3.1.6 \fold
 mission "Wormholes 3.1.6"
+=======
+		`	test`
+	
+mission "Wormholes 3.4"
+>>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	priority
-	name "Wormholes 3.1.6"
-	description "Wormholes 3.1.6"
+	name "Wormholes 3.4"
+	description "Wormholes 3.4"
 	source Mons
 	to offer
-		has "Wormholes 3.1.5: done"
+		has "Wormholes 3.3: done"
+		or
+			has "Wormholes 3.3.1: done"
 	on offer
 		conversation
 			`	You remember that you have spaces reserved for you somewhere in the ring. Do you want to visit them?`
@@ -498,9 +624,6 @@ mission "Wormholes 3.1.6"
 					defer
 				`	(Yes.)`
 			`	There is a map of the ring opposite the entrances from the human pads. It clearly directs you to your destination, "Offices of Free Worlds - Chief Representative" It isn't a long trip with the transportation systems built into the ring.`
-				decline
-	on decline
-		conversation
 			`	The capsule, human-sized and comfortable, doesn't even feel like it is moving, but within a minute, you have reached your destination. The door slides open to reveal a large wood-panelled room with doors marked for each faction.`
 			label doors
 			choice
@@ -597,7 +720,20 @@ mission "Wormholes 3.1.6"
 			`	"That is interesting." He pauses for a few moments.`
 				goto endtalk
 			label findout
-			`	You wake up after an indeterminate length of time to see a light flashing above the phone on the table in the room.`
+			`	You wake up after an indeterminate length of time to see a light flashing above the phone on the table in the room while a quiet tone plays.`
+			choice
+				`	(Pick it up.)`
+					goto phone
+				`	(Ignore it.)`
+			`	The light continues to blink for a few minutes then stops. A few minutes later the Hai that you met ealier enters. "Being a diplomat, you should really pick up your phone more often. The Quarg have come to the conclusion you are not at all at fault for this, and you are free to go." Without saying more, the Hai walks out.`
+				goto finish
+			label phone
+			`	A Hai begins to speak, likely the one you met earlier. "Being a diplomat, you should really pick up your phone faster. The Quarg have come to the conclusion you are not at all at fault for this, and you are free to go." Without saying more, the Hai hangs up.`
+			label finish
+			`	 `
+				decline
+	on decline
+		log	"Attacked by Stephen Sills at Olympus. Injured, but not severely. Told by Quarg that you are free to go."
 			
 #\close				
 
