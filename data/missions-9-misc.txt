@@ -560,7 +560,7 @@ mission "Wormholes 9.1.6"
 			`	Going for his legs proves to have been a good choice. You kick one of his knees and he loses his balance for a second. He doesn't let you push the advantage. As you close he turns and throws a spinning kick at your head, which you only barely block. He follows up with a powerful kick to your chest that sends you flying backward into the edge of a table. He draws a long, slim knife from his waistband and leaps on top of you. He sends the knife speeding towards your chest, but the blue shield appears yet again and the tip of the knife snaps against it. He brings his hand back to strike again, but you get a hand free to block. The jagged tip of the knife bites into your forearm, but you get your other hand free.`
 				goto rollchoice
 			label phasetwo
-			`	This time, he feints a punch and delivers a slicing kick into your abdomen. You swing for his head, but he ducks under it, spinning his body to set up powerful hook that almost knocks you out. Suddenly he is at your side. He sticks a leg in front of you and shoves you over it, planting a kick in your lower back as you fall, which lays you out fairly effectively.`
+			`	This time, he feints a punch and delivers a slicing kick into your abdomen. You swing for his head, but he ducks under it, spinning his body to set up powerful hook that almost knocks you out. Suddenly he is at your side. He sticks a leg in front of you and shoves you over it, planting a kick in your lower back as you fall which lays you out fairly effectively.`
 			`	There is a zapping sound and his body crashes down next to you, quivering. A Hai bends over you and sniffs disdainfully. "You must improve your fighting skills if you are to continue in this line of work."`
 			choice
 				`	"Thanks for that."`
@@ -571,8 +571,29 @@ mission "Wormholes 9.1.6"
 			label thanks
 			`	"You are most welcome.`
 			label talk
-			`You would not have come to much more injury, however, you can only barely stand I see. Lets get you patched up." He walks over to the bar, hops over, and digs around underneath. Soon, he emerges with a first aid kit and begins to wrap you forearm with bandages. The door to the transport tube slides open and a quarg steps out holding a small box. It glances around the room, taking notice of the shell casings, the weapons, and the trail of blood you've left. "I see you had the opor`
-	
+			`You would not have come to much more injury, however. You can only stand with great effort, I see. Lets get you patched up." He walks over to the bar, hops over, and digs around underneath. Soon, he emerges with a first aid kit and begins to wrap you forearm with bandages. The door to the transport tube revealing a hunched Quarg holding a small box. It glances around the room, taking notice of the shell casings, the weapons, and the trail of blood you've left. "I see you had the opportunity to use your Galactic Keystone's defense mechanisms."`
+			`	Seeing that you have no clue what the Quarg is talking about, the Hai begins to speak as the Quarg removes a device from the box and places it around Sills' wrists. "In the interest of protecting the delegates, the Galactic Keystone has a shield like the one in ships built in. Its not quite like the one in your ship though, its completely invisible except when it activates, and it seems to be able to stop things many feet away. Due to the constraints of having something surrounding you all the time, the Keystone only reacts against lethal force. That's why you got cut up the way you did."`
+			`	The Quarg lifts Sills off the ground and carries him into the transport pod.`
+			choice
+				`	"What's going to happen to him?"`
+					goto happen
+				`	"Thank you for your help."`
+			label endtalk
+			`	"You should go get some rest. I don't reccommend that you try to fly in a condition like this, and it would not be wise to leave the ring, the Quarg may find that you were partly at fault for this. There may be disciplinary action."`
+			`	You make your way through the habitation areas until you find your room. It is large and comfortable, but without the stunning view of your office. The bed is surprisingly comfortable.`
+				goto findout
+			label happen
+			`	"He will be placed in confinement until it can be ascertained what will be done. May I ask why you were having this fight?"`
+			choice
+				`	"I have no clue. He just attacked me out of nowhere."`
+				`	"He said something about his cousin."`
+			`	"That is interesting." He pauses for a few moments.`
+				goto endtalk
+			label findout
+			`	You wake up after an indeterminate length of time to see a light flashing above the phone on the table in the room.`
+			
+				
+
 #-------------------------------------------------------------------end of accusation storyline----------------------------------------------------------------------------------- \close
 
 #-------------------------------------------------------------------start of archon storyline (coming soon)----------------------------------------------------------------------- \open
