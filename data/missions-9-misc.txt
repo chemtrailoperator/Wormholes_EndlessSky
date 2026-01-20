@@ -576,7 +576,38 @@ mission "Wormholes 9.1.6"
 #-------------------------------------------------------------------end of accusation storyline----------------------------------------------------------------------------------- \close
 
 #-------------------------------------------------------------------start of archon storyline (coming soon)----------------------------------------------------------------------- \open
-mission "Wormholes"
+mission "Wormholes 9.2.1"
+	invisible
+	source Mons
+	to offer
+		has "event: all wormholes revealed"
+	to accept
+		has "event: all wormholes revealed"
+	on enter "Watcher 1"
+		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
+		set "visited the watchers"
+	on enter "Watcher 2"
+		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
+		set "visited the watchers"
+	on enter "Watcher 3"
+		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
+		set "visited the watchers"
+	on enter "Watcher 4"
+		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
+		set "visited the watchers"
+	on enter "Watcher 5"
+		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
+		set "visited the watchers"
+	on enter "Watcher 6"
+		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
+		set "visited the watchers"
+	on enter "Watcher 7"
+		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
+		set "visited the watchers"
+	on enter "Watcher 8"
+		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
+		set "visited the watchers"
+	
 
 
 
