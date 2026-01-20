@@ -1,3 +1,4 @@
+
 # Copyright (c) 2026 by ChemtrailOperator and Living_Adblocker
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
@@ -14,36 +15,20 @@
 
 
 #-------------------------------------------------------------------start of archon storyline (coming soon)----------------------------------------------------------------------- \open
-mission "Wormholes 9.2.1"
+mission "Wormholes 9.1.1"
 	invisible
+	landing
 	source Mons
 	to offer
 		has "event: all wormholes revealed"
 	to accept
 		has "event: all wormholes revealed"
-	on enter "Watcher 1"
-		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
-		set "visited the watchers"
-	on enter "Watcher 2"
-		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
-		set "visited the watchers"
-	on enter "Watcher 3"
-		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
-		set "visited the watchers"
-	on enter "Watcher 4"
-		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
-		set "visited the watchers"
-	on enter "Watcher 5"
-		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
-		set "visited the watchers"
-	on enter "Watcher 6"
-		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
-		set "visited the watchers"
-	on enter "Watcher 7"
-		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
-		set "visited the watchers"
-	on enter "Watcher 8"
-		dialog "This system is mostly empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
+	to complete
+		never
+	on enter
+		system
+			neighbor system Olympus
+		dialog "This system is empty, with all disturbances calmed eons ago. Out in the darkness, an archon patrols deep space."
 		set "visited the watchers"
 	
 
