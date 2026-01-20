@@ -16,7 +16,7 @@
 
 # ------------------------------------------------------------------start of accusation storyline------------------------------------------------------------------- \open
 
-mission "Wormholes 9.1"
+mission "Wormholes 9.1.1"
 	name "Protect Trinket"
 	description "Protect Trinket in the Sargas system from a Marauder raid."
 	minor
@@ -50,7 +50,7 @@ mission "Wormholes 9.1"
 		payment 5000000
 		dialog phrase "generic pirate attack payment dialog"
 
-mission "Wormholes 9.2.1"
+mission "Wormholes 9.1.2"
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -59,7 +59,7 @@ mission "Wormholes 9.2.1"
 	source
 		government "Syndicate" "Free Worlds" "Republic"
 	to offer
-		has "Wormholes 9.1: declined"
+		has "Wormholes 9.1.1: declined"
 	on offer
 		conversation
 			`	As you exit your ship multiple news crews rush up to you and begin clammering questions. It is completely unintelligible for a little while before, seeing your confusion, the mass settles down and begins to speak clearly. The gaggle retreats and confers for a few moments before most of the group retires to a respectful distance. A pair of reporters approaches you with a cameraman following behind. One of the reporters looks fairly normal but the other is wearing an ugly pink shirt and has her hair done in a manner that brings a Sparrow to mind. Upon reaching you, she begins talking in an extremely high-pitched voice while swaying back and forth aggressively.`
@@ -140,7 +140,7 @@ mission "Wormholes 9.2.1"
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
 
-mission "Wormholes 9.2.2"
+mission "Wormholes 9.1.3"
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -149,7 +149,7 @@ mission "Wormholes 9.2.2"
 	source
 		government "Syndicate" "Free Worlds" "Republic"
 	to offer
-		has "Wormholes 9.1: failed"
+		has "Wormholes 9.1.1: failed"
 	on offer
 		conversation
 			`	As you exit your ship multiple news crews rush up to you and begin clammering questions. It is completely unintelligible for a little while before, seeing your confusion, the mass settles down and begins to speak clearly. The gaggle retreats and confers for a few moments before most of the group retires to a respectful distance. A pair of reporters approaches you with a cameraman following behind. One of the reporters looks fairly normal but the other is wearing an ugly pink shirt and has her hair done in a manner that brings a Sparrow to mind. Upon reaching you, she begins talking in an extremely high-pitched voice while swaying back and forth aggressively.`
@@ -230,7 +230,7 @@ mission "Wormholes 9.2.2"
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
 
-mission "Wormholes 9.2.3"
+mission "Wormholes 9.1.4"
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -239,7 +239,7 @@ mission "Wormholes 9.2.3"
 	source
 		government "Syndicate" "Free Worlds" "Republic"
 	to offer
-		has "Wormholes 9.1: declined"
+		has "Wormholes 9.1.1: declined"
 	on offer
 		conversation
 			`	As you exit your ship multiple news crews rush up to you and begin clammering questions. It is completely unintelligible for a little while before, seeing your confusion, the mass settles down and begins to speak clearly. The gaggle retreats and confers for a few moments before most of the group retires to a respectful distance. A pair of reporters approaches you with a cameraman following behind. One of the reporters looks fairly normal but the other is wearing an ugly pink shirt and has her hair done in a manner that brings a Sparrow to mind. Upon reaching you, she begins talking in an extremely high-pitched voice while swaying back and forth aggressively.`
@@ -320,7 +320,7 @@ mission "Wormholes 9.2.3"
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
 
-mission "Wormholes 9.2.123.1"
+mission "Wormholes 9.1.223.1"
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -330,9 +330,9 @@ mission "Wormholes 9.2.123.1"
 		government "Syndicate" "Free Worlds" "Republic"
 	to offer
 		or
-			has "Wormholes 9.2.1: declined"
-			has "Wormholes 9.2.2: declined"
-			has "Wormholes 9.2.3: declined"
+			has "Wormholes 9.1.2: declined"
+			has "Wormholes 9.1.3: declined"
+			has "Wormholes 9.1.4: declined"
 	on offer
 		conversation
 			`	A uniformed police officer is waiting outside your ship. He gulps and hands you a folder of papers and leaves at a run. A large group of reporters is filming you from a distance but they do not approach.`
@@ -343,7 +343,7 @@ mission "Wormholes 9.2.123.1"
 	on complete
 		log "Killed a reporter that was attacking you, told by police that apparently it wasn't illegal. Received a subpeona to appear in court on Bourne for a different matter."
 
-mission "Wormholes 9.3"
+mission "Wormholes 9.1.5"
 	landing
 	name "On trial"
 	description "You are on trial for your actions regarding pirate attack on Trinket recently."
@@ -353,10 +353,10 @@ mission "Wormholes 9.3"
 	payment -10000
 	to offer
 		or
-			has "Wormholes 9.2.123.1: done"
-			has "Wormholes 9.2.1: done"
-			has "Wormholes 9.2.2: done"
-			has "Wormholes 9.2.3: done"
+			has "Wormholes 9.1.223.1: done"
+			has "Wormholes 9.1.2: done"
+			has "Wormholes 9.1.3: done"
+			has "Wormholes 9.1.4: done"
 	on offer
 		conversation 
 			`	You are placed in a police motorcade and driven to the large court building in the largest city of Bourne. At least a hundred reporters are clammering at the base of the building but the vans behind and in front of you disgorge enough officers to make a path up the steps. The doors slam behind you leaving a soundproofed silence with most of the officers outside. You are taken through long granite hallways to a tall pair of wooden doors slightly ajar. The officer behind you pushes you through and closes the door behind you.`
@@ -456,7 +456,7 @@ mission "Wormholes 9.3"
 
 
 # This mission is supposed to be an obnoxious time waster that you can buy your way out of, or just slog through to save money. At the end, state that your case has been dismissed anyway.
-mission "Wormholes 9.3.1"
+mission "Wormholes 9.1.5.1"
 	landing
 	name "Arrested for missing your court date."
 	description "Arrested for missing your court date."
@@ -464,11 +464,11 @@ mission "Wormholes 9.3.1"
 		government "Syndicate" "Free Worlds" "Republic"
 	to offer
 		or
-			has "Wormholes 9.2.123.1: failed"
-			has "Wormholes 9.2.1: failed"
-			has "Wormholes 9.2.2: failed"
-			has "Wormholes 9.2.3: failed"
-			has "Wormholes 9.3: failed"
+			has "Wormholes 9.1.223.1: failed"
+			has "Wormholes 9.1.2: failed"
+			has "Wormholes 9.1.3: failed"
+			has "Wormholes 9.1.4: failed"
+			has "Wormholes 9.1.5: failed"
 	on offer
 		conversation
 		`	offer conversation`
@@ -476,13 +476,13 @@ mission "Wormholes 9.3.1"
 		conversation
 		`	complete conversation`
 	
-mission "Wormholes 9.4"
+mission "Wormholes 9.1.6"
 	priority
-	name "Wormholes 9.4"
-	description "Wormholes 9.4"
+	name "Wormholes 9.1.6"
+	description "Wormholes 9.1.6"
 	source Mons
 	to offer
-		has "Wormholes 9.3: done"
+		has "Wormholes 9.1.5: done"
 	on offer
 		conversation
 			`	You remember that you have spaces reserved for you somewhere in the ring. Do you want to visit them?`
@@ -576,6 +576,10 @@ mission "Wormholes 9.4"
 #-------------------------------------------------------------------end of accusation storyline----------------------------------------------------------------------------------- \close
 
 #-------------------------------------------------------------------start of archon storyline (coming soon)----------------------------------------------------------------------- \open
+mission "Wormholes"
+
+
+
 #-------------------------------------------------------------------end of archon storyline--------------------------------------------------------------------------------------- \close
 
 #-------------------------------------------------------------------start of Quarg outfits storyline (coming soon)-----------------------------------------------------------------------
