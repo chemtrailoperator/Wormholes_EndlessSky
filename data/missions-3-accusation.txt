@@ -1,4 +1,3 @@
-
 # Copyright (c) 2026 by ChemtrailOperator and Living_Adblocker
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
@@ -14,14 +13,9 @@
 # This file was written in Notepad++ with the EndlessSkyDark UDL. Available on the wiki for this plugin.
 
 
-# ------------------------------------------------------------------start of accusation storyline-------------------------------------------------------------------
+# ------------------------------------------------------------------start of accusation storyline------------------------------------------------------------------- \open
 
-<<<<<<< HEAD
-# 3.1.1 \open
-mission "Wormholes 3.1.1"
-=======
 mission "Wormholes 3.1"
->>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	name "Protect Trinket"
 	description "Protect Trinket in the Sargas system from a Marauder raid."
 	minor
@@ -55,12 +49,7 @@ mission "Wormholes 3.1"
 		payment 5000000
 		dialog phrase "generic pirate attack payment dialog"
 
-<<<<<<< HEAD
-#3.1.2 \fold
-mission "Wormholes 3.1.2"
-=======
 mission "Wormholes 3.2.1"
->>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -150,12 +139,7 @@ mission "Wormholes 3.2.1"
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
 
-<<<<<<< HEAD
-#3.1.3 \fold
-mission "Wormholes 3.1.3"
-=======
 mission "Wormholes 3.2.2"
->>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -244,13 +228,8 @@ mission "Wormholes 3.2.2"
 				flee
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
-<<<<<<< HEAD
-#3.1.4 \fold
-mission "Wormholes 3.1.4"
-=======
 
 mission "Wormholes 3.2.3"
->>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -430,13 +409,8 @@ mission "Wormholes 3.2.4"
 				flee
 	on complete
 		log "Received a subpeona to appear in court at Bourne for unknown trial relating to a battle with pirates recently."
-<<<<<<< HEAD
-# 3.1.223.1 \fold
-mission "Wormholes 3.1.223.1"
-=======
 
 mission "Wormholes 3.2.1234"
->>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	landing
 	name "Subpeona"
 	description "You are required to be present in court on Bourne in the Gamma Corvi system in 30 days."
@@ -461,12 +435,7 @@ mission "Wormholes 3.2.1234"
 	on complete
 		log "Killed a reporter that was attacking you, told by police that apparently it wasn't illegal. Received a subpeona to appear in court on Bourne for a different matter."
 
-<<<<<<< HEAD
-# 3.1.5 \fold
-mission "Wormholes 3.1.5"
-=======
 mission "Wormholes 3.3"
->>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	landing
 	name "On trial"
 	description "You are on trial for your actions regarding pirate attack on Trinket recently."
@@ -475,10 +444,11 @@ mission "Wormholes 3.3"
 	deadline 7
 	to offer
 		or
-			has "Wormholes 3.1.223.1: done"
-			has "Wormholes 3.1.2: done"
-			has "Wormholes 3.1.3: done"
-			has "Wormholes 3.1.4: done"
+			has "Wormholes 3.2.1: done"
+			has "Wormholes 3.2.2: done"
+			has "Wormholes 3.2.3: done"
+			has "Wormholes 3.2.4: done"
+			has "Wormholes 3.2.1234: done"
 	on offer
 		conversation 
 			`	You are placed in a police motorcade and driven to the large court building in the largest city of Bourne. At least a hundred reporters are clammering at the base of the building but the vans behind and in front of you disgorge enough officers to make a path up the steps. The doors slam behind you leaving a soundproofed silence with most of the officers outside. You are taken through long granite hallways to a tall pair of wooden doors slightly ajar. The officer behind you pushes you through and closes the door behind you.`
@@ -571,11 +541,11 @@ mission "Wormholes 3.3"
 			`	Waiting for you at the courthouse is the lawyer you took on.`
 			`	"Good morning, I must say my research has gone well." He pushes open the doors of the courtroom and leads you in. The room is empty but for another lawyer, and the same impressively weighty judge begins to speak. "This court dismisses the case of the Sills Family versus Captain <first> <last>". He slams his gavel, struggles to his feet, and lumbers out of the room.`
 			`	"What was that about?" You ask your lawyer.`
-			`	He winks. "I told you I was a good lawyer. I made the case that being a Free Worlds officer was dangerous, and the offer to participate in defense operations could be reasonably refused. It really was not any trouble at all. You can go now. Maybe we will meet again."`
+			`	He winks. "I told you I was a good lawyer. I made the case that being a Free Worlds officer was dangerous, and your participation did not reasonably alter the outcomes. It really was not any trouble at all. You can go now. Maybe we will meet again."`
 			`	The police clear a path through the reporters again and you find your way to your ship.`
 		log "Had your case dismissed due to the savviness of your lawyer."
 
-# 3.1.5.1 \fold
+
 
 # This mission is supposed to be an obnoxious time waster that you can buy your way out of, or just slog through to save money. At the end, state that your case has been dismissed anyway.
 mission "Wormholes 3.3.1"
@@ -592,30 +562,21 @@ mission "Wormholes 3.3.1"
 			has "Wormholes 3.2.4: failed"
 			has "Wormholes 3.2.1234: failed"
 	on offer
-# Under Construction
 		conversation
-		`	test`
+			`	test`
 	on complete
 		conversation
-<<<<<<< HEAD
-		`	complete conversation`
-# Under Construction
-
-# 3.1.6 \fold
-mission "Wormholes 3.1.6"
-=======
-		`	test`
+			`	test`
 	
 mission "Wormholes 3.4"
->>>>>>> b456a1062b446f9ee8711225fb7d4ce835920f95
 	priority
 	name "Wormholes 3.4"
 	description "Wormholes 3.4"
 	source Mons
 	to offer
-		has "Wormholes 3.3: done"
 		or
 			has "Wormholes 3.3.1: done"
+			has "Wormholes 3.3: done"
 	on offer
 		conversation
 			`	You remember that you have spaces reserved for you somewhere in the ring. Do you want to visit them?`
@@ -645,28 +606,33 @@ mission "Wormholes 3.4"
 				`	(Go to the door marked 'Quarters')`
 					goto quarters
 				`	(Go to the door marked 'Conferences')`
-			`	The door opens to a huge room, clearly designed to be divided if necessary, but otherwise completely empty. No chairs, no tables. There isn't much to see here. You turn around and leave.`
+			`	The door opens to a huge room, clearly designed to be divided if necessary, but otherwise completely empty. No chairs, no tables. There isn't much to see here.`
+				goto conferencereturn
+			label quarters
+			`	You find your room among the others. It is simple and neat, with a small bed and a table. Blank shelves and empty cupboards line the walls. You'll have to get some books to fill them. At the back of the room there is another door leading into another room that is a closet on one side and a bathroom on the other. You find your way back out to the main room.`
 				goto conferencereturn
 			label offices
-			`	You go through the door and follow the signs to your office. You open the door and are stopped in your tracks. One wall of your office, ten feet high and at least sixteen wide, is a clear unbroken window with a view across the section of the ring containing the wormhole back to human space. It is a stunning view, the fluctuating pinks and purples of the wormhole standing out against the black of space. You stand captivated by the view, until a change shocks you out of your reverrie. A little dot in the middle of the wormhole becomes brighter and brighter until it disappears in an instant. Just as suddenly, the center caves in an expands again, a ship rocketing out of it. It stabilizes and you recognize it, it is a Carrier, in normal Republic colors, but with quite abnormal weaponry, mostly defensive. The ship lights its engines, Korath in origin, and passes out of view heading towards a nearby section of the ring. You look around to get the other details of the room. The opposite side is lined floor to ceiling with bookshelves, empty, while a desk and chair stand in one corner. The other corners contain small tables with chairs next to them. Sitting on the desk is a model of your flagship on a stand, perfect in every detail. The stand has a plaque reading Captain <first> <last>, Chief Representative, Free Worlds. A screen rises up out of the seemingly solid wood of the desk. A quiet chime plays and words scroll across the screen. "Representative Stephen Sills, Assistant for the Republic, has arrived at the ring."`
+			`	You go through the door and follow the signs to your office. You open the door and are stopped in your tracks. One wall of your office, ten feet high and at least sixteen wide, is a clear unbroken window with a view across the section of the ring containing the wormhole back to human space. It is a stunning view, the fluctuating pinks and purples of the wormhole standing out against the black of space.`
+			`	You stand captivated by the view until a change shocks you out of your reverrie. A little dot in the middle of the wormhole becomes brighter and brighter until it disappears in an instant. Just as suddenly, the center caves in and a ship rockets out. It stabilizes and you recognize it, a Carrier. It is in normal Republic colors, but with quite abnormal weaponry. What turrets it has are mostly defensive. The ship lights its engines, Korath in origin, and passes out of view heading towards a nearby section of the ring.`
+			`	You look around to get the other details of the room. The opposite side is lined floor to ceiling with bookshelves, empty, while a desk and chair stand in one corner. The other corners contain small tables with chairs next to them. Sitting on the desk is a model of your flagship on a stand, perfect in every detail. The stand has a plaque reading Captain <first> <last>, Chief Representative, Free Worlds. A screen rises up out of the seemingly solid wood of the desk. A quiet chime plays and words scroll across the screen. "Representative Stephen Sills, Assistant for the Republic, has arrived at the ring."`
 			`	The door opens on its own as you approach and you find your way back to the common room.`
 			`	Sills is sitting at the bar with his back to you. He throws back a large drink and turns around, slipping off his stool quickly. "Hello <last>," he says coldly, "Remember my cousin?" Before you can form a reply he pulls out a handgun, points it at you, and fires.`
-			`	You watch, seemingly in slow motion as the projectile, a simple metal cylinder, flies directly towards your head despite the distance. A few feet away from your face, a sheet of translucent blue appears from nowhere and the bullet shatters into tiny fragments upon it with a deafening crack. The sheet disappears as quickly as it came. You both stand for a moment in shock before any action can be taken.`
+			`	You watch in slow motion as the bullet approaches, a simple little cylinder of metal flying directly towards your head despite the distance. A few feet away from your face, a sheet of translucent blue appears from nowhere and the bullet shatters into tiny fragments upon it. The sheet disappears as quickly as it came. You both stand for a moment in shock before any action can be taken.`
 			choice
 				`	(Fire back.)`
 					goto fired
 				`	(Charge him.)`
 					goto charged
 				`	(Do nothing.)`
-			`	He fires a few more rounds, all of which are destroyed by the mysterious shield. "THOSE DAMN QUARGS!" He shouts, and charges at you, tossing his pistol aside. It looks like its going to be a close engagement.`
+			`	He fires a few more rounds, all of which are destroyed by the mysterious shield with deafening cracks. "THOSE DAMN QUARGS!" He shouts, and charges at you, tossing his pistol aside. It looks like its going to be a close engagement.`
 				goto engagement
 			label fired
-			`	In the time it takes you to draw your pistol and fire, Sills fires a few more rounds, all of which are stopped by the mysterious shield. Your energy bolts, travelling much faster, take longer to be intercepted, only stopping a few inches from his face in bright flashes. "THOSE DAMN QUARGS!" He shouts, and charges at you, tossing his pistol aside. It looks like its going to be a close engagement.`
+			`	In the time it takes you to draw your pistol and fire, Sills fires a few more rounds, all of which are stopped by the mysterious shield with deafening cracks. Your energy bolts, travelling much faster, take longer to be intercepted, only stopping a few inches from his face in bright flashes. "THOSE DAMN QUARGS!" He shouts, and charges at you, tossing his pistol aside. It looks like its going to be a close engagement.`
 				goto engagement
 			label charged
-			`	You run at him as he fires a few more rounds, all of which are destroyed by the mysterious shield. "THOSE DAMN QUARGS!" He shouts, and charges at you too, tossing his pistol aside. It looks like its going to be a close engagement.`
+			`	You run at him as he fires a few more rounds, all of which are destroyed by the mysterious shield with deafening cracks. "THOSE DAMN QUARGS!" He shouts, and charges at you too, tossing his pistol aside. It looks like its going to be a close engagement.`
 			label engagement
-			`	In the seconds it takes to close the distance in the room, you have time to consider your options for attack. He is much taller and broader than you, with longer arms, but you suspect that he is not as light on his feet as you.`
+			`	In the seconds it takes to close the distance in the room, you have time to consider your options for attack and defense. He is much taller and broader than you, with longer arms, but you suspect that he is not as light on his feet as you.`
 			choice
 				`	(Go low.)`
 					goto low
@@ -690,19 +656,19 @@ mission "Wormholes 3.4"
 			`	Going for his legs proves to have been a good choice. You kick one of his knees and he loses his balance for a second. He doesn't let you push the advantage. As you close he turns and throws a spinning kick at your head, which you only barely block. He follows up with a powerful kick to your chest that sends you flying backward into the edge of a table. He draws a long, slim knife from his waistband and leaps on top of you. He sends the knife speeding towards your chest, but the blue shield appears yet again and the tip of the knife snaps against it. He brings his hand back to strike again, but you get a hand free to block. The jagged tip of the knife bites into your forearm, but you get your other hand free.`
 				goto rollchoice
 			label phasetwo
-			`	This time, he feints a punch and delivers a slicing kick into your abdomen. You swing for his head, but he ducks under it, spinning his body to set up powerful hook that almost knocks you out. Suddenly he is at your side. He sticks a leg in front of you and shoves you over it, planting a kick in your lower back as you fall which lays you out fairly effectively.`
-			`	There is a zapping sound and his body crashes down next to you, quivering. A Hai bends over you and sniffs disdainfully. "You must improve your fighting skills if you are to continue in this line of work."`
+			`	This time, he feints a punch and delivers a slicing kick into your abdomen. You swing for his head, but he ducks under it, spinning his body to set up powerful hook that almost knocks you out. Suddenly he is at your side. He sticks a leg in front of you and shoves you over it, planting a kick in your lower back as you fall which lays you out fairly effectively. There is a zapping sound and his body crashes down next to you, quivering.`
+			`	A Hai face leans into your field of view as it bends over you. Its face distorts and trembles queasily as it sniffs disdainfully. "You must improve your fighting skills if you are to continue in this line of work." It reaches down and lifts you to your feet.`
 			choice
 				`	"Thanks for that."`
 					goto thanks
 				`	"You couldn't have done that earlier?"`
-			`	"I came as soon as the alarm sounded. You are lucky it was so quick, I was already in a transport pod.`
+			`	"I came as soon as the alarm sounded. You are lucky it was so quick, I was already in a transport pod."`
 				goto talk
 			label thanks
-			`	"You are most welcome.`
+			`	"You are most welcome."`
 			label talk
-			`You would not have come to much more injury, however. You can only stand with great effort, I see. Lets get you patched up." He walks over to the bar, hops over, and digs around underneath. Soon, he emerges with a first aid kit and begins to wrap you forearm with bandages. The door to the transport tube revealing a hunched Quarg holding a small box. It glances around the room, taking notice of the shell casings, the weapons, and the trail of blood you've left. "I see you had the opportunity to use your Galactic Keystone's defense mechanisms."`
-			`	Seeing that you have no clue what the Quarg is talking about, the Hai begins to speak as the Quarg removes a device from the box and places it around Sills' wrists. "In the interest of protecting the delegates, the Galactic Keystone has a shield like the one in ships built in. Its not quite like the one in your ship though, its completely invisible except when it activates, and it seems to be able to stop things many feet away. Due to the constraints of having something surrounding you all the time, the Keystone only reacts against lethal force. That's why you got cut up the way you did."`
+			`	"You can only stand with great effort, I see. Lets get you patched up." He walks over to the bar, hops over, and digs around underneath. Soon, he emerges with a first aid kit and begins to wrap you forearm with bandages. The door to the transport tube revealing a hunched Quarg holding a small box. It glances around the room, taking notice of the shell casings, the weapons, and the trail of blood you've left, and the Hai's taser. It walks over to Sills, still lying on the ground, and pulls a device out of the box. It wraps the device around his wrists.`
+			`	"I see you had the opportunity to use your Galactic Keystone's defense mechanisms. Seeing that you have no clue what he is talking about, the Hai continues, "In the interest of protecting the delegates, the Galactic Keystone has a tiny shield matrix built in. Its not quite like the one in your ship though, its completely invisible except when it activates, and it is able to stop projectiles yards away. Due to the constraints of having something surrounding you all the time, the Keystone only reacts against lethal force. That's why you got cut up the way you did."`
 			`	The Quarg lifts Sills off the ground and carries him into the transport pod.`
 			choice
 				`	"What's going to happen to him?"`
@@ -735,6 +701,6 @@ mission "Wormholes 3.4"
 	on decline
 		log	"Attacked by Stephen Sills at Olympus. Injured, but not severely. Told by Quarg that you are free to go."
 			
-#\close				
+				
 
-#-------------------------------------------------------------------end of accusation storyline-----------------------------------------------------------------------------------
+#-------------------------------------------------------------------end of accusation storyline----------------------------------------------------------------------------------- \close
