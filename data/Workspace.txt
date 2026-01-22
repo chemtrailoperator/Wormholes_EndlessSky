@@ -1,0 +1,5 @@
+
+#Faction			Position	Name			Ship				Ship Name
+#Human				Primary		Dingleberry	Heavy Warship		Scourgefoul
+#					Assistant	whatever		Light Warship		scourgeerror
+#					Auxiliary					Transport
