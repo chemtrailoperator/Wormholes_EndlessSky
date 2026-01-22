@@ -1,38 +1,51 @@
 
 #I will select the appropriate ship from that faction once given category. I would prefer all primaries get heavy and all assistants get light, feel free to mess around with the auxiliaries, and with the coalition.
+#Ships are, by default, the "delegate" variant. ship "Sparrow" "Sparrow (Delegate)"
+
 #Faction				Position			Name				Ship				Ship Name
 #Humans
 #		Free Worlds
-#						Primary
-#						Auxiliary
-#						Assistant
+#						Primary				<player>			<player>			<player>
+#						Auxiliary			
+#						Assistant			
 #		Deep
-#						Primary
-#						Auxiliary
-#						Assistant
+#						Primary				
+#						Auxiliary			
+#						Assistant			
 #		Syndicate
-#						Primary
-#						Auxiliary
-#						Assistant
+#						Primary				
+#						Auxiliary			
+#						Assistant			
 #		Remnant
-#						Primary
-#						Auxiliary
-#						Assistant
+#						Primary				Chilia				Albatross			Starbreather		
+#						Auxiliary			
+#						Assistant			
 #		Republic (Main)
-#						Primary
-#						Auxiliary
-#						Assistant
-#						Assistant
-#						Assistant
+#						Primary				
+#						Auxiliary			
+#						Assistant			Stephen Sills		Carrier				R.D.S. Normandy
+#						Assistant			
+#						Assistant			
+#Coalition
+#		Arach
+#						Primary				Mug-at-blag			Arach Hulk			Tumfloot	
+#						Auxiliary			Lub-amog			Arach Spindle		Dubdrub
+#						Assistant			Plort-talug			Arach Transport		Blubatug
+#		Kimek
+#						Primary				Chiree				Kimek Spire
+#						Auxiliary								Kimek Spire
+#						Assistant								Kimek Thistle
+#		Saryd
+#						Primary									Saryd Traveler
+#						Auxiliary								Saryd Visitor
+#						Assistant								Saryd Sojourner
+#		Heliarch (Main)
+#						Primary									Heliarch Punisher
+#						Auxiliary								Heliarch Punisher
+#						Assistant								Heliarch Hunter
+#						Assistant								Heliarch Interdictor
+#						Assistant								Heliarch Judicator
 #					
-#					Assistant
-#Coalition			Auxiliary (only one because of other faction size)
-#Saryd				Primary
-#					Assistant
-#Kimek				Primary
-#					Assistant
-#Arach				Primary
-#					Assistant
 #Gegno Scin		Primary
 #					Assistant
 #					Auxiliary
