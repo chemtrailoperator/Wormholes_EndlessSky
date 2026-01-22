@@ -28,9 +28,9 @@
 #						Assistant			
 #Coalition
 #		Arach
-#						Primary				Mug-at-blag			Arach Hulk			Tumfloot	
-#						Auxiliary			Lub-amog			Arach Spindle		Dubdrub
-#						Assistant			Plort-talug			Arach Transport		Blubatug
+# 						Primary				Mug-at-blag			Arach Hulk			Tumfloot	
+#						Auxiliary			Lub-amog				Arach Spindle		Dubdrub
+#						Assistant			Plort-talug			Arach Transport	Blubatug
 #		Kimek
 #						Primary				Chiree				Kimek Spire
 #						Auxiliary								Kimek Spire
@@ -42,21 +42,39 @@
 #		Heliarch (Main)
 #						Primary									Heliarch Punisher
 #						Auxiliary								Heliarch Punisher
-#						Assistant								Heliarch Hunter
+#						Assistant								Heliarch Judicator
 #						Assistant								Heliarch Interdictor
 #						Assistant								Heliarch Judicator
-#					
-#Gegno Scin		Primary
-#					Assistant
-#					Auxiliary
-#Gegno Vi			Primary
-#					Assistant
-#Wanderer			Primary
-#					Assistant
-#					Auxiliary
-#Hai				Primary
-#					Assistant
-#					Auxiliary
+
+#Gegno 
+#		Scin		
+#						Primary									Feldspar
+#						Auxiliary								Epidote
+#						Assistant								Kyanite
+#						Assistant								Kyanite
+#		Vi		
+#						Primary									Augen
+#						Auxiliary								Gneiss
+#						Assistant								Hornfel
+#						Assistant								Schist
+
+#Wanderer			
+#						Primary									Hurricane
+#						Auxiliary								Derecho
+#						Assistant								Tempest
+
+#Hai
+#		Peaceful
+#						Primary
+#						Auxiliary
+#						Assistant
+#						Assistant
+#						Assistant
+#		Unfettered
+#						Primary
+#						Auxiliary
+#						Assistant
+
 #Unfettered		Primary
 #					Assistant
 #Avgi				Primary
