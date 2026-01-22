@@ -46,4 +46,6 @@
 #Kor Efreti		Primary
 #					Assistant
 #					Auxiliary
+#Quarg
+#Pug
 
