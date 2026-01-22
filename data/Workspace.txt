@@ -9,23 +9,23 @@
 #						Auxiliary			
 #						Assistant			
 #		Deep
-#						Primary				
-#						Auxiliary			
+#						Primary									Bactrian
+#						Auxiliary								Corvette
 #						Assistant			
 #		Syndicate
-#						Primary				
+#						Primary									Vanguard
 #						Auxiliary			
 #						Assistant			
 #		Remnant
 #						Primary				Chilia				Albatross				Starbreather		
-#						Auxiliary			
-#						Assistant			Emkapi				Ibis				Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
+#						Auxiliary								Albatross
+#						Assistant			Emkapi				Ibis					Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
 #		Republic (Main)
-#						Primary				
-#						Auxiliary			
+#						Primary									Auxiliary
+#						Auxiliary								Cruiser
 #						Assistant			Stephen Sills		Carrier					R.D.S. Normandy
-#						Assistant			
-#						Assistant			
+#						Assistant								Cruiser
+#						Assistant								Carrier
 #Coalition
 #		Arach
 # 						Primary				Mug-at-blag		Arach Hulk				Tumfloot	
