@@ -97,6 +97,7 @@ system "Olympus"
 	link "Watcher 6"
 	link "Watcher 7"
 	link "Watcher 8"
+	fleet "Republic Detail" 100
 	object
 		sprite "star/patir core"
 		period 10
