@@ -2,10 +2,10 @@
 #I will select the appropriate ship from that faction once given category. I would prefer all primaries get heavy and all assistants get light, feel free to mess around with the auxiliaries, and with the coalition.
 #Ships are, by default, the "delegate" variant. ship "Sparrow" "Sparrow (Delegate)"
 
-#Faction				Position			Name				Ship				Ship Name
+#Faction				Position			Name				Ship					Ship Name
 #Humans
 #		Free Worlds
-#						Primary				<player>			<player>			<player>
+#						Primary				<player>			<player>				<player>
 #						Auxiliary			
 #						Assistant			
 #		Deep
@@ -17,20 +17,20 @@
 #						Auxiliary			
 #						Assistant			
 #		Remnant
-#						Primary				Chilia				Albatross			Starbreather		
+#						Primary				Chilia				Albatross				Starbreather		
 #						Auxiliary			
 #						Assistant			Emkapi				Ibis				Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
 #		Republic (Main)
 #						Primary				
 #						Auxiliary			
-#						Assistant			Stephen Sills		Carrier				R.D.S. Normandy
+#						Assistant			Stephen Sills		Carrier					R.D.S. Normandy
 #						Assistant			
 #						Assistant			
 #Coalition
 #		Arach
-# 						Primary				Mug-at-blag			Arach Hulk			Tumfloot	
-#						Auxiliary			Lub-amog				Arach Spindle		Dubdrub
-#						Assistant			Plort-talug			Arach Transport	Blubatug
+# 						Primary				Mug-at-blag		Arach Hulk				Tumfloot	
+#						Auxiliary			Lub-amog			Arach Spindle			Dubdrub
+#						Assistant			Plort-talug		Arach Transport		Blubatug
 #		Kimek
 #						Primary				Chiree				Kimek Spire
 #						Auxiliary								Kimek Spire
@@ -65,32 +65,51 @@
 
 #Hai
 #		Peaceful
-#						Primary
-#						Auxiliary
-#						Assistant
-#						Assistant
-#						Assistant
+#						Primary									Shield Beetle
+#						Auxiliary								Shield Beetle
+#						Assistant								Pond Strider
+#						Assistant								Pond Strider
+#						Assistant								Centipede
 #		Unfettered
-#						Primary
-#						Auxiliary
-#						Assistant
+#						Primary									Solifuge
+#						Auxiliary								Solifuge
+#						Assistant								Shield Beetle
 
-#Unfettered		Primary
-#					Assistant
-#Avgi				Primary
-#					Assistant
-#					Auxiliary
-#Bunrodea			Primary
-#					Assistant
-#					Auxiliary
-#Bunrodea Erabu	Primary
-#					Assistant
-#Successor			Primary
-#					Assistant
-#					Auxiliary
-#Kor Efreti		Primary
-#					Assistant
-#					Auxiliary
+
+#Avgi
+#						Primary									Atenuatia
+#						Auxiliary								Difraktos
+#						Assistant								Prismaios
+
+#Bunrodea
+#		Erabu
+#						Primary									Chigiriki
+#						Auxiliary								Chigiriki
+#						Assistant								Ararebo
+#						Assistant								Ararebo
+#						Assistant								Chigiriki
+#		Megasa
+#						Primary									Ararebo
+#						Auxiliary								Tekkan
+#						Assistant								Kunai
+
+#Successors
+#						Primary									Aaulqra
+#						Auxiliary								Aaulqra
+#						Assistant								Aaulqra
+
+#Kor Efreti
+#						Primary									Echo-Galleon
+#						Auxiliary								Echo-Galleon
+#						Assistant								Echo-Galleon
+
 #Quarg
+#						Primary									Quarg Hydra
+#						Auxiliary								Quarg Wyvern
+#						Assistant								Quarg Guivre
+
 #Pug
+#						Primary									Pug Arfecta
+#						Auxiliary								Pug Arfecta
+#						Assistant								Pug Arfecta
 
