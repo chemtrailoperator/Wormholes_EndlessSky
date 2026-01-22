@@ -17,5 +17,33 @@
 #					Assistant
 #Kimek				Primary
 #					Assistant
-
+#Arach				Primary
+#					Assistant
+#Gegno Scin		Primary
+#					Assistant
+#					Auxiliary
+#Gegno Vi			Primary
+#					Assistant
+#Wanderer			Primary
+#					Assistant
+#					Auxiliary
+#Hai				Primary
+#					Assistant
+#					Auxiliary
+#Unfettered		Primary
+#					Assistant
+#Avgi				Primary
+#					Assistant
+#					Auxiliary
+#Bunrodea			Primary
+#					Assistant
+#					Auxiliary
+#Bunrodea Erabu	Primary
+#					Assistant
+#Successor			Primary
+#					Assistant
+#					Auxiliary
+#Kor Efreti		Primary
+#					Assistant
+#					Auxiliary
 
