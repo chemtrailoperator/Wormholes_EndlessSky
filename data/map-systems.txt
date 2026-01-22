@@ -209,27 +209,27 @@ system "Olympus"
 		offset 340
 	object
 		sprite planet/archon-dead
+			scale 0.5
 		distance 8000
 		period 1000
-		scale 0.5
 	object
 		sprite planet/archon-dead
+			scale 0.5
 		distance 8000
 		period 1000
 		offset 90
-		scale 0.5
 	object
 		sprite planet/archon-dead
+			scale 0.5
 		distance 8000
 		period 1000
 		offset 180
-		scale 0.5
 	object
 		sprite planet/archon-dead
+			scale 0.5
 		distance 8000
 		period 1000
 		offset 270
-		scale 0.5
 		
 system "Hub: Sol"
 	hidden
