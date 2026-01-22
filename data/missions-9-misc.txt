@@ -14,7 +14,7 @@
 # This file was written in Notepad++ with the EndlessSkyDark UDL. Available on the wiki for this plugin.
 
 
-#-------------------------------------------------------------------start of archon storyline (in progress)-----------------------------------------------------------------------
+#-------------------------------------------------------------------archon missions----------------------------------------------------------------------- \open
 
 # X9.1 (NPC Mission for Watcher Guards) \open
 mission "Wormholes X9.1 Watcher Guards"
@@ -107,13 +107,39 @@ mission "Wormholes 9.1.2"
 				`	(Approach him.)`
 				`	(Forget it.)`
 					decline
-			
-			
-			
+			`	The Remnant has the word 'Emkapi' on his nameplate. He looks up as you approach. "Greetings, Captain, may I help you?"`
+			`	"Oh, I just have a question about this place. Why is it so heavily fortified?"`
+			`	He pauses for a moment. "Forgive me, I am rather new here, like yourself. As far as I can tell, They built the defenses in and around this system to ensure that the purpose it serves can never be altered. If one faction gained control or even figured out how to access the wormholes, they could deal monumental damage to their enemies, for the wormhole engines can be used as weapons to obliterate planets and stars. If the Pug and Quarg brought their power struggle here, They would have no choice but to destroy all invading ships. The eight systems surrounding us serve as the frontlines for the Archons to use, but if an invasion fleet somehow made it past them, there is more here, that will awaken from their sleep to defend this precious ringworld."`
+			choice
+				`	"All that to prevent the Quarg from attacking?"`
+					goto quarg
+				`	"What if an invasion did make it here?"`
+					goto loss
+			label quarg
+			`	The Remnant makes a facial expression that might be sarcastic for them. "To be honest, I doubt that is the only reason. I do not know where this galaxy is located, or what forces could threaten it. Perhaps there are other races? The Pug are stronger than they seem? I do not know.`
+			set "heard about powerful forces"
+			choice
+				`	"What if an invasion did make it here?"`
+					to display
+						not "heard about the final defense"
+					goto loss
+				`	"Thanks for telling me that, I'm <first> by the way."`
+					goto end
+			label loss
+			`	"We were told that that could never happen, but I suspect that if an indescribably powerful force penetrated the blockade, the Archons' last action would be to fire on the wormhole engines. There is also probably safety measures in place to ensure the more important technologies never fall into the wrong hands. Our lives are nothing compared to the safety of the people we represent, you see."`
+			set "heard about the final defense"
+			choice
+				`	"All that to prevent the Quarg from attacking?"`
+					to display
+						not "heard about powerful forces"
+					goto quarg
+				`	"Thanks for telling me that, I'm <first> by the way."`
+					goto end
+			label end
+			`	The Remnant stands to leave. "I am glad to be of assistance, as you can see, my name is Emkapi."`
+				decline
 	on defer
 		"not interested in the watchers" ++
 #\close
-#-------------------------------------------------------------------end of archon storyline---------------------------------------------------------------------------------------
+#-------------------------------------------------------------------archon missions----------------------------------------------------------------------- \close
 
-#-------------------------------------------------------------------start of Quarg outfits storyline (coming soon)-----------------------------------------------------------------------
-#-------------------------------------------------------------------end of Quarg outfits storyline---------------------------------------------------------------------------------------
