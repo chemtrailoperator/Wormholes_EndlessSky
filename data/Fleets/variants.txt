@@ -110,7 +110,11 @@ ship "Falcon" "Falcon (Delegate)"
 		"Fuel Pod" 3
 		"Catalytic Ramscoop"
 		"Liquid Nitrogen Cooler"
-		
+		"Hai Ravine Batteries"
+		"Fusion Reactor"
+		"Bondir Atomic Steering"
+		"A370 Atomic Thruster"
+		"Pulse Rifle" 52
 
 
 ship "Star Queen" "Star Queen (Delegate)"
