@@ -26,6 +26,7 @@
 #						Assistant			Stephen Sills		Carrier					R.D.S. Normandy
 #						Assistant								Cruiser
 #						Assistant								Carrier
+
 #Coalition
 #		Arach
 # 						Primary				Mug-at-blag		Arach Hulk				Tumfloot	
@@ -113,3 +114,40 @@
 #						Auxiliary								Pug Arfecta
 #						Assistant								Pug Arfecta
 
+
+
+#Juliana Sky McAllister
+#Cameron Phoenix Radcliffe
+#Samantha Jewel Hawthorne
+#Gabriel Sterling Rivers
+#Evelyn Sage Thompson
+#Derek Orion Caldwell
+#Mia Lark Sinclair
+#Tristan Ashwood Hayes
+#Olivia Faye Kensington
+#Liam Soren Mitchell
+#Aurora Quinn Delaney
+#Noah Corbin Westlake
+#Isla Vivienne Hart
+#Lennox Kyra Kingston
+#Zara Finch Vandermeer
+# Talia Everly Rushmore
+# Sebastian Jett Hawthorne
+# Aria Soleil Blackwood
+#Desmond Knox Sinclair
+#Lila Imogen Carter
+#Ronan Ash Grey
+#Selene Capri Westfield
+#Ezra Lennox Montgomery
+#Kira Tamsin Caldwell
+#Alden Jace Rivers
+#Vivica Sloane Prescott
+#Miles Thorne Kingsley
+#Lyra Noelle Patton
+#Calista Waverly Shine
+#Tobias Ember Parkins
+#Freya Elise Mercer
+#Dahlia Quinn Westbay
+#Orion Ellis Pierce
+#Sienna Jade Fairchild
+#Cyrus Jax Kincaid
