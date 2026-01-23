@@ -75,14 +75,14 @@ mission "Wormholes 9.1.1"
 	source Mons
 	to offer
 		has "event: all wormholes revealed"
-		visited system "Watcher 1"
-		visited system "Watcher 2"
-		visited system "Watcher 3"
-		visited system "Watcher 4"
-		visited system "Watcher 5"
-		visited system "Watcher 6"
-		visited system "Watcher 7"
-		visited system "Watcher 8"
+		has `visited "Watcher 1"`
+		has `visited "Watcher 2"`
+		has `visited "Watcher 3"`
+		has `visited "Watcher 4"`
+		has `visited "Watcher 5"`
+		has `visited "Watcher 6"`
+		has `visited "Watcher 7"`
+		has `visited "Watcher 8"`
 	to accept
 		has "event: all wormholes revealed"
 	to complete

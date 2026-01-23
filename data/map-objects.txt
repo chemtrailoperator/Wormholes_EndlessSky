@@ -216,4 +216,4 @@ planet Mons
 	description `This ringworld is built in a system specifically designed and built by the Drak for the purposes of Galactic Command. Many of the internal structures match what you have seen on other ringworlds, but there is also a profusion of other technologies, some known, some unknown, from all races added to the station. Most notably, the ringworld is split into separate sections to facilitate the Pug's massive wormhole engines, an enormously powerful technology that creates a stable wormhole that can be switched and directed at the touch of a button, rather than thousands of years of slow precession.`
 	spaceport `The spaceport on this ringworld is a collection of all of the things that can be found on other planets, artifacts cover the walls, and food and equipment vendors of every race and technology level rub shoulders in the massive station. At the entrance, there is a booth issuing unviersal translating devices to anyone who enters.`
 	bribe 0
-	security 10000
+	security 0
