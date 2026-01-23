@@ -24,7 +24,7 @@
 #						Primary				Cyrus Patton		Auxiliary
 #						Auxiliary			Lila Carter		Cruiser
 #						Assistant			Stephen Sills		Carrier					R.D.S. Normandy
-#						Assistant			#Mark Kensing		Cruiser
+#						Assistant			Mark Kensing		Cruiser
 #						Assistant			<Unassigned>		Carrier
 
 #Coalition
