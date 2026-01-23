@@ -118,6 +118,8 @@ ship "Falcon" "Falcon (Delegate)"
 
 
 ship "Star Queen" "Star Queen (Delegate)"
+	outfits
+
 ship "Corvette" "Corvette (Delegate)"
 
 ship "Manta" "Manta (Delegate)"
@@ -128,3 +130,4 @@ ship "Auxiliary" "Auxiliary (Delegate)"
 ship "Cruiser" "Cruiser (Delegate)"
 ship "Carrier" "Carrier (Delegate)"
 ship "Bounder" "Bounder (Delegate)"  
+ship "Palavret" "Palavret" (Delegate)
