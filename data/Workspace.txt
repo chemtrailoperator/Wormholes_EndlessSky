@@ -5,27 +5,28 @@
 #Faction				Position			Name				Ship					Ship Name
 #Humans
 #		Free Worlds
-#						Primary				<player>			<player>				<player>
-#						Auxiliary			
-#						Assistant			
+#						Primary				<player>			<flagship>				<player>
+#						Auxiliary			<Unassigned>		Dreadnought
+#						Assistant			<Unassigned>		Falcon
 #		Deep
-#						Primary				
-#						Auxiliary			
-#						Assistant			
+#						Primary				Samantha Hawthorne	Bactrian
+#						Auxiliary			<Unassigned>		Bactrian
+#						Assistant			<Unassigned>		Corvette
 #		Syndicate
-#						Primary				
-#						Auxiliary			
-#						Assistant			
+#						Primary				Sterling Rivers	Vanguard
+#						Auxiliary			Corbin Westlake	Vanguard
+#						Assistant			<Unassigned>		Splinter
 #		Remnant
 #						Primary				Chilia				Albatross				Starbreather		
-#						Auxiliary			
-#						Assistant			Emkapi				Ibis				Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
+#						Auxiliary			Statly				Albatross
+#						Assistant			Emkapi				Ibis					Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
 #		Republic (Main)
-#						Primary				
-#						Auxiliary			
+#						Primary				Cyrus Patton		Auxiliary
+#						Auxiliary			Lila Carter		Cruiser
 #						Assistant			Stephen Sills		Carrier					R.D.S. Normandy
-#						Assistant			
-#						Assistant			
+#						Assistant			#Mark Kensing		Cruiser
+#						Assistant			<Unassigned>		Carrier
+
 #Coalition
 #		Arach
 # 						Primary				Mug-at-blag		Arach Hulk				Tumfloot	
@@ -34,11 +35,11 @@
 #		Kimek
 #						Primary				Chiree				Kimek Spire
 #						Auxiliary								Kimek Spire
-#						Assistant								Kimek Thistle
+#						Assistant			<Unassigned>		Kimek Thistle
 #		Saryd
 #						Primary									Saryd Traveler
-#						Auxiliary								Saryd Visitor
-#						Assistant								Saryd Sojourner
+#						Auxiliary			<Unassigned>		Saryd Visitor
+#						Assistant			<Unassigned>		Saryd Sojourner
 #		Heliarch (Main)
 #						Primary									Heliarch Punisher
 #						Auxiliary								Heliarch Punisher
@@ -51,7 +52,7 @@
 #						Primary									Feldspar
 #						Auxiliary								Epidote
 #						Assistant								Kyanite
-#						Assistant								Kyanite
+#						Assistant			<Unassigned>		Kyanite
 #		Vi		
 #						Primary									Augen
 #						Auxiliary								Gneiss
@@ -69,7 +70,7 @@
 #						Auxiliary								Shield Beetle
 #						Assistant								Pond Strider
 #						Assistant								Pond Strider
-#						Assistant								Centipede
+#						Assistant			<Unassigned>		Centipede
 #		Unfettered
 #						Primary									Solifuge
 #						Auxiliary								Solifuge
@@ -91,12 +92,12 @@
 #		Megasa
 #						Primary									Ararebo
 #						Auxiliary								Tekkan
-#						Assistant								Kunai
+#						Assistant			<Unassigned>		Kunai
 
 #Successors
 #						Primary									Aaulqra
 #						Auxiliary								Aaulqra
-#						Assistant								Aaulqra
+#						Assistant			<Unassigned>		Aaulqra
 
 #Kor Efreti
 #						Primary									Echo-Galleon
@@ -113,3 +114,12 @@
 #						Auxiliary								Pug Arfecta
 #						Assistant								Pug Arfecta
 
+
+#Leftover names:
+#Lennox Caldwell
+#Clark Sinclair
+#Ash Hayes
+#Quinn Mitchell
+#Everly Rushmore
+#Lila Carter
+#Ronan Grey
