@@ -12,3 +12,234 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 # This file was written in Notepad++ with the EndlessSkyDark UDL. Available on the wiki for this plugin.
+
+fleet "Republic Delegates"
+	government "Republic Detail"
+	personality vindictive forbearing unconstrained
+	names "republic capital"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Free Worlds Delegates"
+	government "Free Worlds Detail"
+	personality vindictive forbearing unconstrained
+	names "free worlds capital"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Deep Delegates"
+	government "Deep Detail"
+	personality vindictive forbearing unconstrained
+	names "deep"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Syndicate Delegates"
+	government "Syndicate Detail"
+	personality vindictive forbearing unconstrained
+	names "syndicate capital"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Remnant Delegates"
+	government "Remnant Detail"
+	personality vindictive forbearing unconstrained
+	names "remnant"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Coalition Delegates"
+	government "Heliarch Detail"
+	personality vindictive forbearing unconstrained
+	names "heliarch"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+		
+fleet "Saryd Delegates"
+	government "Heliarch Detail"
+	personality vindictive forbearing unconstrained
+	names "heliarch"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Kimek Delegates"
+	government "Heliarch Detail"
+	personality vindictive forbearing unconstrained
+	names "heliarch"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Arach Delegates"
+	government "Heliarch Detail"
+	personality vindictive forbearing unconstrained
+	names "heliarch"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Scin Delegates"
+	government "Scin Detail (Neutral)"
+	personality vindictive forbearing unconstrained
+	names "gegno scin"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Vi Delegates"
+	government "Vi Detail (Neutral)"
+	personality vindictive forbearing unconstrained
+	names "gegno vi"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Wanderer Delegates"
+	government "Wanderer Detail"
+	personality vindictive forbearing unconstrained
+	names "wanderer"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Hai Delegates"
+	government "Hai Detail"
+	personality vindictive forbearing unconstrained
+	names "hai"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Unfettered Delegates"
+	government "Hai (Unfettered) Detail"
+	personality vindictive forbearing unconstrained
+	names "hai"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Avgi Delegates"
+	government "Avgi Detail"
+	personality vindictive forbearing unconstrained
+	names "avgi military names"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Erabu Delegates"
+	government "Bunrodea (Erabu) Detail"
+	personality vindictive forbearing unconstrained
+	names "bunrodea"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Megasa Delegates"
+	government "Bunrodea (Megasa) Detail"
+	personality vindictive forbearing unconstrained
+	names "bunrodea"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Successor Delegates"
+	government "Successor Detail"
+	personality vindictive forbearing unconstrained
+	names "successor"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Efreti Delegates"
+	government "Efret Detail"
+	personality vindictive forbearing unconstrained
+	names "korath"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Quarg Delegates"
+	government "Quarg Detail"
+	personality vindictive forbearing unconstrained
+	names "quarg"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
+
+fleet "Pug Delegates"
+	government "Pug Detail"
+	personality vindictive forbearing unconstrained
+	names "pug"
+	variant
+		"Sparrow"
+	variant
+		"Beserker"
+	variant
+		"Hawk"
