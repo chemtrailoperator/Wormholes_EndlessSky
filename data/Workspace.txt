@@ -112,7 +112,7 @@
 #Pug
 #						Primary									Pug Arfecta
 #						Auxiliary								Pug Arfecta
-#						Assistant								Pug Arfecta
+#						Assistant								Pug Maboro
 
 
 #Leftover names:
