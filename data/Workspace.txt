@@ -9,23 +9,23 @@
 #						Auxiliary			<Unassigned>		Dreadnought
 #						Assistant			<Unassigned>		Falcon
 #		Deep
-#						Primary				Samantha Hawthorne	Bactrian
+#						Primary				Samantha Hawthorne	Star Queen
 #						Auxiliary			<Unassigned>		Bactrian
 #						Assistant			<Unassigned>		Corvette
 #		Syndicate
-#						Primary				Sterling Rivers	Vanguard
-#						Auxiliary			Corbin Westlake	Vanguard
+#						Primary				Sterling Rivers	Vanguard				Moonlight
+#						Auxiliary			Corbin Westlake	Manta
 #						Assistant			<Unassigned>		Splinter
 #		Remnant
 #						Primary				Chilia				Albatross				Starbreather		
-#						Auxiliary			Statly				Albatross
+#						Auxiliary			Statly				Merganser
 #						Assistant			Emkapi				Ibis					Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
 #		Republic (Main)
 #						Primary				Cyrus Patton		Auxiliary
 #						Auxiliary			Lila Carter		Cruiser
 #						Assistant			Stephen Sills		Carrier					R.D.S. Normandy
 #						Assistant			Mark Kensing		Cruiser
-#						Assistant			<Unassigned>		Carrier
+#						Assistant			<Unassigned>		Bounder
 
 #Coalition
 #		Arach
