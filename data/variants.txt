@@ -1,0 +1,47 @@
+ship "Bactrian" "Bactrian (Delegate)"
+	outfits
+		"Quantum Keystone"
+		"Hai Diamond Regenerator"
+		"Catalytic Ramscoop"
+		"Jump Drive"
+		"Hyperdrive"
+		"Fuel Pod" 5
+		"Chameleon Anti-missile" 2
+		"Electron Turret" 3
+		"Bufaer Atomic Thruster"
+		"Bufaer Atomic Steering"
+		"Boulder Reactor"
+		"Hai Ravine Batteries"
+		"Lp144a Battery Pack"
+		"Laser Rifle" 15
+	turret "Electron Turret"
+	turret "Electron Turret"
+	turret "Chameleon Anti-missile"
+	turret "Chameleon Anti-missile"
+	turret "Chameleon Anti-missile"
+
+ship "Vanguard" "Vanguard (Delegate)"
+	outfits
+		"Particle Cannon" 5
+		"Warder Anti-missile"
+		"Quantum Keystone"
+		"Liquid Nitrogen Cooler"
+		"Cargo Scanner"
+		"Tactical Scanner"
+		"Outfit Scanner"
+		"Jump Drive"
+		"Hyperdrive"
+		"Systems Core (Small)"
+		"Fuel Pod" 5
+		"Hai Gorge Batteries"
+		"Fusion Reactor"
+		"Bondir Atomic Thruster"
+		"Bondir Atomic Steering"
+		"Laser Rifle" 19
+		"Fragmentation Grenades" 7
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	turret "Warder Anti-missile"

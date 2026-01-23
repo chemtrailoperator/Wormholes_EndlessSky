@@ -5,27 +5,27 @@
 #Faction				Position			Name				Ship					Ship Name
 #Humans
 #		Free Worlds
-#						Primary				<player>			<player>				<player>
-#						Auxiliary			
-#						Assistant			
+#						Primary				<player>			<flagship>				<player>
+#						Auxiliary			<Unassigned>		Dreadnought
+#						Assistant			<Unassigned>		Falcon
 #		Deep
-#						Primary									Bactrian
-#						Auxiliary								Corvette
-#						Assistant			
+#						Primary				Samantha Hawthorne	Bactrian
+#						Auxiliary			<Unassigned>		Bactrian
+#						Assistant			<Unassigned>		Corvette
 #		Syndicate
-#						Primary									Vanguard
-#						Auxiliary			
-#						Assistant			
+#						Primary				Sterling Rivers	Vanguard
+#						Auxiliary			Corbin Westlake	Vanguard
+#						Assistant			<Unassigned>		Splinter
 #		Remnant
 #						Primary				Chilia				Albatross				Starbreather		
-#						Auxiliary								Albatross
+#						Auxiliary			Statly				Albatross
 #						Assistant			Emkapi				Ibis					Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
 #		Republic (Main)
-#						Primary									Auxiliary
-#						Auxiliary								Cruiser
+#						Primary				Cyrus Patton		Auxiliary
+#						Auxiliary			Lila Carter		Cruiser
 #						Assistant			Stephen Sills		Carrier					R.D.S. Normandy
-#						Assistant								Cruiser
-#						Assistant								Carrier
+#						Assistant			#Mark Kensing		Cruiser
+#						Assistant			<Unassigned>		Carrier
 
 #Coalition
 #		Arach
@@ -35,11 +35,11 @@
 #		Kimek
 #						Primary				Chiree				Kimek Spire
 #						Auxiliary								Kimek Spire
-#						Assistant								Kimek Thistle
+#						Assistant			<Unassigned>		Kimek Thistle
 #		Saryd
 #						Primary									Saryd Traveler
-#						Auxiliary								Saryd Visitor
-#						Assistant								Saryd Sojourner
+#						Auxiliary			<Unassigned>		Saryd Visitor
+#						Assistant			<Unassigned>		Saryd Sojourner
 #		Heliarch (Main)
 #						Primary									Heliarch Punisher
 #						Auxiliary								Heliarch Punisher
@@ -52,7 +52,7 @@
 #						Primary									Feldspar
 #						Auxiliary								Epidote
 #						Assistant								Kyanite
-#						Assistant								Kyanite
+#						Assistant			<Unassigned>		Kyanite
 #		Vi		
 #						Primary									Augen
 #						Auxiliary								Gneiss
@@ -70,7 +70,7 @@
 #						Auxiliary								Shield Beetle
 #						Assistant								Pond Strider
 #						Assistant								Pond Strider
-#						Assistant								Centipede
+#						Assistant			<Unassigned>		Centipede
 #		Unfettered
 #						Primary									Solifuge
 #						Auxiliary								Solifuge
@@ -92,12 +92,12 @@
 #		Megasa
 #						Primary									Ararebo
 #						Auxiliary								Tekkan
-#						Assistant								Kunai
+#						Assistant			<Unassigned>		Kunai
 
 #Successors
 #						Primary									Aaulqra
 #						Auxiliary								Aaulqra
-#						Assistant								Aaulqra
+#						Assistant			<Unassigned>		Aaulqra
 
 #Kor Efreti
 #						Primary									Echo-Galleon
@@ -115,39 +115,11 @@
 #						Assistant								Pug Arfecta
 
 
-
-#Juliana Sky McAllister
-#Cameron Phoenix Radcliffe
-#Samantha Jewel Hawthorne
-#Gabriel Sterling Rivers
-#Evelyn Sage Thompson
-#Derek Orion Caldwell
-#Mia Lark Sinclair
-#Tristan Ashwood Hayes
-#Olivia Faye Kensington
-#Liam Soren Mitchell
-#Aurora Quinn Delaney
-#Noah Corbin Westlake
-#Isla Vivienne Hart
-#Lennox Kyra Kingston
-#Zara Finch Vandermeer
-# Talia Everly Rushmore
-# Sebastian Jett Hawthorne
-# Aria Soleil Blackwood
-#Desmond Knox Sinclair
-#Lila Imogen Carter
-#Ronan Ash Grey
-#Selene Capri Westfield
-#Ezra Lennox Montgomery
-#Kira Tamsin Caldwell
-#Alden Jace Rivers
-#Vivica Sloane Prescott
-#Miles Thorne Kingsley
-#Lyra Noelle Patton
-#Calista Waverly Shine
-#Tobias Ember Parkins
-#Freya Elise Mercer
-#Dahlia Quinn Westbay
-#Orion Ellis Pierce
-#Sienna Jade Fairchild
-#Cyrus Jax Kincaid
+#Leftover names:
+#Lennox Caldwell
+#Clark Sinclair
+#Ash Hayes
+#Quinn Mitchell
+#Everly Rushmore
+#Lila Carter
+#Ronan Grey
