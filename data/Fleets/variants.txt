@@ -1,6 +1,7 @@
 ship "Bactrian" "Bactrian (Delegate)"
 	outfits
 		"Quantum Keystone"
+		"Galactic Keystone"
 		"Hai Diamond Regenerator"
 		"Catalytic Ramscoop"
 		"Jump Drive"
