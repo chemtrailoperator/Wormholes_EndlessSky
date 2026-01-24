@@ -18,222 +18,217 @@ fleet "Republic Delegates"
 	personality vindictive forbearing unconstrained
 	names "republic capital"
 	variant 1
-		"Delegate Bactrian"
+		"Auxiliary"
+	variant 1
+		"Carrier"
+	variant 2
+		"Cruiser"
+	variant 1
+		"Bounder"
 
 fleet "Free Worlds Delegates"
 	government "Free Worlds Detail"
 	personality vindictive forbearing unconstrained
 	names "free worlds capital"
 	variant 1
-		"Leviathan"
 	variant 1
-		"Vanguard"
+		"Dreadnought (Delegate)"
 	variant 1
-		"Osprey"
+		"Falcon (Delegate)"
 
 fleet "Deep Delegates"
 	government "Deep Detail"
 	personality vindictive forbearing unconstrained
 	names "deep"
-	variant 2
+	variant 1
 		"Bactrian (Delegate)"
 	variant 1
-		"Hawk"
+		"Star Queen (Delegate)"
+	variant 1
+		"Corvette"
 
 fleet "Syndicate Delegates"
 	government "Syndicate Detail"
 	personality vindictive forbearing unconstrained
 	names "syndicate capital"
 	variant 1
-		"Sparrow"
+		"Vanguard (Delegate)"
 	variant 1
-		"Beserker"
+		"Manta"
 	variant 1
-		"Hawk"
+		"Palavret"
 
 fleet "Remnant Delegates"
 	government "Remnant Detail"
 	personality vindictive forbearing unconstrained
 	names "remnant"
 	variant 1
-		"Sparrow"
+		"Albatross (Delegate)"
 	variant 1
-		"Beserker"
+		"Merganser"
 	variant 1
-		"Hawk"
+		"Ibis"
 
 fleet "Coalition Delegates"
 	government "Heliarch Detail"
 	personality vindictive forbearing unconstrained
 	names "heliarch"
+	variant 2
+		"Heliarch Punisher"
 	variant 1
-		"Sparrow"
-	variant 1
-		"Beserker"
-	variant 1
-		"Hawk"
+		"Heliarch Interdictor"
+	variant 2
+		"Heliarch Judicator"
 		
 fleet "Saryd Delegates"
 	government "Heliarch Detail"
 	personality vindictive forbearing unconstrained
 	names "heliarch"
 	variant 1
-		"Sparrow"
+		"Saryd Traveler"
 	variant 1
-		"Beserker"
+		"Saryd Visitor"
 	variant 1
-		"Hawk"
+		"Saryd Sojourner"
 
 fleet "Kimek Delegates"
 	government "Heliarch Detail"
 	personality vindictive forbearing unconstrained
 	names "heliarch"
+	variant 2
+		"Kimek Spire"
 	variant 1
-		"Sparrow"
-	variant 1
-		"Beserker"
-	variant 1
-		"Hawk"
+		"Kimek Thistle"
 
 fleet "Arach Delegates"
 	government "Heliarch Detail"
 	personality vindictive forbearing unconstrained
 	names "heliarch"
 	variant 1
-		"Sparrow"
+		"Arach Hulk"
 	variant 1
-		"Beserker"
+		"Arach Spindle"
 	variant 1
-		"Hawk"
+		"Arach Transport"
 
 fleet "Scin Delegates"
 	government "Scin Detail (Neutral)"
 	personality vindictive forbearing unconstrained
 	names "gegno scin"
 	variant 1
-		"Sparrow"
+		"Feldspar"
 	variant 1
-		"Beserker"
-	variant 1
-		"Hawk"
+		"Epidote"
+	variant 2
+		"Kyanite"
 
 fleet "Vi Delegates"
 	government "Vi Detail (Neutral)"
 	personality vindictive forbearing unconstrained
 	names "gegno vi"
 	variant 1
-		"Sparrow"
+		"Augen"
 	variant 1
-		"Beserker"
+		"Gneiss"
 	variant 1
-		"Hawk"
+		"Hornfel"
+	variant 1
+		"Schist"
 
 fleet "Wanderer Delegates"
 	government "Wanderer Detail"
 	personality vindictive forbearing unconstrained
 	names "wanderer"
 	variant 1
-		"Sparrow"
+		"Hurricane"
 	variant 1
-		"Beserker"
+		"Derecho"
 	variant 1
-		"Hawk"
+		"Tempest"
 
 fleet "Hai Delegates"
 	government "Hai Detail"
 	personality vindictive forbearing unconstrained
 	names "hai"
+	variant 2
+		"Shield Beetle"
+	variant 2
+		"Pond Strider"
 	variant 1
-		"Sparrow"
-	variant 1
-		"Beserker"
-	variant 1
-		"Hawk"
+		"Centipede"
 
 fleet "Unfettered Delegates"
 	government "Hai (Unfettered) Detail"
 	personality vindictive forbearing unconstrained
 	names "hai"
 	variant 1
-		"Sparrow"
+		"Solifuge"
 	variant 1
-		"Beserker"
+		"Solifuge"
 	variant 1
-		"Hawk"
+		"Shield Beetle"
 
 fleet "Avgi Delegates"
 	government "Avgi Detail"
 	personality vindictive forbearing unconstrained
 	names "avgi military names"
 	variant 1
-		"Sparrow"
+		"Atenuatia"
 	variant 1
-		"Beserker"
+		"Difraktos"
 	variant 1
-		"Hawk"
+		"Prismaios"
 
 fleet "Erabu Delegates"
 	government "Bunrodea (Erabu) Detail"
 	personality vindictive forbearing unconstrained
 	names "bunrodea"
-	variant 1
-		"Sparrow"
-	variant 1
-		"Beserker"
-	variant 1
-		"Hawk"
+	variant 3
+		"Chigiriki"
+	variant 2
+		"Ararebo"
 
 fleet "Megasa Delegates"
 	government "Bunrodea (Megasa) Detail"
 	personality vindictive forbearing unconstrained
 	names "bunrodea"
 	variant 1
-		"Sparrow"
+		"Ararebo"
 	variant 1
-		"Beserker"
+		"Tekkan"
 	variant 1
-		"Hawk"
+		"Kunai"
 
 fleet "Successor Delegates"
 	government "Successor Detail"
 	personality vindictive forbearing unconstrained
 	names "successor"
-	variant 1
-		"Sparrow"
-	variant 1
-		"Beserker"
-	variant 1
-		"Hawk"
+	variant
+		"Aaulqra"
 
 fleet "Efreti Delegates"
 	government "Efret Detail"
 	personality vindictive forbearing unconstrained
 	names "korath"
 	variant 1
-		"Sparrow"
-	variant 1
-		"Beserker"
-	variant 1
-		"Hawk"
+		"Echo-Galleon"
 
 fleet "Quarg Delegates"
 	government "Quarg Detail"
 	personality vindictive forbearing unconstrained
 	names "quarg"
 	variant 1
-		"Sparrow"
+		"Quarg Hydra"
 	variant 1
-		"Beserker"
+		"Quarg Wyvern"
 	variant 1
-		"Hawk"
+		"Guivre"
 
 fleet "Pug Delegates"
 	government "Pug Detail"
 	personality vindictive forbearing unconstrained
 	names "pug"
+	variant 2
+		"Pug Arfecta"
 	variant 1
-		"Sparrow"
-	variant 1
-		"Beserker"
-	variant 1
-		"Hawk"
+		"Pug Maboro"

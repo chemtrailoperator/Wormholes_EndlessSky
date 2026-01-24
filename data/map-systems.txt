@@ -97,7 +97,27 @@ system "Olympus"
 	link "Watcher 6"
 	link "Watcher 7"
 	link "Watcher 8"
-	fleet "Republic Delegates" 100
+	fleet "Republic Delegates" 3000
+	fleet "Free Worlds Delegates" 3000
+	fleet "Deep Delegates" 3000
+	fleet "Syndicate Delegates" 3000
+	fleet "Remnant Delegates" 3000
+	fleet "Arach Delegates" 3000
+	fleet "Kimek Delegates" 3000
+	fleet "Saryd Delegates" 3000
+	fleet "Coalition Delegates" 3000
+	fleet "Scin Delegates" 3000
+	fleet "Vi Delegates" 3000
+	fleet "Wanderer Delegates" 3000
+	fleet "Hai Delegates" 3000
+	fleet "Hai (Unfettered) Delegates" 3000
+	fleet "Avgi Delegates" 3000
+	fleet "Erabu Delegates" 3000
+	fleet "Megasa Delegates" 3000
+	fleet "Successor Delegates" 3000
+	fleet "Efreti Delegates" 3000
+	fleet "Quarg Delegates" 3000
+	fleet "Pug Delegates" 3000
 	object
 		sprite "star/patir core"
 		period 10
