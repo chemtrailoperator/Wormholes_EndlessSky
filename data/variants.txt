@@ -6,10 +6,10 @@ ship "Bactrian" "Delegate Bactrian"
 		"Jump Drive"
 		"Hyperdrive"
 		"Fuel Pod" 5
-		"Chameleon Anti-missile" 2
+		"Chameleon Anti-Missile" 2
 		"Electron Turret" 3
-		"Bufaer Atomic Thruster"
-		"Bufaer Atomic Steering"
+		`"Bufaer" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
 		"Boulder Reactor"
 		"Hai Ravine Batteries"
 		"LP144a Battery Pack"
