@@ -15,7 +15,7 @@
 #		Syndicate
 #						Primary				Sterling Rivers	Vanguard				Moonlight
 #						Auxiliary			Corbin Westlake	Manta
-#						Assistant			<Unassigned>		Splinter
+#						Assistant			<Unassigned>		Palavret
 #		Remnant
 #						Primary				Chilia				Albatross				Starbreather		
 #						Auxiliary			Statly				Merganser
@@ -112,7 +112,7 @@
 #Pug
 #						Primary									Pug Arfecta
 #						Auxiliary								Pug Arfecta
-#						Assistant								Pug Arfecta
+#						Assistant								Pug Maboro
 
 
 #Leftover names:
