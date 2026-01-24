@@ -1,4 +1,4 @@
-ship "Bactrian" "Delegate Bactrian"
+ship "Bactrian" "Bactrian (Delegate)"
 	outfits
 		"Galactic Keystone"
 		"Hai Diamond Regenerator"
@@ -18,8 +18,8 @@ ship "Bactrian" "Delegate Bactrian"
 ship "Vanguard" "Vanguard (Delegate)"
 	outfits
 		"Particle Cannon" 5
-		"Warder Anti-missile"
-		"Quantum Keystone"
+		"Warder Anti-Missile"
+		"Galactic Keystone"
 		"Liquid Nitrogen Cooler"
 		"Cargo Scanner"
 		"Tactical Scanner"
@@ -30,16 +30,10 @@ ship "Vanguard" "Vanguard (Delegate)"
 		"Fuel Pod" 5
 		"Hai Gorge Batteries"
 		"Fusion Reactor"
-		"Bondir Atomic Thruster"
-		"Bondir Atomic Steering"
+		`"Bondir" Atomic Thruster`
+		`"Bondir" Atomic Steering`
 		"Laser Rifle" 19
 		"Fragmentation Grenades" 7
-	gun "Particle Cannon"
-	gun "Particle Cannon"
-	gun "Particle Cannon"
-	gun "Particle Cannon"
-	gun "Particle Cannon"
-	turret "Warder Anti-missile"
 
 ship "Albatross" "Albatross (Delegate)"
 	outfits
@@ -49,6 +43,7 @@ ship "Albatross" "Albatross (Delegate)"
 		"Jump Drive"
 		"Scram Drive"
 		"Quantum Key Stone"
+		"Galactic Keystone"
 		"Ka'het Support Cooling"
 		"Crystal Capacitor"
 		"Epoch Cell"
@@ -67,7 +62,7 @@ ship "Albatross" "Albatross (Delegate)"
 ship "Dreadnought" "Dreadnought (Delegate)"
 	outfits
 		"Plasma Cannon" 4
-		"Chameleon Anti-missile" 2
+		"Chameleon Anti-Missile" 2
 		"Plasma Turret" 3
 		"Jump Drive"
 		"Fuel Pod" 4
@@ -95,8 +90,8 @@ ship "Dreadnought" "Dreadnought (Delegate)"
 ship "Falcon" "Falcon (Delegate)"
 	outfits
 		"Plasma Cannon" 2
-		"Chameleon Anti-missile" 2
-		"Quantum Keystone"
+		"Chameleon Anti-Missile" 2
+		"Galactic Keystone"
 		"Hai Diamond Regenerator"
 		"Jump Drive"
 		"Systems Core (Medium)"
@@ -106,37 +101,35 @@ ship "Falcon" "Falcon (Delegate)"
 		"Liquid Nitrogen Cooler"
 		"Hai Ravine Batteries"
 		"Fusion Reactor"
-		"Bondir Atomic Steering"
+		`"Bondir" Atomic Thruster`
 		"A370 Atomic Thruster"
 		"Pulse Rifle" 52
 
 
 ship "Star Queen" "Star Queen (Delegate)"
 	outfits
-		"Chameleon Anti-missile" 2
-		"Quantum Keystone"
+		"Chameleon Anti-Missile" 2
+		"Galactic Keystone"
 		"Jump Drive"
 		"Hyperdrive"
 		"Outfits Expansion"
 		"Luxury Accomodations" 3
 		"Fuel Pod" 5
 		"Catalytic Ramscoop"
-		"Benga Reverse Thruster"
-		"Benga Atomic Thruster"
+		`"Benga" Reverse Thruster`
+		`"Benga" Atomic Thruster`
 		"A255 Atomic Steering"
 		"Hai Fissure Batteries"
 		"Geode Reactor"
-	turret "Chameleon Anti-missile"
-	turret "Chameleon Anti-missile"
 
-ship "Corvette" "Corvette (Delegate)"
+#ship "Corvette" "Corvette (Delegate)"
 
-ship "Manta" "Manta (Delegate)"
-ship "Splinter" "Splinter (Delegate)"
-ship "Merganser" "Merganser (Delegate)"
-ship "Ibis" "Ibis (Delegate)"
-ship "Auxiliary" "Auxiliary (Delegate)"
-ship "Cruiser" "Cruiser (Delegate)"
-ship "Carrier" "Carrier (Delegate)"
-ship "Bounder" "Bounder (Delegate)"  
-ship "Palavret" "Palavret" (Delegate)
+#ship "Manta" "Manta (Delegate)"
+#ship "Splinter" "Splinter (Delegate)"
+#ship "Merganser" "Merganser (Delegate)"
+#ship "Ibis" "Ibis (Delegate)"
+#ship "Auxiliary" "Auxiliary (Delegate)"
+#ship "Cruiser" "Cruiser (Delegate)"
+#ship "Carrier" "Carrier (Delegate)"
+#ship "Bounder" "Bounder (Delegate)"  
+#ship "Palavret" "Palavret (Delegate)"
