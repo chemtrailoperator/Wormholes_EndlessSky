@@ -18,6 +18,7 @@ outfit "Galactic Keystone"
 	thumbnail "outfit/galacticlicense"
 	"unique" 1
 	"galactic license" 1
+	"quantum keystone" 1
 	description "This small band is a piece of Yottrite-Diamond compound that has data encoded directly to its crystalline structure. It unlocks the wormhole gates used by Galactic Command when authenticated by a scan of the bearer's genetic code. It also somehow functions as a universal translator."
 	
 event "reveal successors wormhole"

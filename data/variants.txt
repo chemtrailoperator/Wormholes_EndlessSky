@@ -1,6 +1,5 @@
-ship "Bactrian" "Bactrian (Delegate)"
+ship "Bactrian" "Delegate Bactrian"
 	outfits
-		"Quantum Keystone"
 		"Galactic Keystone"
 		"Hai Diamond Regenerator"
 		"Catalytic Ramscoop"
@@ -13,13 +12,8 @@ ship "Bactrian" "Bactrian (Delegate)"
 		"Bufaer Atomic Steering"
 		"Boulder Reactor"
 		"Hai Ravine Batteries"
-		"Lp144a Battery Pack"
+		"LP144a Battery Pack"
 		"Laser Rifle" 15
-	turret "Electron Turret"
-	turret "Electron Turret"
-	turret "Chameleon Anti-missile"
-	turret "Chameleon Anti-missile"
-	turret "Chameleon Anti-missile"
 
 ship "Vanguard" "Vanguard (Delegate)"
 	outfits

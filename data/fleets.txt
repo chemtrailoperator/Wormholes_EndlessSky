@@ -18,11 +18,7 @@ fleet "Republic Delegates"
 	personality vindictive forbearing unconstrained
 	names "republic capital"
 	variant 1
-		"Bactrian (Delegate)"
-	variant 1
-		"Beserker"
-	variant 1
-		"Hawk"
+		"Delegate Bactrian"
 
 fleet "Free Worlds Delegates"
 	government "Free Worlds Detail"
