@@ -119,6 +119,21 @@ ship "Falcon" "Falcon (Delegate)"
 
 ship "Star Queen" "Star Queen (Delegate)"
 	outfits
+		"Chameleon Anti-missile" 2
+		"Quantum Keystone"
+		"Jump Drive"
+		"Hyperdrive"
+		"Outfits Expansion"
+		"Luxury Accomodations" 3
+		"Fuel Pod" 5
+		"Catalytic Ramscoop"
+		"Benga Reverse Thruster"
+		"Benga Atomic Thruster"
+		"A255 Atomic Steering"
+		"Hai Fissure Batteries"
+		"Geode Reactor"
+	turret "Chameleon Anti-missile"
+	turret "Chameleon Anti-missile"
 
 ship "Corvette" "Corvette (Delegate)"
 
