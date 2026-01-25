@@ -155,6 +155,30 @@ ship "Heavy Shuttle" "Heavy Shuttle (Delegate)"
 		"Quantum Bloodstone"
 		"Galactic Keystone"
 
+ship "Corvette" "Corvette (Delegate)"
+	outfits
+		`"Biroo" Atomic Steering`
+		`"Biroo" Atomic Thruster`
+		"Chameleon Anti-Missile"
+		"Deuterium Slush Tank"
+		"Geode Reactor"
+		"Galactic Keystone"
+		"Hai Chasm Batteries"
+		"Hai Diamond Regenerator"
+		"Hai Fissure Batteries"
+		"Hai Williwaw Cooling" 2
+		"Heavy Laser" 2
+		"Heavy Laser Turret"
+		Hyperdrive
+		"Jump Drive"
+		"KP-6 Photovoltaic Array"
+		"Large Radar Jammer"
+		"Laser Rifle" 3
+		"Outfits Expansion"
+		"Quantum Bloodstone"
+		"Sidewinder Missile" 90
+		"Sidewinder Missile Launcher" 2
+
 #ship "Corvette" "Corvette (Delegate)" CO
 #ship "Manta" "Manta (Delegate)" LA
 #ship "Splinter" "Splinter (Delegate)" LA
