@@ -179,7 +179,6 @@ ship "Corvette" "Corvette (Delegate)"
 		"Sidewinder Missile" 90
 		"Sidewinder Missile Launcher" 2
 
-#ship "Corvette" "Corvette (Delegate)" CO
 #ship "Manta" "Manta (Delegate)" LA
 #ship "Splinter" "Splinter (Delegate)" LA
 #ship "Cruiser" "Cruiser (Delegate)" LA

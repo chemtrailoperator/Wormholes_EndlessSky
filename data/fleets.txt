@@ -18,7 +18,7 @@ fleet "Republic Delegates"
 	personality vindictive forbearing unconstrained
 	names "republic capital"
 	variant 1
-		"Heavy Shuttle"
+		"Heavy Shuttle (Delegate)"
 	variant 1
 		"Carrier"
 	variant 2
@@ -45,7 +45,7 @@ fleet "Deep Delegates"
 	variant 1
 		"Star Queen (Delegate)"
 	variant 1
-		"Corvette"
+		"Corvette (Delegate)"
 
 fleet "Syndicate Delegates"
 	government "Syndicate Detail"
