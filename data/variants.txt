@@ -245,6 +245,11 @@ ship "Carrier" "Carrier (Delegate)"
 #ship "Manta" "Manta (Delegate)" LA
 #ship "Splinter" "Splinter (Delegate)" LA
 #ship "Cruiser" "Cruiser (Delegate)" LA
-#ship "Carrier" "Carrier (Delegate)" CO
 #ship "Bounder" "Bounder (Delegate)"  LA
+
+# Unfettered Solifuge
+# Unfettered Shield Beetle
+# Hai Shield Beetle CO
+# Hai Pond Strider CO
+# Hai Centipede
 
