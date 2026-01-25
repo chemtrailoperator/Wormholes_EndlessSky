@@ -126,28 +126,21 @@ ship "Atenuatia" "Atenuatia (Delegate)"
 	add attributes
 		"galactic keystone" 1
 
-#ship "Corvette" "Corvette (Delegate)"
-
-<<<<<<< HEAD:data/Fleets/variants.txt
-ship "Manta" "Manta (Delegate)"
-ship "Splinter" "Splinter (Delegate)"
 ship "Merganser" "Merganser (Delegate)"
+	add attributes
+		"galactic keystone" 1
+		
 ship "Ibis" "Ibis (Delegate)"
-ship "Heavy Shuttle" "Heavy Shuttle (Delegate)"
-ship "Cruiser" "Cruiser (Delegate)"
-ship "Carrier" "Carrier (Delegate)"
-ship "Bounder" "Bounder (Delegate)"  
-ship "Palavret" "Palavret" (Delegate)
-=======
+	add attributes 
+		"galactic keystone" 1
+
+
+#ship "Corvette" "Corvette (Delegate)"
 #ship "Manta" "Manta (Delegate)"
 #ship "Splinter" "Splinter (Delegate)"
-#ship "Merganser" "Merganser (Delegate)" Just add Galactic Keystone
-#ship "Ibis" "Ibis (Delegate)" Just add Galactic Keystone
-#ship "Auxiliary" "Auxiliary (Delegate)"
 #ship "Cruiser" "Cruiser (Delegate)"
-
 # I'll do these
+#ship "Heavy Shuttle" "Heavy Shuttle (Delegate)"
 #ship "Carrier" "Carrier (Delegate)"
 #ship "Bounder" "Bounder (Delegate)"  
 #ship "Palavret" "Palavret (Delegate)"
->>>>>>> 2ddf11ef71c0774d01f49ef309ef33b1d210c248:data/variants.txt

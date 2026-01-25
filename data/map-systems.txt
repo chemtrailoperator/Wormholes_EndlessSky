@@ -17,7 +17,7 @@ galaxy "Galactic Command"
 	pos 10000 -20000
 
 system "Watcher 1"
-	"display name" " "
+	"display name" "Watcher"
 	link "Watcher 2"
 	link "Watcher 8"
 	link Olympus
@@ -25,7 +25,7 @@ system "Watcher 1"
 	pos 10000 -20071
 
 system "Watcher 2"
-	"display name" " "
+	"display name" "Watcher"
 	link "Watcher 3"
 	link "Watcher 1"
 	link Olympus
@@ -33,7 +33,7 @@ system "Watcher 2"
 	pos 10050 -20050
 	
 system "Watcher 3"
-	"display name" " "
+	"display name" "Watcher"
 	link "Watcher 4"
 	link "Watcher 2"
 	link Olympus
@@ -41,7 +41,7 @@ system "Watcher 3"
 	pos 10071 -20000
 	
 system "Watcher 4"
-	"display name" " "
+	"display name" "Watcher"
 	link "Watcher 5"
 	link "Watcher 3"
 	link Olympus
@@ -49,7 +49,7 @@ system "Watcher 4"
 	pos 10050 -19950
 	
 system "Watcher 5"
-	"display name" " "
+	"display name" "Watcher"
 	link "Watcher 6"
 	link "Watcher 4"
 	link Olympus
@@ -57,7 +57,7 @@ system "Watcher 5"
 	pos 10000 -19929
 	
 system "Watcher 6"
-	"display name" " "
+	"display name" "Watcher"
 	link "Watcher 7"
 	link "Watcher 5"
 	link Olympus
@@ -65,7 +65,7 @@ system "Watcher 6"
 	pos 9950 -19950
 	
 system "Watcher 7"
-	"display name" " "
+	"display name" "Watcher"
 	link "Watcher 8"
 	link "Watcher 6"
 	link Olympus
@@ -73,7 +73,7 @@ system "Watcher 7"
 	pos 9929 -20000
 	
 system "Watcher 8"
-	"display name" " "
+	"display name" "Watcher"
 	link "Watcher 1"
 	link "Watcher 7"
 	link Olympus
@@ -97,27 +97,27 @@ system "Olympus"
 	link "Watcher 6"
 	link "Watcher 7"
 	link "Watcher 8"
-	fleet "Republic Delegates" 30000
-	fleet "Free Worlds Delegates" 30000
-	fleet "Deep Delegates" 30000
-	fleet "Syndicate Delegates" 30000
-	fleet "Remnant Delegates" 30000
-	fleet "Arach Delegates" 30000
-	fleet "Kimek Delegates" 30000
-	fleet "Saryd Delegates" 30000
-	fleet "Coalition Delegates" 30000
-	fleet "Scin Delegates" 30000
-	fleet "Vi Delegates" 30000
-	fleet "Wanderer Delegates" 30000
-	fleet "Hai Delegates" 30000
-	fleet "Hai (Unfettered) Delegates" 30000
-	fleet "Avgi Delegates" 30000
-	fleet "Erabu Delegates" 30000
-	fleet "Megasa Delegates" 30000
-	fleet "Successor Delegates" 30000
-	fleet "Efreti Delegates" 30000
-	fleet "Quarg Delegates" 30000
-	fleet "Pug Delegates" 30000
+	fleet "Republic Delegates" 35000
+	fleet "Free Worlds Delegates" 35000
+	fleet "Deep Delegates" 35000
+	fleet "Syndicate Delegates" 35000
+	fleet "Remnant Delegates" 35000
+	fleet "Arach Delegates" 35000
+	fleet "Kimek Delegates" 35000
+	fleet "Saryd Delegates" 35000
+	fleet "Coalition Delegates" 35000
+	fleet "Scin Delegates" 35000
+	fleet "Vi Delegates" 35000
+	fleet "Wanderer Delegates" 35000
+	fleet "Hai Delegates" 35000
+	fleet "Hai (Unfettered) Delegates" 35000
+	fleet "Avgi Delegates" 35000
+	fleet "Erabu Delegates" 35000
+	fleet "Megasa Delegates" 35000
+	fleet "Successor Delegates" 35000
+	fleet "Efreti Delegates" 35000
+	fleet "Quarg Delegates" 35000
+	fleet "Pug Delegates" 35000
 	object
 		sprite "star/patir core"
 		period 10

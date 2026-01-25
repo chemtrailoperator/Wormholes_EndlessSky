@@ -18,7 +18,7 @@ fleet "Republic Delegates"
 	personality vindictive forbearing unconstrained
 	names "republic capital"
 	variant 1
-		"Auxiliary"
+		"Heavy Shuttle"
 	variant 1
 		"Carrier"
 	variant 2
@@ -65,9 +65,9 @@ fleet "Remnant Delegates"
 	variant 1
 		"Albatross (Delegate)"
 	variant 1
-		"Merganser"
+		"Merganser (Delegate)"
 	variant 1
-		"Ibis"
+		"Ibis (Delegate)"
 
 fleet "Coalition Delegates"
 	government "Heliarch Detail"
