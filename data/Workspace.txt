@@ -5,24 +5,29 @@
 #Faction				Position			Name				Ship					Ship Name
 
 #Humans
-#		Free Worlds
+#		Free Worlds done
 #						Primary				<player>			<flagship>				<player>
 #						Auxiliary			<Unassigned>		Dreadnought
 #						Assistant			<Unassigned>		Falcon
-#		Deep
+#		Deep done
 #						Primary				Samantha Hawthorne	Star Queen
 #						Auxiliary			<Unassigned>		Bactrian
 #						Assistant			<Unassigned>		Corvette
-#		Syndicate
+#		Syndicate done
 #						Primary				Sterling Rivers	Vanguard				Moonlight
 #						Auxiliary			Corbin Westlake	Manta
 #						Assistant			<Unassigned>		Palavret
-#		Remnant
+#		Remnant done
 #						Primary				Chilia				Albatross				Starbreather		
 #						Auxiliary			Statly				Merganser
 #						Assistant			Emkapi				Ibis					Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
+<<<<<<< HEAD
 #		Republic (Main)
 #						Primary				Cyrus Patton		Heavy Shuttle
+=======
+# done		Republic (Main)
+#						Primary				Cyrus Patton		Auxiliary
+>>>>>>> 2ddf11ef71c0774d01f49ef309ef33b1d210c248
 #						Auxiliary			Lila Carter		Cruiser
 #						Assistant			Stephen Sills		Carrier					R.D.S. Normandy
 #						Assistant			Mark Kensing		Cruiser

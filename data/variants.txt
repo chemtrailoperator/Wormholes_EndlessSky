@@ -1,0 +1,147 @@
+ship "Bactrian" "Bactrian (Delegate)"
+	outfits
+		"Galactic Keystone"
+		"Hai Diamond Regenerator"
+		"Catalytic Ramscoop"
+		"Jump Drive"
+		"Hyperdrive"
+		"Fuel Pod" 5
+		"Chameleon Anti-Missile" 2
+		"Electron Turret" 3
+		`"Bufaer" Atomic Thruster`
+		`"Bufaer" Atomic Steering`
+		"Boulder Reactor"
+		"Hai Ravine Batteries"
+		"LP144a Battery Pack"
+		"Laser Rifle" 15
+
+ship "Vanguard" "Vanguard (Delegate)"
+	outfits
+		"Particle Cannon" 5
+		"Warder Anti-Missile"
+		"Galactic Keystone"
+		"Liquid Nitrogen Cooler"
+		"Cargo Scanner"
+		"Tactical Scanner"
+		"Outfit Scanner"
+		"Jump Drive"
+		"Hyperdrive"
+		"Systems Core (Small)"
+		"Fuel Pod" 5
+		"Hai Gorge Batteries"
+		"Fusion Reactor"
+		`"Bondir" Atomic Thruster`
+		`"Bondir" Atomic Steering`
+		"Laser Rifle" 19
+		"Fragmentation Grenades" 7
+
+ship "Albatross" "Albatross (Delegate)"
+	outfits
+		"Inhibitor Cannon" 4
+		"Point Defense Turret" 3
+		"Fuel Processor"
+		"Jump Drive"
+		"Scram Drive"
+		"Quantum Key Stone"
+		"Galactic Keystone"
+		"Ka'het Support Cooling"
+		"Crystal Capacitor"
+		"Epoch Cell"
+		"Aeon Cell"
+		"Smelter-Class Thruster"
+		"Smelter-Class Steering"
+		"Bellows-Class Afterburner"
+	gun "Inhibitor Cannon"
+	gun "Inhibitor Cannon"
+	gun "Inhibitor Cannon"
+	gun "Inhibitor Cannon"
+	turret "Point Defense Turret"
+	turret "Point Defense Turret"
+	turret "Point Defense Turret"
+	
+ship "Dreadnought" "Dreadnought (Delegate)"
+	outfits
+		"Plasma Cannon" 4
+		"Chameleon Anti-Missile" 2
+		"Plasma Turret" 3
+		"Jump Drive"
+		"Fuel Pod" 4
+		"Liquid Helium Cooler"
+		"Tactical Scanner"
+		"Small Radar Jammer"
+		"Fuel Module"
+		"D41-HY Shield Generator"
+		"Hai Gorge Batteries"
+		"Boulder Reactor"
+		"Bufaer Atomic Steering"
+		"A525 Atomic Thruster"
+		"Fragmentation Grenades" 40
+		"Laser Rifle" 37
+	gun "Plasma Cannon"
+	gun "Plasma Cannon"
+	gun "Plasma Cannon"
+	gun "Plasma Cannon"
+	turret "Chameleon Anti-missile"
+	turret "Chameleon Anti-missile"
+	turret "Plasma Turret"
+	turret "Plasma Turret"
+	turret "Plasma Turret"
+	
+ship "Falcon" "Falcon (Delegate)"
+	outfits
+		"Plasma Cannon" 2
+		"Chameleon Anti-Missile" 2
+		"Galactic Keystone"
+		"Hai Diamond Regenerator"
+		"Jump Drive"
+		"Systems Core (Medium)"
+		"Scram Drive"
+		"Fuel Pod" 3
+		"Catalytic Ramscoop"
+		"Liquid Nitrogen Cooler"
+		"Hai Ravine Batteries"
+		"Fusion Reactor"
+		`"Bondir" Atomic Thruster`
+		"A370 Atomic Thruster"
+		"Pulse Rifle" 52
+
+
+ship "Star Queen" "Star Queen (Delegate)"
+	outfits
+		"Chameleon Anti-Missile" 2
+		"Galactic Keystone"
+		"Jump Drive"
+		"Hyperdrive"
+		"Outfits Expansion"
+		"Luxury Accomodations" 3
+		"Fuel Pod" 5
+		"Catalytic Ramscoop"
+		`"Benga" Reverse Thruster`
+		`"Benga" Atomic Thruster`
+		"A255 Atomic Steering"
+		"Hai Fissure Batteries"
+		"Geode Reactor"
+
+#ship "Corvette" "Corvette (Delegate)"
+
+<<<<<<< HEAD:data/Fleets/variants.txt
+ship "Manta" "Manta (Delegate)"
+ship "Splinter" "Splinter (Delegate)"
+ship "Merganser" "Merganser (Delegate)"
+ship "Ibis" "Ibis (Delegate)"
+ship "Heavy Shuttle" "Heavy Shuttle (Delegate)"
+ship "Cruiser" "Cruiser (Delegate)"
+ship "Carrier" "Carrier (Delegate)"
+ship "Bounder" "Bounder (Delegate)"  
+ship "Palavret" "Palavret" (Delegate)
+=======
+#ship "Manta" "Manta (Delegate)"
+#ship "Splinter" "Splinter (Delegate)"
+#ship "Merganser" "Merganser (Delegate)"
+#ship "Ibis" "Ibis (Delegate)"
+#ship "Auxiliary" "Auxiliary (Delegate)"
+#ship "Cruiser" "Cruiser (Delegate)"
+#ship "Carrier" "Carrier (Delegate)"
+#ship "Bounder" "Bounder (Delegate)"  
+#ship "Palavret" "Palavret (Delegate)"
+>>>>>>> 2ddf11ef71c0774d01f49ef309ef33b1d210c248:data/variants.txt
