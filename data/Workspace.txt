@@ -3,6 +3,7 @@
 #Ships are, by default, the "delegate" variant. ship "Sparrow" "Sparrow (Delegate)"
 
 #Faction				Position			Name				Ship					Ship Name
+
 #Humans
 #		Free Worlds
 #						Primary				<player>			<flagship>				<player>
@@ -21,7 +22,7 @@
 #						Auxiliary			Statly				Merganser
 #						Assistant			Emkapi				Ibis					Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
 #		Republic (Main)
-#						Primary				Cyrus Patton		Auxiliary
+#						Primary				Cyrus Patton		Heavy Shuttle
 #						Auxiliary			Lila Carter		Cruiser
 #						Assistant			Stephen Sills		Carrier					R.D.S. Normandy
 #						Assistant			Mark Kensing		Cruiser
