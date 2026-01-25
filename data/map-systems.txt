@@ -424,6 +424,7 @@ system "Hub: Concerto"
 	habitable 700
 	belt 1245
 	haze _menu/haze-67
+	fleet "Avgi Delegates" 100
 	object
 		sprite star/a5
 		period 10

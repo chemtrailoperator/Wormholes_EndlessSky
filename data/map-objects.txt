@@ -1,5 +1,5 @@
 
-# Copyright (c) 2025 by ChemtrailOperator
+# Copyright (c) 2026 by ChemtrailOperator
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -105,6 +105,7 @@ planet "Gate: Gamma Corvi"
 	wormhole "Gate: Gamma Corvi"
 	
 wormhole "Gate: Gamma Corvi"
+	
 	"display name" "Gate: Gamma Corvi"
 	link "Hub: Sol" "Terminal: Gamma Corvi"
 	link "Terminal: Gamma Corvi" "Hub: Sol"
@@ -115,6 +116,7 @@ planet "Gate: Epsilon Leonis"
 	wormhole "Gate: Epsilon Leonis"
 	
 wormhole "Gate: Epsilon Leonis"
+	
 	"display name" "Gate: Epsilon Leonis"
 	link "Terminal: Epsilon Leonis" "Hub: Sol"
 	link "Hub: Sol" "Terminal: Epsilon Leonis"
@@ -125,6 +127,7 @@ planet "Gate: Arculus"
 	wormhole "Gate: Arculus"
 	
 wormhole "Gate: Arculus"
+	
 	"display name" "Gate: Arculus"
 	link "Terminal: Arculus" "Hub: Sol"
 	link "Hub: Sol" "Terminal: Arculus"
@@ -135,16 +138,19 @@ planet "Gate: Markab"
 	wormhole "Gate: Markab"
 	
 wormhole "Gate: Markab"
+	
 	"display name" "Gate: Markab"
 	link "Terminal: Markab" "Hub: Sol"
 	link "Hub: Sol" "Terminal: Markab"
 	color "Drak Wormhole"
 
 planet "Gate: Wah Yoot"
+	
 	attributes "requires: galactic license"
 	wormhole "Gate: Wah Yoot"
 	
 wormhole "Gate: Wah Yoot"
+	
 	"display name" "Gate: Wah Yoot"
 	link "Terminal: Wah Yoot" "Hub: Ya Hai"
 	link "Hub: Ya Hai" "Terminal: Wah Yoot"
@@ -155,6 +161,7 @@ planet "Gate: Sol Kimek"
 	wormhole "Gate: Sol Kimek"
 	
 wormhole "Gate: Sol Kimek"
+	
 	"display name" "Gate: Sol Kimek"
 	link "Terminal: Sol Kimek" "Hub: Ki War Ek"
 	link "Hub: Ki War Ek" "Terminal: Sol Kimek"
@@ -165,6 +172,7 @@ planet "Gate: Sol Saryd"
 	wormhole "Gate: Sol Saryd"
 	
 wormhole "Gate: Sol Saryd"
+	
 	"display name" "Gate: Sol Saryd"
 	link "Terminal: Sol Saryd" "Hub: Ki War Ek"
 	link "Hub: Ki War Ek" "Terminal: Sol Saryd"
@@ -175,6 +183,7 @@ planet "Gate: Sol Arach"
 	wormhole "Gate: Sol Arach"
 	
 wormhole "Gate: Sol Arach"
+	
 	"display name" "Gate: Sol Arach"
 	link "Terminal: Sol Arach" "Hub: Ki War Ek"
 	link "Hub: Ki War Ek" "Terminal: Sol Arach"
@@ -185,6 +194,7 @@ planet "Gate: Mego Inito"
 	wormhole "Gate: Mego Inito"
 	
 wormhole "Gate: Mego Inito"
+	
 	"display name" "Gate: Mego Inito"
 	link "Terminal: Mego Inito" "Hub: Erabu Lemeta"
 	link "Hub: Erabu Lemeta" "Terminal: Mego Inito"
@@ -195,6 +205,7 @@ planet "Gate: Zeinar"
 	wormhole "Gate: Zeinar"
 	
 wormhole "Gate: Zeinar"
+	
 	"display name" "Gate: Zeinar"
 	link "Terminal: Zeinar" "Hub: Heutesl"
 	link "Hub: Heutesl" "Terminal: Zeinar"
@@ -205,6 +216,7 @@ planet "Gate: Kaliptari"
 	wormhole "Gate: Kaliptari"
 	
 wormhole "Gate: Kaliptari"
+	
 	"display name" "Gate: Kaliptari"
 	link "Terminal: Kaliptari" "Hub: Ka'ch'chrai"
 	link "Hub: Ka'ch'chrai" "Terminal: Kaliptari"

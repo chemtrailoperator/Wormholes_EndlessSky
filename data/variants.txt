@@ -122,14 +122,20 @@ ship "Star Queen" "Star Queen (Delegate)"
 		"Hai Fissure Batteries"
 		"Geode Reactor"
 
+ship "Atenuatia" "Atenuatia (Delegate)"
+	add attributes
+		"galactic keystone" 1
+
 #ship "Corvette" "Corvette (Delegate)"
 
 #ship "Manta" "Manta (Delegate)"
 #ship "Splinter" "Splinter (Delegate)"
-#ship "Merganser" "Merganser (Delegate)"
-#ship "Ibis" "Ibis (Delegate)"
+#ship "Merganser" "Merganser (Delegate)" Just add Galactic Keystone
+#ship "Ibis" "Ibis (Delegate)" Just add Galactic Keystone
 #ship "Auxiliary" "Auxiliary (Delegate)"
 #ship "Cruiser" "Cruiser (Delegate)"
+
+# I'll do these
 #ship "Carrier" "Carrier (Delegate)"
 #ship "Bounder" "Bounder (Delegate)"  
 #ship "Palavret" "Palavret (Delegate)"

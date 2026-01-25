@@ -173,7 +173,7 @@ fleet "Avgi Delegates"
 	personality vindictive forbearing unconstrained
 	names "avgi military names"
 	variant 1
-		"Atenuatia"
+		"Atenuatia (Delegate)"
 	variant 1
 		"Difraktos"
 	variant 1
