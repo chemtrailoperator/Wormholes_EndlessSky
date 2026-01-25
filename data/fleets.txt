@@ -20,7 +20,7 @@ fleet "Republic Delegates"
 	variant 1
 		"Heavy Shuttle (Delegate)"
 	variant 1
-		"Carrier"
+		"Carrier (Delegate)"
 	variant 2
 		"Cruiser"
 	variant 1
@@ -56,7 +56,8 @@ fleet "Syndicate Delegates"
 	variant 1
 		"Manta"
 	variant 1
-		"Palavret"
+		"Palavret (Delegate)"
+		"Barb" 2
 
 fleet "Remnant Delegates"
 	government "Remnant Detail"

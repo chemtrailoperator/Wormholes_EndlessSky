@@ -179,9 +179,72 @@ ship "Corvette" "Corvette (Delegate)"
 		"Sidewinder Missile" 90
 		"Sidewinder Missile Launcher" 2
 
+ship "Palavret" "Palavret (Delegate)"
+	outfits
+		"Banisher Grav-Turret"
+		"Bow Drive (Meteor Class)"
+		"Cloaking Device"
+		"Double Plasma Core"
+		"Firelight Missile" 50
+		"Firelight Missile Bank" 2
+		"Firelight Storage Rack"
+		"Fuel Module"
+		"Fuel Processor"
+		"Grab-Strike Turret" 4
+		"Jump Drive"
+		"Ka'het Primary Cooling"
+		"Quantum Bloodstone"
+		"Galactic Keystone"
+		"Quantum Vacuum Battery"
+		"Small Heat Shunt" 3
+		"Steering (Planetary Class)"
+		"Systems Core (Medium)"
+		"Thermal Repeater Rifle" 196
+		"Thruster (Planetary Class)"
+		"Warder Anti-Missile"
+
+ship "Carrier" "Carrier (Delegate)"
+	remove bays
+	add attributes
+		"outfit space" 200
+		"weapon capacity" 100
+		"engine capacity" 100
+		"fuel capacity" 300
+		"hull" 1000
+		"required crew" 15
+		"cargo space" 150
+	outfits
+		`"Bufaer" Atomic Steering`
+		`"Bufaer" Atomic Thruster`
+		"Boulder Reactor"
+		Brig
+		"Cargo Scanner"
+		"Chameleon Anti-Missile" 2
+		"Fragmentation Grenades" 40
+		"Fuel Pod" 4
+		"Hai Diamond Regenerator" 2
+		"Hai Valley Batteries"
+		"Hai Williwaw Cooling" 3
+		"Heavy Laser Turret"
+		Hyperdrive
+		"Ion Cannon" 2
+		"Jump Drive"
+		"Korath Detainer" 2
+		"Large Radar Jammer" 2
+		"Laser Rifle" 40
+		"Luxury Accommodations"
+		"Outfit Scanner"
+		"Pulse Rifle" 40
+		"Quantum Bloodstone"
+		"Security Station" 2
+		"Tactical Scanner"
+		"Bellows Class Afterburner"
+		"Catalytic Ramscoop"
+
+
 #ship "Manta" "Manta (Delegate)" LA
 #ship "Splinter" "Splinter (Delegate)" LA
 #ship "Cruiser" "Cruiser (Delegate)" LA
 #ship "Carrier" "Carrier (Delegate)" CO
 #ship "Bounder" "Bounder (Delegate)"  LA
-#ship "Palavret" "Palavret (Delegate)" CO
+
