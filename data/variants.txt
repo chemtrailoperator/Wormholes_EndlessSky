@@ -135,12 +135,11 @@ ship "Ibis" "Ibis (Delegate)"
 		"galactic keystone" 1
 
 
-#ship "Corvette" "Corvette (Delegate)"
-#ship "Manta" "Manta (Delegate)"
-#ship "Splinter" "Splinter (Delegate)"
-#ship "Cruiser" "Cruiser (Delegate)"
-# I'll do these
-#ship "Heavy Shuttle" "Heavy Shuttle (Delegate)"
-#ship "Carrier" "Carrier (Delegate)"
-#ship "Bounder" "Bounder (Delegate)"  
-#ship "Palavret" "Palavret (Delegate)"
+#ship "Corvette" "Corvette (Delegate)" CO
+#ship "Manta" "Manta (Delegate)" LA
+#ship "Splinter" "Splinter (Delegate)" LA
+#ship "Cruiser" "Cruiser (Delegate)" LA
+#ship "Heavy Shuttle" "Heavy Shuttle (Delegate)" CO
+#ship "Carrier" "Carrier (Delegate)" CO
+#ship "Bounder" "Bounder (Delegate)"  LA
+#ship "Palavret" "Palavret (Delegate)" CO
