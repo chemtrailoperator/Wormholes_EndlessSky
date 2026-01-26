@@ -15,7 +15,7 @@
 #						Assistant			<Unassigned>		Corvette
 #		Syndicate done
 #						Primary				Sterling Rivers	Vanguard				Moonlight
-#						Auxiliary			Corbin Westlake	Manta
+#						Auxiliary			Corbin Westlake	Marauder Manta
 #						Assistant			<Unassigned>		Palavret
 #		Remnant done
 #						Primary				Chilia				Albatross				Starbreather		

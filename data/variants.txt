@@ -242,14 +242,90 @@ ship "Carrier" "Carrier (Delegate)"
 		"Catalytic Ramscoop"
 
 
-#ship "Manta" "Manta (Delegate)" LA
+ship "Marauder Manta" "Marauder Manta (Delegate)"
+	outfits
+		Fire-Lance 4
+		"Fuel Processor" 2
+		"Jump Drive"
+		"Large Heat Shunt"
+		"Laser Rifle" 8
+		"Plasma Core"
+		"Quantum Keystone"
+		"Security Station" 3
+		"Steering (Planetary Class)"
+		"Systems Core (Small)"
+		"Thruster (Planetary Class)"
+		"Warder Anti-Missile"
+		"Galactic Keystone"
+	add attributes
+		"engine capacity" 10
+	gun Fire-Lance
+	gun Fire-Lance
+	gun Fire-Lance
+	gun Fire-Lance
+	turret "Warder Anti-Missile"
+	
 #ship "Splinter" "Splinter (Delegate)" LA
-#ship "Cruiser" "Cruiser (Delegate)" LA
-#ship "Bounder" "Bounder (Delegate)"  LA
 
+ship "Cruiser" "Cruiser (Delegate)"
+	add attributes
+		"fuel capacity" 200
+		hull 600
+		"outfit space" 60
+		"weapon capacity" 40
+	remove bays
+	outfits
+	`"Bufaer" Atomic Thruster`
+		"A525 Atomic Steering"
+		"Armageddon Core"
+		"Asteroid Scanner"
+		"Cargo Scanner"
+		"Catalytic Ramscoop" 2
+		"Chameleon Anti-Missile" 4
+		Damselflyman
+		"Fragmentation Grenades" 25
+		"Fuel Pod" 2
+		"Hai Gorge Batteries"
+		Hyperdrive
+		"Ion Cannon" 4
+		"Jump Drive"
+		"Large Heat Shunt"
+		"Large Radar Jammer"
+		"Laser Rifle" 25
+		"Outfit Scanner"
+		"Outfits Expansion"
+		"Systems Core (Large)"
+		"Tactical Scanner"
+
+ship "Palavret" "Palavret (Delegate)"
+	add attributes
+		"outfit space" 84
+		"fuel capacity" 100
+		"engine capacity" 51
+	remove bays
+	outfits
+		"Fuel Processor" 2
+		"Jump Drive"
+		"Korath Detainer" 2
+		"Large Heat Shunt"
+		"Liquid Sodium Cooler"
+		"Steering (Stellar Class)"
+		"Systems Core (Medium)"
+		"Thermal Repeater Rifle" 196
+		"Thermal Repeater Turret" 6
+		"Thruster (Stellar Class)"
+		"Triple Plasma Core"
+	gun "Korath Detainer"
+	gun "Korath Detainer"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
+	
 # Unfettered Solifuge
 # Unfettered Shield Beetle
 # Hai Shield Beetle CO
 # Hai Pond Strider CO
 # Hai Centipede
-
