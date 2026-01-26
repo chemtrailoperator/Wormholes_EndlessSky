@@ -297,7 +297,7 @@ ship "Cruiser" "Cruiser (Delegate)"
 		"Systems Core (Large)"
 		"Tactical Scanner"
 
-ship "Palavret" "Palavret (Delegate)"
+ship "Palavret" "Palavret (Delegate2)"
 	add attributes
 		"outfit space" 84
 		"fuel capacity" 100
