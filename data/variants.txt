@@ -275,14 +275,13 @@ ship "Cruiser" "Cruiser (Delegate)"
 		"weapon capacity" 40
 	remove bays
 	outfits
-	`"Bufaer" Atomic Thruster`
+		`"Bufaer" Atomic Thruster`
 		"A525 Atomic Steering"
 		"Armageddon Core"
 		"Asteroid Scanner"
 		"Cargo Scanner"
 		"Catalytic Ramscoop" 2
 		"Chameleon Anti-Missile" 4
-		Damselflyman
 		"Fragmentation Grenades" 25
 		"Fuel Pod" 2
 		"Hai Gorge Batteries"
