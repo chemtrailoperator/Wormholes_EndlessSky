@@ -1,8 +1,9 @@
 person "Living_Adblocker"
-	government "Author"
 	frequency 200
-	personality
-		surveillance unconstrained forbearing
+	government "Author"
+	personality surveillance unconstrained forbearing
+	system
+		government "Coalition" "Heliarch"
 	phrase
 		word
 			"The Quarg "
@@ -66,7 +67,6 @@ person "Living_Adblocker"
 			"Day 1,915... No sign of anyone... only advertisements... must block them all... I must defend the galaxy..."
 			"The ads fear me. None go unblocked."
 	ship "Heliarch Executioner"
-		"never disabled"
 
 ship "Heliarch Executioner"
 	plural "Heliarch Executioners"
