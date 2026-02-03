@@ -1,9 +1,7 @@
 person "Living_Adblocker"
-	frequency 200
+	frequency 15000
 	government "Author"
 	personality surveillance unconstrained forbearing
-	system
-		government "Coalition" "Heliarch"
 	phrase
 		word
 			"The Quarg "
