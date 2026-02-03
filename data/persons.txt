@@ -1,0 +1,237 @@
+person "Living_Adblocker"
+	government "Author"
+	frequency 200
+	personality
+		surveillance unconstrained forbearing
+	phrase
+		word
+			"The Quarg "
+		word
+			"are indiffirent to "
+			"hate "
+			"love "
+			"would like to destroy "
+			"are trying to rip off "
+			"are turned on by "
+		word
+			"this thing."
+	phrase
+		word
+			"Take it from me, "
+		word
+			"some formations are better than others."
+			"the Orbitals formation is scientifically accurate... ish."
+			"you would look better in a Heliarch ship."
+			"you do NOT want ads in this game."
+			"Don't bother mining, true wealth comes through the blaster."
+			"you should try the More-Formations plugin."
+	phrase
+		word
+			"Swimming in a nuclear waste pool is safer than standing next to it. (not counting bullets of security guards.)"
+			"More people are killed annually by donkeys than plane crashes."
+			"Australia exports sand and camels to the middle east."
+			"Printer ink is more expensive than human blood."
+			"A woodchuck could chuck 700lbs of wood."
+			"You consume 1 to 2 cups of snot daily."
+			"Coyotes outpace roadrunners by 23 mph."
+			"70% of the time, fast food ice is dirtier than (pre-poop) toilet water."
+			"USPS has delivered mail by cruise missile."
+			"You know what, FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFudge"
+			"If people say they’re busy, it means they have time, but not for you. By the way I'm busy."
+			"Nitrogen Triiodide"
+			"A son of a member of the rolling stones was the father-in-law of his ex-mother-in-law as well as the stepgrandfather of his former wife. "
+			"You can fit 900lbs of shredded cheese in a Subaru WRX."
+			"Termites eat wood faster when listening to metal. You do too."
+			"Broken glass tastes like blood."
+			"Turning it off and on again will fix 95% of software issues. This also works with people too."
+			"There is no species named ‘seagull.’"
+			"Splinter free toilet paper was invented in 1935."
+			"You can make a sword from the blood of your enemies, you just need 300 enemies."
+			"Win10 will always be better."
+			"The ducks in parks are free, you can just take them. I have over 30 now."
+			"itanimulli.com"
+			"New Yorkers bite more people per year than sharks... by two orders of magnitude."
+	phrase
+		word
+			"What's black and in the back of a cop car?   The Seat!       what is wrong with you people..."
+			"How do you keep an idiot in suspense?"
+			"Why did the reactor scientist get so angry? His coworker was having a meltdown."
+			"A lot of things don't taste how they smell. Especially those chemical cakes in urinals. Never making that mistake again."
+			"HELP HOW DO I LAND"
+			"There's a button in here that says nukes. I keep pressing it but nothing happens."
+			"This human form limits me."
+	phrase
+		word
+			"Ever wondered why there's not ads in this game?"
+			"Day 1,915... No sign of anyone... only advertisements... must block them all... I must defend the galaxy..."
+			"The ads fear me. None go unblocked."
+	ship "Heliarch Executioner"
+		"never disabled"
+
+ship "Heliarch Executioner"
+	plural "Heliarch Executioners"
+	sprite "ship/heliarch executioner"
+	thumbnail "ship/heliarch executioner"
+	attributes
+		category "Superheavy"
+		licenses
+			Heliarch
+		"cost" 2000000000
+		"shields" 168000
+		"hull" 110000
+		"required crew" 174
+		"bunks" 213
+		"mass" 2530
+		"drag" 21.3
+		"heat dissipation" .35
+		"ion protection" .3
+		"scramble protection" .3
+		"fuel capacity" 1500
+		"cargo space" 124
+		"outfit space" 1793
+		"weapon capacity" 568
+		"engine capacity" 313
+		weapon
+			"blast radius" 600
+			"shield damage" 100000
+			"hull damage" 100000
+			"hit force" 20000
+	outfits
+		"Onslaught Cannon" 12
+		"Onslaught Turret" 8
+		
+		"Large Reactor Module" 4
+		"Large Battery Module" 2
+		"Overcharged Shield Module" 6
+		"Overclocked Repair Module" 4
+		"Cooling Module" 8
+		"Scanning Module" 4
+		"Enforcer Riot Staff" 150
+		"Enforcer Confrontation Gear" 124
+		
+		"Large Thrust Module" 6
+		"Large Steering Module" 4
+		"Small Steering Module" 3
+		"Hyperdrive"
+		"Jump Drive"
+
+	engine 0 218
+		over
+		zoom 1.5
+	engine -25 216
+		over
+		zoom 1.1
+	engine 25 216
+		over
+		zoom 1.1
+	engine -40 212
+		over
+		zoom .6
+	engine 40 212
+		over
+		zoom .6
+	"steering engine" 81 168
+		zoom .6
+		over
+		angle 300
+		right
+	"steering engine" -81 168
+		zoom .6
+		over
+		angle 60
+		left
+	"steering engine" 28 -36
+		zoom .5
+		over
+		angle 270
+		left
+	"steering engine" -28 -36
+		zoom .5
+		over
+		angle 90
+		right
+	gun 41 -27 "Onslaught Cannon"
+	gun 44 -27 "Onslaught Cannon"
+	gun -41 -27 "Onslaught Cannon"
+	gun -44 -27 "Onslaught Cannon"
+	gun 21 -160 "Onslaught Cannon"
+	gun -21 -160 "Onslaught Cannon"
+	gun 26 -156 "Onslaught Cannon"
+	gun -26 -156 "Onslaught Cannon"
+	gun -75 72 "Onslaught Cannon"
+	gun 75 72 "Onslaught Cannon"
+	gun -95 72 "Onslaught Cannon"
+	gun 95 72 "Onslaught Cannon"
+	turret -16 -27 "Onslaught Turret"
+	turret 16 -27 "Onslaught Turret"
+	turret 0 -6 "Onslaught Turret"
+	turret -7 -117 "Onslaught Turret"
+	turret 7 -117 "Onslaught Turret"
+	turret -68 120 "Onslaught Turret"
+	turret 68 120 "Onslaught Turret"
+	turret 0 166 "Onslaught Turret"	
+	explode "small explosion" 30
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	explode "huge explosion" 60
+	"final explode" "final explosion large" 3
+
+outfit "Onslaught Cannon"
+	category "Guns"
+	series "Guns"
+	index 08010
+	licenses
+		Heliarch
+	cost 437000
+	thumbnail "outfit/onslaught cannon"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"gun ports" -1
+	weapon
+		sprite "projectile/onslaught"
+			"frame rate" 2.1
+			"no repeat"
+		sound "bombardment"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 3
+		"velocity" 9
+		"random velocity" 1
+		"lifetime" 200
+		"reload" 9
+		"firing energy" 25
+		"firing heat" 20
+		"shield damage" 33
+		"hull damage" 37
+
+outfit "Onslaught Turret"
+	category "Turrets"
+	series "Turrets"
+	index 08010
+	licenses
+		Heliarch
+	cost 1845000
+	thumbnail "outfit/onslaught turret"
+	"mass" 550
+	"outfit space" -50
+	"weapon capacity" -50
+	"required crew" 2
+	"turret mounts" -1
+	weapon
+		sprite "projectile/onslaught"
+			"frame rate" 2.1
+			"no repeat"
+		"hardpoint sprite" "hardpoint/bombardment turret"
+		"hardpoint offset" 10.
+		sound "bombardment"
+		"hit effect" "bombardment impact"
+		"inaccuracy" 3
+		"turret turn" 2.6
+		"velocity" 9
+		"random velocity" 1
+		"lifetime" 200
+		"reload" 3
+		"firing energy" 25
+		"firing heat" 20
+		"shield damage" 33
+		"hull damage" 37
