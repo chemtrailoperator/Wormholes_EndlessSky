@@ -137,6 +137,7 @@ ship "Ibis" "Ibis (Delegate)"
 ship "Heavy Shuttle" "Heavy Shuttle (Delegate)"
 	add attributes
 		"outfit space" 40
+		"cargo space" -40
 	outfits
 		"Antimatter Core"
 		"Antimatter Power Cell"
