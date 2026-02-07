@@ -2,6 +2,8 @@ person "Living_Adblocker"
 	frequency 15000
 	government "Author"
 	personality surveillance unconstrained forbearing
+	system
+		system Quaru
 	phrase
 		word
 			"The Quarg "
@@ -64,6 +66,8 @@ person "Living_Adblocker"
 			"Ever wondered why there's not ads in this game?"
 			"Day 1,915... No sign of anyone... only advertisements... must block them all... I must defend the galaxy..."
 			"The ads fear me. None go unblocked."
+			"Dozens of ads lay slain at my feet, yet more arise. When will they learn? When will this end?" 
+			"Will there ever be enough death? No... There can never be enough death for ads."
 	ship "Heliarch Executioner"
 
 ship "Heliarch Executioner"
