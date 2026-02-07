@@ -1,5 +1,5 @@
 
-# Copyright (c) 2026 by ChemtrailOperator and Living_Adblocker
+# Copyright (c) 2026 Living_Adblocker
 #
 # Endless Sky is free software: you can redistribute it and/or modify it under the
 # terms of the GNU General Public License as published by the Free Software
@@ -14,4 +14,17 @@
 # This file was written in Notepad++ with the EndlessSkyDark UDL. Available on the wiki for this plugin.
 
 #This storyline eventually gives you access to an outfitter on Mons that contains all vanilla quarg outfits, as well as an expansion pack of modified systems and weapons.
+
+#Mission where a Quarg approaches you and probes your interest. This mission, other than its completion, has no bearing on the storyline.
+
+#Mission where you are called to the Quarg section of Mons to discuss responsibilities and capabilities of owning Quarg outfits. You are given the option to procede. If you choose yes, you receive the Quarg License
+
+#Event that places an outfitter on Mons containing basic/small Quarg outfits, no weapons.
+
+#Mission (> 6 months later) where you are given access to Quarg weapons and advanced outfits.
+
+#Mission where you can ask for gunport mounted versions of weapons.
+
+#Event that adds them to the outfitter.
+
 

@@ -1,0 +1,80 @@
+outfit "Dagger"
+	category "Guns"
+	series "Guns"
+	cost 8500000
+	thumbnail "outfit/quarg dagger"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"required crew" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/skydagger"
+			"frame rate" 1
+		sound "skydagger"
+		"hit effect" "skylance impact"
+		"inaccuracy" .6
+		"velocity" 350
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 4
+		"firing heat" .5
+		"shield damage" 7.5
+		"hull damage" 6
+		"ion damage" .05
+		"scrambling damage" .05
+	description "Where overwhelming force is not necessary, these beam weapons are used in place of more powerful weapons to simply provide defense to non-combatants. However, they remain a danger not to be taken lightly."
+
+outfit "Lance"
+	category "Guns"
+	series "Guns"
+	cost 18000000
+	thumbnail "outfit/quarg lance"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"required crew" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/skylance"
+			"frame rate" 1
+		sound "skylance"
+		"hit effect" "skylance impact"
+		"inaccuracy" .4
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 8
+		"firing heat" 1
+		"shield damage" 15
+		"hull damage" 12
+		"ion damage" .1
+		"scrambling damage" .1
+	description "Despite being among the oldest and least specialized of Quarg weaponry, these immensely powerful beam weapons strike fear into the hearts of all who dare oppose them. With a design that has survived longer than humanity itself, the Skylance is an elegant weapon, one from a more civilized age."
+	
+outfit "Terral Ribault"
+	category "Guns"
+	series "Guns"
+	cost 15000000
+	thumbnail "outfit/quarg tbault"
+	"mass" 35
+	"outfit space" -35
+	"weapon capacity" -35
+	"required crew" 1
+	"gun ports" -1
+	weapon
+		sprite "projectile/ribault"
+		"hardpoint sprite" "hardpoint/quarg ribault"
+		"hardpoint offset" 10.
+		"fire effect" "ribault flare"
+		"hit effect" "electron impact"
+		sound "ribault"
+		"inaccuracy" 13
+		"velocity" 13
+		"reload" 17
+		"burst reload" 2
+		"burst count" 19
+		"firing energy" 80
+		"firing heat" 5
+		"submunition" "ribault unguided" 2
+	description "The rapid flurries shot by this gun cover a wide area at a long range, firing a storm of negative energy particles. Attractive forces guide these particles towards their target, dealing very high damage to enemies within the immediate vicinity while keeping those that flee within the Quarg's reach."
