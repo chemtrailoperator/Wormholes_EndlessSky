@@ -34,7 +34,6 @@ mission "Wormholes 2.0"
 # Mission, on Gamma Corvi, where you are given the task of finding/selecting more delegates by the FW leaders, some of whom know of GC, the second delegate is suggested, and you are given the option for pursuing the second candidate, you can pick up the first story later.
 
 mission "Wormholes 2.1.1"
-	landing
 	name "New friend asking for job recs"
 	description "A new friend asks that you reccomend him for jobs you hear of after he retires from the FW navy."
 	source
@@ -47,9 +46,9 @@ mission "Wormholes 2.1.1"
 			decline
 
 mission "Wormholes 2.1.2"
-	landing
+	priority
 	name "Carry a friend to Poseidos"
-	description "Carry your friend to <destination>"
+	description "Carry your friend to Poseidos in the Izar system, he will pay you 40,000 credits."
 	destination Poseidos
 	payment 40000
 	source
@@ -58,6 +57,45 @@ mission "Wormholes 2.1.2"
 		has "Wormholes 2.1.1: done"
 	on offer
 		conversation
+			choice
+				``
+					accept
+				``
+					decline
+	on accept
+		conversation
+			``
+	on decline
+		conversation
+			``
+
+mission "Wormholes 2.1.3"
+	priority
+	name "Carry a friend to Poseidos"
+	description "Carry your friend to Poseidos in the Izar system, he will pay you 40,000 credits."
+	destination Poseidos
+	source
+		government "Free Worlds"
+	to offer
+		has "Wormholes 2.1.2: done"
+	on offer
+		conversation
+			``
+			accept
+	on complete
+		conversation
+			``
+			
+mission "Wormholes 2.1.4"
+	landing
+	name "Tells you you should look for delegates."
+	description "Tells you you should look for delegates."
+	source Mons
+	to offer
+		or
+			has "Wormholes 2.1.3: done"
+			has "Wormholes 2.1.2: done"
+	on offer
 # ------------------------------------------------------------------ End of first delegate story. --------------------------------------------------------
 # ------------------------------------------------------------------ Start of second delegate story. --------------------------------------------------------
 # ------------------------------------------------------------------ End of second delegate story. --------------------------------------------------------
