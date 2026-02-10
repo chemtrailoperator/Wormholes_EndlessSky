@@ -15,10 +15,49 @@
 
 # The idea of this is a storyline that allows you to pick assistant delegates for the FW.
 
+
+mission "Wormholes 2.0"
+	landing
+	name "Suggestion for delegate finding."
+	description "You are told in this mission that you need to think of finding other delegates."
+	source Mons
+	to offer
+		has "Wormholes 1.3: done"
+	on offer
+		conversation
+			``
+			decline
+
 # ------------------------------------------------------------------ Start of first delegate story. --------------------------------------------------------
 # Mission where you meet another Free World's officer that claims acquaintance through some battle. He tells you he plans to retire soon and asks you to put in a word for him if you hear of any jobs for an adventurous pilot.
-# Mission where you meet him again, and he asks you for a ride. If you accept, it leads you to a conversation where he asks about the Galactic Keystone, if you do not provide information, he persists.
+# Mission where you meet him again, and he asks you for a ride. If you accept, it leads you to a conversation where he asks about the Galactic Keystone, if you do not provide information, he persists. If you do not take him on a ride, you meet him again on a different planet 2 months later, he is in a bind, and needs help to get to the original destination. 
+# Mission, on Gamma Corvi, where you are given the task of finding/selecting more delegates by the FW leaders, some of whom know of GC, the second delegate is suggested, and you are given the option for pursuing the second candidate, you can pick up the first story later.
 
+mission "Wormholes 2.1.1"
+	landing
+	name "New friend asking for job recs"
+	description "A new friend asks that you reccomend him for jobs you hear of after he retires from the FW navy."
+	source
+		government "Free Worlds"
+	to offer
+		has "Wormholes 2.0: done"
+	on offer
+		conversation
+			`test.`
+			decline
+
+mission "Wormholes 2.1.2"
+	landing
+	name "Carry a friend to Poseidos"
+	description "Carry your friend to <destination>"
+	destination Poseidos
+	payment 40000
+	source
+		government "Free Worlds"
+	to offer
+		has "Wormholes 2.1.1: done"
+	on offer
+		conversation
 # ------------------------------------------------------------------ End of first delegate story. --------------------------------------------------------
 # ------------------------------------------------------------------ Start of second delegate story. --------------------------------------------------------
 # ------------------------------------------------------------------ End of second delegate story. --------------------------------------------------------

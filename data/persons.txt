@@ -1,5 +1,5 @@
 person "Living_Adblocker"
-	frequency 15000
+	frequency 400
 	government "Author"
 	personality surveillance unconstrained forbearing
 	system
