@@ -88,16 +88,65 @@ mission "Wormholes 2.1.3"
 			
 mission "Wormholes 2.1.4"
 	landing
-	name "Tells you you should look for delegates."
-	description "Tells you you should look for delegates."
-	source Mons
+	name "Called to Bourne."
+	description "Travel to Bourne in the Gamma Corvi system to discuss the Galactic Command with Free Worlds leadership."
+	source
+		government "Free Worlds"
 	to offer
 		or
 			has "Wormholes 2.1.3: done"
 			has "Wormholes 2.1.2: done"
 	on offer
+		conversation
+			``
+			accept
+	on complete
+		conversation
+			`blah blah blah, we'll try to get [delegate 2] in touch with you, but he is currently busy with important business and may not be available for quite some time.`
+
+mission "Wormholes 2.1.5"
+	landing
+	name "Meet a potential delegate."
+	description "Travel to Zug in the Zubeneschamali system to meet up with a potential delegate."
+	destination Zug
+	source
+		government "Free Worlds"
+	to offer
+		has "Wormholes 2.1.4: done"
+	on offer
+		conversation
+			``
+			choice
+				``
+					accept
+				``
+					decline
+	on decline
+		conversation
+			``
+	on complete
+		conversation
+			``
 # ------------------------------------------------------------------ End of first delegate story. --------------------------------------------------------
+
 # ------------------------------------------------------------------ Start of second delegate story. --------------------------------------------------------
+mission "Wormholes 2.2.1"
+	priority
+	name "Carry the potential delegate to Bourne."
+	description "Carry the potential delegate to Bourne in the Gamma Corvi system to discuss things with leadership."
+	destination Bourne
+	deadline 14
+	source Zug
+	to offer
+		has "Wormholes 2.1.5: done"
+	on offer
+		conversation
+			``
+				accept
+	on complete
+		conversation
+			``
+				accept
 # ------------------------------------------------------------------ End of second delegate story. --------------------------------------------------------
 # ------------------------------------------------------------------ Start of first backup delegate story. --------------------------------------------------------
 # ------------------------------------------------------------------ End of first backup delegate story. --------------------------------------------------------
