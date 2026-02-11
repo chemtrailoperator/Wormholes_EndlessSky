@@ -127,6 +127,25 @@ mission "Wormholes 2.1.5"
 	on complete
 		conversation
 			``
+
+mission "Wormholes 2.1.6"
+
+mission "Wormholes 2.1.99"
+	landing
+	name "Second Delegate reminder"
+	description "Travel to meet the second delegate candidate on Zug."
+	source
+		government "Free Worlds"
+	to offer
+		has "Wormholes 2.1.5: declined"
+	on offer
+		conversation
+			``
+				accept
+	on complete
+		conversation
+			``
+	
 # ------------------------------------------------------------------ End of first delegate story. --------------------------------------------------------
 
 # ------------------------------------------------------------------ Start of second delegate story. --------------------------------------------------------
@@ -138,7 +157,9 @@ mission "Wormholes 2.2.1"
 	deadline 14
 	source Zug
 	to offer
-		has "Wormholes 2.1.5: done"
+		or
+			has "Wormholes 2.1.5: done"
+			has "Wormholes 2.1.99: done"
 	on offer
 		conversation
 			``
