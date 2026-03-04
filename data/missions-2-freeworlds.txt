@@ -54,7 +54,7 @@ mission "Wormholes 2.1.2"
 	source
 		government "Free Worlds"
 	to offer
-		has "Wormholes 2.1.1: done"
+		has "Wormholes 2.1.1: declined"
 	on offer
 		conversation
 			choice
