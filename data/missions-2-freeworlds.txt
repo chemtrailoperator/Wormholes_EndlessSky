@@ -266,12 +266,115 @@ mission "Wormholes 2.1.3"
 		has "Wormholes 2.1.2: declined"
 	on offer
 		conversation
-			``
-			accept
+			`	As you walk out of your ship, you are surprised to see James Kyle, the Free Worlds Officer you met recently, waiting for you on the landing pad.`
+			`	"Hello Captain <last>, any choice I can get a ride out of here? I need to get to Poseidos and I can pay you 20000 credits."`
+			choice
+				`	"Nope, sorry."`
+					goto nope
+				`	"Okay, sounds good."`
+			`	"Great, by the way, we need to leave right now." He rushes past you into your ship as a jeep departs the spaceport building and begins to drive towards you. You are still standing in confusion on your ramp when he yanks you into your ship. "Now means now Captain."`
+			`	Thankfully you left the repulsors running, and you are just lifting off when a man jumps out of the jeep and starts yelling at your ship and shaking his fist. After you clear the spaceport airspace you turn to James, who has been nervously looking over your shoulder the whole time.`
+			choice
+				`	"What was that about?!"`
+			`	"Thank you for that, I needed to get out rather quickly. While I am not technically a felon, and so not subjected to be hunted down, my list of misdemeanors is hefty enough that there are individuals that have hired bounty hunters to detain me. Rest assured, I have done my legal studying, and this can't hurt you. Just say you don't know me if you get interrogated. You should probably take off now."`
+			choice
+				`	"This ought to be fun."`
+				`	"You had better be right about that."`
+			`	"Hmmph" he says, and wanders off into your ship. You light your engines and blast off into space.`
+				launch
+	on enter
+		conversation
+			`	James approaches you in the cockpit. "Mind if I have a seat."`
+			choice
+				`	"Sure."`
+					goto sure
+				`	"I usually try to keep people out when I'm piloting."`
+			`	"Oh come on," he says sarcastically, "any fool can see you're on autopilot right now, and its not like I'm useless flying a ship, I do have my license." He drops into the copilot seat without futher comment.`
+				goto convo
+			label sure
+			`	He flops down into the copilot seat and begans to run through the Pilot's Operating Handbook of your ship, then turns his attention to the flight computer.`
+			`	After a few minutes he turns towards you. "This is quite the ship you have here."`
+			choice
+				`	"Thank you for the compliment."`
+					goto compliment
+				`	"Oh, its not much, but its mine."`
+					goto much
+				`	"It has cost me an extraordinary amount."`
+			`	"That's not surprising at all considering the tech you have here. I've seen quite a bit of alien stuff from the Hai, and a little from the Pug, but much of this stuff is completely, well, alien to me. Where did you get it all?"`
+				goto alienquestions
+			label compliment
+			`	"I meant it completely sincerely. I've seen quite a bit of alien stuff from the Hai, and a little from the Pug, but much of this stuff is completely, well, alien to me. Where did you get it all?"`
+				goto alienquestions
+			label much
+			`	"Oh, but it is. I've seen quite a bit of alien stuff from the Hai, and a little from the Pug, but much of this stuff is completely, well, alien to me. Where did you get it all?"`
+				goto alienquestions
+			label alienquestions
+			choice
+				`	"I find it here and there in space junk."`
+				`	"I got it from the things that made it."`
+					goto contacts
+				`	"I get it from black market dealers on various pirate planets."`
+			`	"Now that's not the whole truth." he says with a knowing smile, "Much of this cannot be bought at the best dealers in the galaxy, I've tried. That's what I was doing when I found you, dealing alien tech. Sometimes Korath tech pops up for sale, and once every few years some crippled or destroyed ship will drift into the south, but even that doesn't account for this. So tell me, where did you actually get all this stuff?"`
+			choice
+				`	"No, I mean it."`
+					goto insist
+				`	"Okay, fine, I got it from the aliens that made it."`
+			label contacts
+			`	James grins, "Now that's more like it. Which aliens?"`
+				goto whichaliens
+			label insist
+			`	"You can't expect me to believe that nonsense. I've been through your flight logs, there are giant gaps of time where you were not in contact of the usual hyperspace network. I know you got this stuff from aliens, which ones?"`
+			label whichaliens
+			choice
+				`	"Oh, you know, the usuals."`
+				`	"You wouldn't know."`
+			`	"You can't be more precise?"`
+			choice
+				`	"No, get out."`
+					goto rejected
+				`	"The Coalition, the Avgi, Successors, Gegno, Bunrodea, Wanderers, and more."`
+			`	"See how easy that was. Which one gave you that fancy bracelet?" He asks, gesturing to your Galactic License.`
+			choice
+				`	"I'd rather not say."`
+				`	"The Quarg."`
+					goto quarg
+			`	"Why are you so reticent? I'm not a spy."`
+			choice
+				`	(Ask him to leave.)`
+					goto rejected
+				`	"The Quarg gave it to me."`
+			label quarg
+			`	He stares at you intently. "That's hardly believable, the Quarg never give out their tech, and ruthlessly hunt down the people that take it. How did you come by this jewel?"`
+			choice
+				`	(Tell him about Galactic Command.)`
+					goto tell
+				`	(Ask him to leave.)`
+					goto rejected
+			label tell
+			`	You spend the next hour telling him about the Galactic Command, its wormholes, intricacies, difficulties, and perks. When you finish, he asks with a laugh, "They wouldn't happen to be looking for a washed up pilot would they? I would love to get in on this."`
+			choice
+				`	"Actually, they might be."`
+					goto mightbe
+				`	"Nope, sorry."`
+			label hoped
+			`	"Oh well, I hadn't even dared to hope for it." He asks a few more questions and you spend a few more minutes discussing alien races. Soon he gets up and leaves.`
+				goto end
+			label mightbe
+			`	He instantly becomes serious. "You're kidding? Right?"`
+			choice
+				`	"Nope, I'm actually supposed to be looking for an assistant right now."`
+				`	"Yeah, sorry to get your hopes up."`
+					goto hoped
+			`	"Well," he stammers, "Please keep me in mind." He gets up. "I will be in my cabin."`
+				goto end
+			label rejected
+			`	"Well now that is most unpleasant of you. I will be in my cabin."`
+			label end
+
 	on complete
 		conversation
-			``
-			
+			`	James tosses you the agreed credit chips and heads off your ship, yelling over his shoulder; "Please keep me in mind for any job, big or small, I'm rather desperate at the moment." You wonder what he will be doing with himself in the next few months.`
+
 mission "Wormholes 2.1.4"
 	landing
 	name "Called to Bourne."
