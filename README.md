@@ -5,3 +5,5 @@ The perks of being a diplomat include access to a massive network of wormholes t
 Currently requires Endless Sky v0.10.16
 Many updates coming soon with diplomacy missions, a storyline in the Free Worlds where you can choose subordinates, and access to Quarg outfits and weaponry.
 
+If you want to cheat and gain access early, give yourself every First Contact condition.
+"has First Contact: Gegno: offered" -> for every race
