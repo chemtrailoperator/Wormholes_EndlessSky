@@ -97,25 +97,29 @@ mission "Wormholes 2.1.1"
 					goto crew
 				`	"I don't have anything right now, but I'll keep you in mind if anything comes up."`
 			`	"Thank you for that. Here is my card if you run across anything. I have to go now." He gets up and walks out, tossing a few wrinkled bills on the bar as he goes.`
-				goto depart
+				goto leaving
 			label crew
 			`	He gives a wry laugh. "Ask me that in a year and we'll see if I'm desperate enough. Please keep me in mind at least, here is my card if you run across anything. I have to go now." He gets up and walks out, tossing a few wrinkled bills on the bar as he goes.`
-			label depart
+			label leaving
 			`	You finish up your drink and follow him out the door in a few minutes.`
 				decline
+		log "Minor People" "James Kyle" "James Kyle is a Free Worlds Navy officer looking for a job before he leaves the Navy."
 
 mission "Wormholes 2.1.2"
 	priority
 	name "Carry a friend to Poseidos"
-	description "Carry your friend to Poseidos in the Izar system, he will pay you 40,000 credits."
+	description "Carry your friend to Poseidos in the Izar system, he will pay you 20,000 credits."
 	destination Poseidos
-	payment 40000
+	payment 20000
+	passengers 1
 	source
 		government "Free Worlds"
 	to offer
+		random < 70
 		has "Wormholes 2.1.1: declined"
 	on offer
 		conversation
+			`	`
 			choice
 				``
 					accept
@@ -129,14 +133,15 @@ mission "Wormholes 2.1.2"
 			``
 
 mission "Wormholes 2.1.3"
-	priority
+	landing
 	name "Carry a friend to Poseidos"
-	description "Carry your friend to Poseidos in the Izar system, he will pay you 40,000 credits."
+	description "Carry your friend to Poseidos in the Izar system."
 	destination Poseidos
+	passengers 1
 	source
 		government "Free Worlds"
 	to offer
-		has "Wormholes 2.1.2: done"
+		has "Wormholes 2.1.2: declined"
 	on offer
 		conversation
 			``
