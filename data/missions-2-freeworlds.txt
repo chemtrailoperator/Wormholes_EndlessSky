@@ -381,6 +381,7 @@ mission "Wormholes 2.1.4"
 	description "Travel to Bourne in the Gamma Corvi system to discuss 'diplomatic matters' with Free Worlds leadership."
 	source
 		government "Free Worlds"
+	destination Bourne
 	to offer
 		or
 			has "Wormholes 2.1.3: done"
@@ -431,32 +432,40 @@ mission "Wormholes 2.1.4"
 			label willing
 			`	"Good please give us a brief description of him." You do so, telling them about Lieutenant Kyle. When you have finished they tell you that it is time to go.`
 			label leave
-			`	You exit the room, escorted by the same rugged man as before, now repressing giggles. You journey back to your ship uneventfully.`
-
+			`	You exit the room, escorted by the same rugged man as before, now repressing giggles. Your journey back to your ship is uneventful.`
 
 mission "Wormholes 2.1.5"
 	landing
-	name "Meet a potential delegate."
-	description "Travel to Zug in the Zubeneschamali system to meet up with a potential delegate."
-	destination Zug
-	source
-		government "Free Worlds"
+	name "Offer Lt. Kyle a position."
+	description "Try to find Lt. Kyle on Poseidos so you can offer him a position in Galactic Command."
+	source Bourne
+	destination Poseidos
 	to offer
 		has "Wormholes 2.1.4: done"
 	on offer
-		conversation
-			``
-			choice
-				``
-					accept
-				``
-					decline
-	on decline
-		conversation
-			``
+		`	Leaving the government building you are left with a decision. Do you want to offer Lt. James Kyle a position as your auxiliary delegate?`
+		choice
+			`	(Yes.)`
+				goto yes
+			`	(No.)`
+		`	You decide it would be better to just wait for the delegates offered by the government.`
+			goto no
+		label yes
+		`	You realize you don't exactly know where he is at the moment. Your best bet is to look for him where you last saw him, Poseidos in the Izar system.`
+			accept
+		label no
+		`	As soon as you make that decision for yourself, a voice starts speaking in your mind that is clearly not your own.`
+		`	"Oh great and esteemed Captain, your decisions are ever wise and fruitful, yet this path is not one that will lead to success. This branch of the storyline has not yet been formed, it is but a void in the game files. If you wish to pursue these missions further, you must repent of your decision and choose to take on this Lt. Kyle.`
+		`	"Or don't. I don't care."`
+		choice
+			`	(Yes.)`
+				goto yes
+			`	(No.)`
+		`	Have your way, it is your game. Check back for updates on github if you want to continue the story in this direction.`
+			decline
 	on complete
-		conversation
-			``
+
+
 
 mission "Wormholes 2.1.6"
 
@@ -467,7 +476,7 @@ mission "Wormholes 2.1.99"
 	source
 		government "Free Worlds"
 	to offer
-		has "Wormholes 2.1.5: declined"
+		has "Wormholes 2.1.6: declined"
 	on offer
 		conversation
 			``
@@ -488,7 +497,7 @@ mission "Wormholes 2.2.1"
 	source Zug
 	to offer
 		or
-			has "Wormholes 2.1.5: done"
+#			has "Wormholes 2.1.5: done"
 			has "Wormholes 2.1.99: done"
 	on offer
 		conversation
@@ -499,7 +508,3 @@ mission "Wormholes 2.2.1"
 			``
 				accept
 # ------------------------------------------------------------------ End of second delegate story. --------------------------------------------------------
-# ------------------------------------------------------------------ Start of first backup delegate story. --------------------------------------------------------
-# ------------------------------------------------------------------ End of first backup delegate story. --------------------------------------------------------
-# ------------------------------------------------------------------ Start of second backup delegate story. --------------------------------------------------------
-# ------------------------------------------------------------------ End of second backup delegate story. --------------------------------------------------------
