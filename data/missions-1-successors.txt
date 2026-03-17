@@ -270,4 +270,3 @@ mission "Wormholes 1.3"
 		event "reveal successors wormhole"
 		conversation
 			`You land without ceremony and the members of the delegation disperse into the ring. Chilia turns to you on his way out. "Thank you for your help <last>, everything is in train now, the Quarg will handle it. You are free to go your own way and do what you please, I hope we meet again soon."`
-		
