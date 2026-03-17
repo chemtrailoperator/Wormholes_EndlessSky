@@ -7,7 +7,7 @@
 #Humans
 #		Free Worlds done
 #						Primary				<player>			<flagship>				<player>
-#						Auxiliary			<Unassigned>		Dreadnought
+#						Auxiliary			James Kyle			Dreadnought
 #						Assistant			<Unassigned>		Falcon
 #		Deep done
 #						Primary				Samantha Hawthorne	Star Queen
