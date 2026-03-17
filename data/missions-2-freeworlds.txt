@@ -465,11 +465,47 @@ mission "Wormholes 2.1.5"
 				decline
 	on complete
 		conversation
-			`	test.`
-		
-
+			`	Yet again, as you are walking into the spaceport, you are accosted by Lieutenant Kyle.`
+			`	"Hello again, Captain Abe, any news? I knew you came in because I'm working as a traffic controller now."`
+			choice
+				`	"I can give you a different job if you want it."`
+					goto asked
+				`	"Still want to be a galactic diplomat?"`
+					goto shocked
+				`	"In that case I don't need to tell you about this job I found."`
+			`	"Oh, no," he says, "the pay as a controller stinks and my boss might actually be criminally negligent. If you have a job I'll take it."`
+			`	"Its a job as a diplomat in Galactic Command." You say.`
+			label shocked
+			`	The blood drains from his face. "You're serious?"`
+			`	"Completely."`
+			`	The blood returns to his face in force. "What do I do?"`
+			`	"Come with me and I'll show you."`
+			`	"Absolutely" he says.`
+			`	You start back to your ship, Kyle darting off through a side door, presumably to sack himself. By the time you get out to the landing pads, Kyle is already there, surprisingly running through the preflight.`
+				goto takeoff
+			label asked
+			`	"Fire away, this job as a controller stinks."`
+			`	"Its a job as a galactic diplomat."`
+				goto shocked
+			label takeoff
+			`	By the time he finishes booting up the systems and starting the engines (which he does perfectly), you have plotted a course to Mons in the Olympus system, headquarters of the Galactic Command.`
 
 mission "Wormholes 2.1.6"
+	landing
+	name "Take Kyle to Mons"
+	description "Bring Lt. Kyle to Mons in the Olympus system and get him onboarded as your auxiliary representative."
+	source Poseidos
+	destination Mons
+	to offer
+		has "Wormholes 2.1.5: done"
+	on offer
+		conversation
+			`	As you clear the airspace, James is nearly skipping with joy. Time to fly to Mons.`
+				launch
+	on complete
+		conversation
+			`	test.`
+	
 
 #mission "Wormholes 2.1.99"
 #	landing
