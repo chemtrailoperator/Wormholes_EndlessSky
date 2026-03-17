@@ -87,7 +87,7 @@ mission "Wormholes 2.1.1"
 			`	"Oh well, I guess it wasn't worth the shot anyway." He turns and leaves the room.`
 				defer
 			label sure
-			`	He takes a sip of the drink he brought with him before he speaks. "My name is James Kyle, we met extremely briefly right before the battle of Kornephoros in the war."`
+			`	He takes a sip of the drink he brought with him before he speaks. "My name is Lieutenant James Kyle, we met extremely briefly right before the battle of Kornephoros in the war."`
 			choice
 				`	"Nice to meet you."`
 				`	"Umm... Hi.`
@@ -378,7 +378,7 @@ mission "Wormholes 2.1.3"
 mission "Wormholes 2.1.4"
 	landing
 	name "Called to Bourne."
-	description "Travel to Bourne in the Gamma Corvi system to discuss the Galactic Command with Free Worlds leadership."
+	description "Travel to Bourne in the Gamma Corvi system to discuss 'diplomatic matters' with Free Worlds leadership."
 	source
 		government "Free Worlds"
 	to offer
@@ -387,11 +387,52 @@ mission "Wormholes 2.1.4"
 			has "Wormholes 2.1.2: done"
 	on offer
 		conversation
-			``
-			accept
+			`	You receive a message from the Free Worlds government; "Please report to Bourne at your earliest convenience to discuss some diplomatic matters."`
+				accept
 	on complete
 		conversation
-			`blah blah blah, we'll try to get [delegate 2] in touch with you, but he is currently busy with important business and may not be available for quite some time.`
+			`	A low-ranking officer is waiting for you outside your ship and drives you to the main government building in Bourne. He leaves you at the door to the care of a rugged unsmiling man in a suit (with a suspicious earbud) who takes you to an elevator, which in turn takes you (presumably down, although it's hard to tell) to a long unadorned concrete hallway. The man in the suit urges you out of the elevator, then closes it on himself and you hear it whirring away.`
+			`	At the end of the hallway, there is a large door with a keypad and a microphone. You turn back to the elevator, but the doors are already sealed with no sign of any controls.`
+			label keypad
+			choice
+				`	(Shoot the keypad.)`
+					goto shoot
+				`	(Type in some random numbers.)`
+					goto rand
+				`	(Press the 'Request Access' button.)`
+				`	(Yell for a bit.)`
+			`	Nothing happens.`
+				goto keypad
+			label shoot
+			`	You take out your pistol and put a hole through the keypad. There is nothing but silence for a few seconds. Suddenly, an alarm blares, the lights on the ceiling turn red, and a tactical team bursts out of a hidden door next to the elevator. You drop your gun immediately and follow the yelled orders. You are quickly trussed, sacked, and carried through the door the soldiers gushed out of.`
+				goto unbagged
+			label rand
+			`	You press random buttons, the keypad blares incoherently at you, you keep pressing buttons, more blaring, until suddenly the lights go out and you are left in complete darkness. Simultaneously you feel a bag placed over your head and your hands gripped from behind. Your knees are kicked out and you are quickly trussed and carried away, to where you can only guess.`
+			label unbagged
+			`	You are dumped in a large chair and the bag over your head is removed. Your hands remain bound uncomfortably behind you. Seated across from you at a long table is a row of unfamiliar, but clearly high-ranking individuals. Two are admirals, and the others appear to be diplomats.`
+			`	The admiral in the center begins speaking to you before you have fully recovered from your shock. "Captain <last>, I must ask what you mean by this."`
+			choice
+				`	"What I mean by this? I have no clue what is going on."`
+				`	"You couldn't just let me in?"`
+			`	"You mean you weren't given the access codes?"`
+			choice
+				`	"Access codes?!"`
+			`	A diplomat speaks up from the end of the table. "I think we had better forgive Captain <last>'s rashness. My staff are rather prone to practical humor of this kind."`
+			`	The original admiral turns back to you. "Very well, we can proceed." He presses a button on his desk and your cuffs unlock. "We have called you here today to inform you that you must choose at least one assistant for yourself to help you in the matters of Galactic Command." He raises his hand, checking your response. "Yes, we know all about it. The Quarg do not wantonly form communication channels without notifying what we would call 'The Proper Authorities.'"`
+			`	A different pencil-pusher speaks up, "Due to your wandering tendencies, contacting you when you are needed has already presented some difficulty. It is not unreasonable to ask that you choose an assistant post haste."`
+			`	You spend the next few minutes discussing the needs and requirements of a delegate. Ultimately, they leave the decision of who to pick up to you.`
+			`	"As you know, this matter must be conducted with the utmost discretion. Do not go posting things on the job board. As an action item, both for us and you, are there any individuals you have in mind that we might begin vetting?"`
+			choice
+				`	"I do have a person that might be willing."`
+					goto willing
+				`	"I got nothing."`
+			`	"Very well, we have one or two in mind that would be a good fit. The ideal candidate is not currently available, but we will get him in touch with you when we can, which could be a long time from now. We have nothing more to do here, please forgive my staff's pleasantries."`
+				goto leave
+			label willing
+			`	"Good please give us a brief description of him." You do so, telling them about Lieutenant Kyle. When you have finished they tell you that it is time to go.`
+			label leave
+			`	You exit the room, escorted by the same rugged man as before, now repressing giggles. You journey back to your ship uneventfully.`
+
 
 mission "Wormholes 2.1.5"
 	landing
