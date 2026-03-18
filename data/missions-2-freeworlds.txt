@@ -525,6 +525,7 @@ mission "Wormholes 2.1.6"
 			choice
 				`	"I was actually hoping to make him my auxiliary representative."`
 					goto rep
+			label favor
 			choice
 				`	"Oh no, I've already given you enough."`
 				`	"Tell me what you need."`
@@ -544,7 +545,8 @@ mission "Wormholes 2.1.7"
 		has "Wormholes 2.1.6: done"
 	on offer
 		log "People" "James Kyle" "James Kyle is your auxiliary representative for the Free Worlds at Galactic Command."
-		accept
+		conversation
+			accept
 	on complete
 		payment 10000000
 		conversation

@@ -163,8 +163,10 @@ mission "Wormholes 9.2"
 	to offer
 		has "Wormholes 1.3: done"
 	on offer
-		`	When you return to your ship, you see a message on your comms screen.`
-		`	"Captain <last>, you have been alotted a salary of 20000 credits per day for your services with the Galactic Command."`
+		conversation
+			`	When you return to your ship, you see a message on your comms screen.`
+			`	"Captain <last>, you have been alotted a salary of 20000 credits per day for your services with the Galactic Command."`
+				decline
 	on decline
 		"salary: Galactic Command" = 20000
 		log "Accepted a salary of 20000 credits per day for Galactic Command."
