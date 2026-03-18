@@ -517,22 +517,13 @@ mission "Wormholes 2.1.6"
 			label rep
 			`	"That is good to hear Captain. Come with me and I will show you how that is done."`
 			`	The Hai leads you to a different section of the ring where you meet a Quarg. In a few minutes, you have been briefed on procedure and the Quarg gives you another band of Yottrite. "This will be his license, it has the same features as your own. Nothing else needs to be done on our end. You will be responsible for educating him in the things he should know. You have made a good choice with this James Kyle, he is already known to us as a most intelligent and discreet individual."`
-			`	You return to your ship and give Lt. Kyle a quick rundown on the license and its uses, and tell him everything you know about the duties of an auxiliary representative. Once you have finished, he shakes your hand warmly.`
-			`	"Thank you so much for this <last>, I don't know where I'd be without this. That said, I still need another favor."`
-				goto favor
+				goto end
 			label friend
 			`	"Just a friend?"`
 			choice
 				`	"I was actually hoping to make him my auxiliary representative."`
 					goto rep
-			label favor
-			choice
-				`	"Oh no, I've already given you enough."`
-				`	"Tell me what you need."`
-			`	"I need to get back to human space, and you are my only way out so far as I can see. Would it be possible for you to take me to the syndicate? That way I can pick up a ship and more importantly a Jump Drive."`
-			choice
-				`	"Sure, I can take you."`
-			`	"Great, I can't tell you how much this means to me. Anywhere in the syndicate would be fine."`
+			label end
 
 mission "Wormholes 2.1.7"
 	landing
@@ -546,7 +537,16 @@ mission "Wormholes 2.1.7"
 	on offer
 		log "People" "James Kyle" "James Kyle is your auxiliary representative for the Free Worlds at Galactic Command."
 		conversation
-			accept
+			`	You return to your ship and give Lt. Kyle a quick rundown on the license and its uses, and tell him everything you know about the duties of an auxiliary representative. Once you have finished, he shakes your hand warmly.`
+			`	"Thank you so much for this <last>, I don't know where I'd be without this. That said, I still need another favor."`
+			choice
+				`	"Oh no, I've already given you enough."`
+				`	"Tell me what you need."`
+			`	"I need to get back to human space, and you are my only way out so far as I can see. Would it be possible for you to take me to the syndicate? That way I can pick up a ship and more importantly a Jump Drive."`
+			choice
+				`	"Sure, I can take you."`
+			`	"Great, I can't tell you how much this means to me. Anywhere in the syndicate would be fine."`
+				accept
 	on complete
 		payment 10000000
 		conversation
