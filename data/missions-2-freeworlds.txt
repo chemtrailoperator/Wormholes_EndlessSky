@@ -264,6 +264,9 @@ mission "Wormholes 2.1.2"
 		payment 20000
 		conversation
 			`	James tosses you the agreed credit chips and heads off your ship, yelling over his shoulder; "Please keep me in mind for any job, big or small, I'm rather desperate at the moment." You wonder what he will be doing with himself in the next few months.`
+		event "Wormholes 2.1.4 trigger" 14
+	on decline
+		event "Wormholes 2.1.2 decline timer" 8
 
 mission "Wormholes 2.1.3"
 	landing
@@ -275,7 +278,7 @@ mission "Wormholes 2.1.3"
 		government "Free Worlds"
 	to offer
 		has "Wormholes 2.1.2: declined"
-		has "temporary locker"
+		has "event: Wormholes 2.1.2 decline timer"
 	on offer
 		conversation
 			`	As you walk out of your ship, you are surprised to see James Kyle, the Free Worlds Officer you met recently, waiting for you on the landing pad.`
@@ -389,6 +392,7 @@ mission "Wormholes 2.1.3"
 		payment 20000
 		conversation
 			`	James tosses you the agreed credit chips and heads off your ship, yelling over his shoulder; "Please keep me in mind for any job, big or small, I'm rather desperate at the moment." You wonder what he will be doing with himself in the next few months.`
+		event "Wormholes 2.1.2 trigger" 7
 
 mission "Wormholes 2.1.4"
 	landing
@@ -401,7 +405,7 @@ mission "Wormholes 2.1.4"
 		or
 			has "Wormholes 2.1.3: done"
 			has "Wormholes 2.1.2: done"
-		random < 40
+		has "event: Wormholes 2.1.4 trigger"
 	on offer
 		conversation
 			`	You receive a message from the Free Worlds government; "Please report to Bourne at your earliest convenience to discuss some diplomatic matters."`
