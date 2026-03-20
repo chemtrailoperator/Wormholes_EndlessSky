@@ -521,7 +521,51 @@ mission "Wormholes 2.1.6"
 				launch
 	on complete
 		conversation
-			`	test.`
+			`	Once you have finished shutting down the ship, you ask James to stay put while you find out what is to be done to get him onboarded.`
+			`	Waiting for you in the main room of your sector of the ring is a Hai, probably the one you met earlier here.`
+			`	"Hello Representative <last>," it says, "Our scans have detected someone on board your ship that is not part of the normal crew. Someone new to this ring. Can you explain this?"`
+			choice
+				`	"Yes, he is a friend of mine."`
+					goto friend
+				`	"I am hoping to make him my auxiliary representative."`
+			label rep
+			`	"That is good to hear Captain. Come with me and I will show you how that is done."`
+			`	The Hai leads you to a different section of the ring where you meet a Quarg. In a few minutes, you have been briefed on procedure and the Quarg gives you another band of Yottrite. "This will be his license, it has the same features as your own. Nothing else needs to be done on our end. You will be responsible for educating him in the things he should know. You have made a good choice with this James Kyle, he is already known to us as a most intelligent and discreet individual."`
+				goto end
+			label friend
+			`	"Just a friend?"`
+			choice
+				`	"I was actually hoping to make him my auxiliary representative."`
+					goto rep
+			label end
+
+mission "Wormholes 2.1.7"
+	landing
+	name "Take Kyle to the Syndicate."
+	description "Take James Kyle somewhere in the Syndicate. It doesn't matter where."
+	source Mons
+	complete at
+		government "Syndicate"
+	to offer
+		has "Wormholes 2.1.6: done"
+	on offer
+		log "People" "James Kyle" "James Kyle is your auxiliary representative for the Free Worlds at Galactic Command."
+		conversation
+			`	You return to your ship and give Lt. Kyle a quick rundown on the license and its uses, and tell him everything you know about the duties of an auxiliary representative. Once you have finished, he shakes your hand warmly.`
+			`	"Thank you so much for this <last>, I don't know where I'd be without this. That said, I still need another favor."`
+			choice
+				`	"Oh no, I've already given you enough."`
+				`	"Tell me what you need."`
+			`	"I need to get back to human space, and you are my only way out so far as I can see. Would it be possible for you to take me to the syndicate? That way I can pick up a ship and more importantly a Jump Drive."`
+			choice
+				`	"Sure, I can take you."`
+			`	"Great, I can't tell you how much this means to me. Anywhere in the syndicate would be fine."`
+				accept
+	on complete
+		payment 10000000
+		conversation
+			`	As you touch down James approaches you in the cockpit as you are coming in to land. "The truth is, I haven't been quite honest with you, I am not quite as washed up as I have said. Please take this as a token of my gratitude." He tosses a large stack of credit chips into your lap. By the time you look back up, he has left. You count the chips, and they total 10 million credits.`
+		log "Dropped James Kyle off in the Syndicate after getting him on as your auxiliary representative to Galactic Command. His plan was to get himself a new flagship."
 	
 
 #mission "Wormholes 2.1.99"
