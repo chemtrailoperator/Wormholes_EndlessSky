@@ -15,11 +15,9 @@
 
 # The idea of this is a storyline that allows you to pick assistant delegates for the FW.
 
-
 mission "Wormholes 2.0"
 	landing
-	name "Suggestion for delegate finding."
-	description "You are told in this mission that you need to think of finding other delegates."
+	name "Suggestion For Delegate Finding"
 	source Mons
 	to offer
 		has "Wormholes 1.3: done"
@@ -39,9 +37,13 @@ mission "Wormholes 2.0"
 			label reminder
 			`	The Hai begins speaking immediately. "Good evening, Captain. I have a message to deliver."`
 			label main
-			`	"The work of a delegation cannot be done by one's self, you should be thinking of other delegates to work with. You have the privelege of selecting an auxiliary and an assistant representative. The auxiliary representative will have the same power as you if you cannot be reached, while the assistant does not have that privelege. There is little urgency, choose your companions wisely." The Hai turns and leaves before you can reply.`
+			`	"The work of a delegation cannot be done by one's self, you should be thinking of other delegates to work with. You have the privelege of selecting an auxiliary and an assistant representative. The auxiliary will have the same power as you if you cannot be reached, while the assistant does not have that privilege. There is little urgency, choose your companions wisely." The Hai turns and leaves before you can reply.`
 				decline
-
+	on decline
+		event "Wormholes 2.0 hold timer" 15
+		
+event "Wormholes 2.0 hold timer" 
+		
 # ------------------------------------------------------------------ Start of first delegate story. --------------------------------------------------------
 # Mission where you meet another Free World's officer that claims acquaintance through some battle. He tells you he plans to retire soon and asks you to put in a word for him if you hear of any jobs for an adventurous pilot.
 # Mission where you meet him again, and he asks you for a ride. If you accept, it leads you to a conversation where he asks about the Galactic Keystone, if you do not provide information, he persists. If you do not take him on a ride, you meet him again on a different planet 2 months later, he is in a bind, and needs help to get to the original destination. 
@@ -54,11 +56,12 @@ mission "Wormholes 2.1.1"
 	source
 		government "Free Worlds"
 	to offer
-		has "Wormholes 2.0: declined"
+		has "event: Wormholes 2.0 hold timer"
+		"Wormholes 2.1 defer locker" < 3
 		random < 80
 	on offer
 		conversation
-			`	There is a bright sign advertising a new bar recently opened at the spaceport.`
+			`There is a bright sign advertising a new bar recently opened at the spaceport.`
 			choice
 				`	(Check it out.)`
 					goto visit
@@ -91,34 +94,40 @@ mission "Wormholes 2.1.1"
 			choice
 				`	"Nice to meet you."`
 				`	"Umm... Hi.`
-			`	He leans back, throwing the rest of his drink to the back of his throat. He begins speaking again without any sign that he had swallowed. "I came over to beg your acquaintance, but also to ask a favor. I am retiring from the Navy soon and I was wondering if you had any knowledge of a position that might fit an experienced Free Worlds officer.?"`
+			`	He leans back, throwing the rest of his drink to the back of his throat. He begins speaking again without any sign that he had swallowed. "I came over to beg your acquaintance, but also to ask a favor. I am retiring from the militia soon and I was wondering if you had any knowledge of a position that might fit an experienced Free Worlds officer...?"`
 			choice
 				`	"I have nothing. Unless you want to join my crew."`
 					goto crew
 				`	"I don't have anything right now, but I'll keep you in mind if anything comes up."`
-			`	"Thank you for that. Here is my card if you run across anything. I have to go now." He gets up and walks out, tossing a few wrinkled bills on the bar as he goes.`
+			`	"Thank you for that. Here is my card if you run across anything. I have to go now." He gets up and walks out, tossing a few credit chips on the bar as he goes.`
 				goto leaving
 			label crew
-			`	He gives a wry laugh. "Ask me that in a year and we'll see if I'm desperate enough. Please keep me in mind at least, here is my card if you run across anything. I have to go now." He gets up and walks out, tossing a few wrinkled bills on the bar as he goes.`
+			`	He gives a wry laugh. "Ask me that in a year and we'll see if I'm desperate enough. Please keep me in mind at least, here is my card if you run across anything. I have to go now." He gets up and walks out, tossing a few credit chips on the bar as he goes.`
 			label leaving
 			`	You finish up your drink and follow him out the door in a few minutes.`
 				decline
 		log "Minor People" "James Kyle" "James Kyle is a Free Worlds Navy officer looking for a job before he leaves the Navy."
+	on defer
+		"Wormholes 2.1 defer locker" ++
+	on decline
+		event "Wormholes 2.1 hold timer" 30
+		
+event "Wormholes 2.1 hold timer"
 
 mission "Wormholes 2.1.2"
 	priority
 	name "Carry a friend to Poseidos"
-	description "Carry your friend to Poseidos in the Izar system, he will pay you 20,000 credits."
+	description "Carry a friend to Poseidos in the Izar system, he will pay you 20,000 credits."
 	destination Poseidos
 	passengers 1
 	source
 		government "Free Worlds"
 	to offer
 		random < 50
-		has "Wormholes 2.1.1: declined"
+		has "event: Wormholes 2.1 hold timer"
 	on offer
 		conversation
-			`	As you are walking through the spaceport, you are surprised to see James Kyle, the Free Worlds officer you met recently.`
+			`As you are walking through the spaceport, you are surprised to see James Kyle, the Free Worlds officer you met recently.`
 			`	"Hello Captain," he says, "is there any chance you could transport me to Poseidos? I'm in a bit of a sticky situation here at the moment. I can pay you twenty thousand credits."`
 			choice
 				`	"Sure, I can take you."`
@@ -134,6 +143,9 @@ mission "Wormholes 2.1.2"
 				`	"That will be a no then."`
 					goto no
 				`	"How did you get here."`
+					set "wormholes 2.1 set 1"
+					to display 
+						not "wormholes 2.1 set 1"
 			`	"In a spaceship, how else."`
 				goto secondchoice
 			label sure
@@ -147,10 +159,10 @@ mission "Wormholes 2.1.2"
 				`	"That's fine, I'll show you to my ship."`
 					goto show
 				`	"Uh, I have stuff I need to do."`
-			`	"It isn't really an option." he says, glancing over his shoulder. I mean RIGHT NOW. He grabs your shoulder, spins you around, and starts trotting towards the exit. After dodging through a crowd --and through the restrooms-- you reach your ship.`
+			`	"It isn't really an option." he says, glancing over his shoulder. I mean RIGHT NOW. He grabs your shoulder, spins you around, and starts trotting towards the exit. After dodging through a crowd (and through the restrooms) you reach your ship.`
 				goto huh
 			label show
-			`	"Outstanding, lets go." He glances around, grabs your shoulder, spins you around, and starts trotting towards the exit. After dodging through a crowd --and through the restrooms-- you reach your ship.`
+			`	"Outstanding, lets go." He glances around, grabs your shoulder, spins you around, and starts trotting towards the exit. After dodging through a crowd (and through the restrooms) you reach your ship.`
 			label huh
 			choice
 				`	"What was that about?!"`
@@ -162,7 +174,7 @@ mission "Wormholes 2.1.2"
 				launch
 	on enter
 		conversation
-			`	James approaches you in the cockpit. "Mind if I have a seat."`
+			`	James approaches you in the cockpit. "Mind if I have a seat?"`
 			choice
 				`	"Sure."`
 					goto sure
@@ -221,7 +233,7 @@ mission "Wormholes 2.1.2"
 					goto rejected
 				`	"The Quarg gave it to me."`
 			label quarg
-			`	He stares at you intently. "That's hardly believable, the Quarg never give out their tech, and ruthlessly hunt down the people that take it. How did you come by this jewel?"`
+			`	He stares at you intently. "That's hardly believable, the Quarg never give out their tech, and ruthlessly hunt down the people that take it. How did you come by that trinket?"`
 			choice
 				`	(Tell him about Galactic Command.)`
 					goto tell
@@ -263,6 +275,7 @@ mission "Wormholes 2.1.3"
 		government "Free Worlds"
 	to offer
 		has "Wormholes 2.1.2: declined"
+		has "temporary locker"
 	on offer
 		conversation
 			`	As you walk out of your ship, you are surprised to see James Kyle, the Free Worlds Officer you met recently, waiting for you on the landing pad.`
@@ -283,6 +296,7 @@ mission "Wormholes 2.1.3"
 				launch
 			label nope
 			`	"Oh well, I was hoping you would be my ticket out of this dump."`
+				decline
 	on enter
 		conversation
 			`	James approaches you in the cockpit. "Mind if I have a seat."`
@@ -446,7 +460,7 @@ mission "Wormholes 2.1.5"
 		has "Wormholes 2.1.4: done"
 	on offer
 		conversation
-			`	Leaving the government building you are left with a decision. Do you want to offer Lt. James Kyle a position as your auxiliary delegate?`
+			`Leaving the government building you are left with a decision. Do you want to offer Lt. James Kyle a position as your auxiliary delegate?`
 			choice
 				`	(Yes.)`
 					goto yes
@@ -468,8 +482,8 @@ mission "Wormholes 2.1.5"
 				decline
 	on complete
 		conversation
-			`	Yet again, as you are walking into the spaceport, you are accosted by Lieutenant Kyle.`
-			`	"Hello again, Captain Abe, any news? I knew you came in because I'm working as a traffic controller now."`
+			`Yet again, as you are walking into the spaceport, you are accosted by Lieutenant Kyle.`
+			`	"Hello again, Captain <last>, any news? I knew you came in because I'm working as a traffic controller now."`
 			choice
 				`	"I can give you a different job if you want it."`
 					goto asked
@@ -484,11 +498,11 @@ mission "Wormholes 2.1.5"
 			`	The blood returns to his face in force. "What do I do?"`
 			`	"Come with me and I'll show you."`
 			`	"Absolutely" he says.`
-			`	You start back to your ship, Kyle darting off through a side door, presumably to sack himself. By the time you get out to the landing pads, Kyle is already there, surprisingly running through the preflight.`
+			`	You start back to your ship, Kyle darting off through a side door, presumably to get himself fired as quickly as possible. By the time you get out to the landing pads, Kyle is already there, surprisingly running through the preflight.`
 				goto takeoff
 			label asked
-			`	"Fire away, this job as a controller stinks."`
-			`	"Its a job as a galactic diplomat."`
+			`	"Fire away, this job as a controller stinks." He opens`
+			`	You reply, "Its a job as a galactic diplomat."`
 				goto shocked
 			label takeoff
 			`	By the time he finishes booting up the systems and starting the engines (which he does perfectly), you have plotted a course to Mons in the Olympus system, headquarters of the Galactic Command.`
