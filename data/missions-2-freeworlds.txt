@@ -28,7 +28,7 @@ mission "Wormholes 2.0"
 				`	(Go over.)`
 					goto reminder
 				`	(Ignore the Hai.)`
-			`	The Hai first calls to you, then rolls its eyes and walks over. "In my culture, it is considered disrespectful to ignore even a subordinate. Is it not so in your own ways as well?`
+			`	The Hai calls to you, and being ignored still it gives you an eyeroll and walks over. "In my culture, it is considered disrespectful to disregard even a subordinate. Is it not so in your own ways as well?`
 			choice
 				`	"Yes, it is, I apologize."`
 				`	"It is no such thing."`
