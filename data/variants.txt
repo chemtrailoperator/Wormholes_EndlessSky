@@ -265,8 +265,6 @@ ship "Marauder Manta" "Marauder Manta (Delegate)"
 	gun Fire-Lance
 	gun Fire-Lance
 	turret "Warder Anti-Missile"
-	
-#ship "Splinter" "Splinter (Delegate)" LA
 
 ship "Cruiser" "Cruiser (Delegate)"
 	add attributes
@@ -324,8 +322,3 @@ ship "Palavret" "Palavret (Delegate2)"
 	turret "Thermal Repeater Turret"
 	turret "Thermal Repeater Turret"
 	
-# Unfettered Solifuge
-# Unfettered Shield Beetle
-# Hai Shield Beetle CO
-# Hai Pond Strider CO
-# Hai Centipede

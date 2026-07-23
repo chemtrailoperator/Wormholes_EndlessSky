@@ -24,11 +24,11 @@ person "Living_Adblocker"
 			"the Orbitals formation is scientifically accurate... ish."
 			"you would look better in a Heliarch ship."
 			"you do NOT want ads in this game."
-			"Don't bother mining, true wealth comes through the blaster."
+			"true wealth comes through the blaster."
 			"you should try the More-Formations plugin."
 	phrase
 		word
-			"Swimming in a nuclear waste pool is safer than standing next to it. (not counting bullets of security guards.)"
+			"Swimming in a nuclear waste pool is safer (radiation-wise) than standing next to it. (not counting bullets of security guards.)"
 			"More people are killed annually by donkeys than plane crashes."
 			"Australia exports sand and camels to the middle east."
 			"Printer ink is more expensive than human blood."

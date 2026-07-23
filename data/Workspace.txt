@@ -7,32 +7,32 @@
 #Humans
 #		Free Worlds done
 #						Primary				<player>			<flagship>				<player>
-#						Auxiliary			James Kyle			Dreadnought
-#						Assistant			<Unassigned>		Falcon
+#done					Auxiliary			James Kyle			Dreadnought
+#done					Assistant			<Unassigned>		Falcon
 #		Deep done
-#						Primary				Samantha Hawthorne	Star Queen
-#						Auxiliary			<Unassigned>		Bactrian
-#						Assistant			<Unassigned>		Corvette
+#done					Primary				Samantha Hawthorne	Star Queen
+#done					Auxiliary			<Unassigned>		Bactrian
+#done					Assistant			<Unassigned>		Corvette
 #		Syndicate done
-#						Primary				Sterling Rivers	Vanguard				Moonlight
-#						Auxiliary			Corbin Westlake	Marauder Manta
-#						Assistant			<Unassigned>		Palavret
+#done					Primary				Sterling Rivers		Vanguard				Moonlight
+#done					Auxiliary			Corbin Westlake		Marauder Manta
+#done					Assistant			<Unassigned>		Palavret
 #		Remnant done
-#						Primary				Chilia				Albatross				Starbreather		
-#						Auxiliary			Statly				Merganser
-#						Assistant			Emkapi				Ibis					Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
+#done					Primary				Chilia				Albatross				Starbreather		
+#done					Auxiliary			Statly				Merganser
+#done					Assistant			Emkapi				Ibis					Cool Summer Yonder (Feel free to change name I just need to be notified to update other areas)
 #		Republic (Main)
-#						Primary				Cyrus Patton		Heavy Shuttle
-#						Auxiliary			Lila Carter		Cruiser
-#						Assistant			Stephen Sills		Carrier					R.D.S. Normandy
+#done					Primary				Cyrus Patton		Heavy Shuttle
+#done					Auxiliary			Lila Carter			Cruiser
+#done					Assistant			Stephen Sills		Carrier					R.D.S. Normandy
 #						Assistant			Mark Kensing		Cruiser
 #						Assistant			<Unassigned>		Bounder
 
 #Coalition
 #		Arach
-# 						Primary				Mug-at-blag		Arach Hulk				Tumfloot	
+# 						Primary				Mug-at-blag			Arach Hulk				Tumfloot	
 #						Auxiliary			Lub-amog			Arach Spindle			Dubdrub
-#						Assistant			Plort-talug		Arach Transport		Blubatug
+#						Assistant			Plort-talug			Arach Transport			Blubatug
 #		Kimek
 #						Primary				Chiree				Kimek Spire
 #						Auxiliary								Kimek Spire
@@ -116,7 +116,7 @@
 #						Assistant								Pug Maboro
 
 
-#Leftover names:
+#Leftover names (caution: made with a clanker):
 #Lennox Caldwell
 #Clark Sinclair
 #Ash Hayes
