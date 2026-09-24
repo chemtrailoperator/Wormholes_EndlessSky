@@ -12,6 +12,19 @@
 # You should have received a copy of the GNU General Public License along with
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
+# Tmp: replace or remove when correctly defined
+outfit "Quantum Bloodstone"
+	series "Drives"
+	index 50
+	category "Systems"
+	cost 12000
+	thumbnail "outfit/keystone"
+	"mass" 0.1
+	"outfit space" -1
+	"quantum keystone" 1
+	description "Debug : replaced with a normal keystone"
+	description "	Huh?!"
+
 outfit "Galactic Keystone"
 	index 40602
 	category "Unique"

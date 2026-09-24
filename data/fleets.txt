@@ -31,7 +31,6 @@ fleet "Free Worlds Delegates"
 	personality vindictive forbearing unconstrained
 	names "free worlds capital"
 	variant 1
-	variant 1
 		"Dreadnought (Delegate)"
 	variant 1
 		"Falcon (Delegate)"
@@ -158,7 +157,7 @@ fleet "Hai Delegates"
 	variant 1
 		"Centipede"
 
-fleet "Unfettered Delegates"
+fleet "Hai (Unfettered) Delegates"
 	government "Hai (Unfettered) Detail"
 	personality vindictive forbearing unconstrained
 	names "hai"
@@ -223,7 +222,7 @@ fleet "Quarg Delegates"
 	variant 1
 		"Quarg Wyvern"
 	variant 1
-		"Guivre"
+		"Quarg Guivre"
 
 fleet "Pug Delegates"
 	government "Pug Detail"

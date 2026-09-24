@@ -73,21 +73,23 @@ ship "Dreadnought" "Dreadnought (Delegate)"
 		"D41-HY Shield Generator"
 		"Hai Gorge Batteries"
 		"Boulder Reactor"
-		"Bufaer Atomic Steering"
-		"A525 Atomic Thruster"
+		`"Bufaer" Atomic Steering`
+		"A520 Atomic Thruster"
 		"Fragmentation Grenades" 40
 		"Laser Rifle" 37
 	gun "Plasma Cannon"
 	gun "Plasma Cannon"
 	gun "Plasma Cannon"
 	gun "Plasma Cannon"
-	turret "Chameleon Anti-missile"
-	turret "Chameleon Anti-missile"
+	turret "Chameleon Anti-Missile"
+	turret "Chameleon Anti-Missile"
 	turret "Plasma Turret"
 	turret "Plasma Turret"
 	turret "Plasma Turret"
 	
 ship "Falcon" "Falcon (Delegate)"
+	add attributes
+		"outfit space" 12
 	outfits
 		"Plasma Cannon" 2
 		"Chameleon Anti-Missile" 2
@@ -113,7 +115,7 @@ ship "Star Queen" "Star Queen (Delegate)"
 		"Jump Drive"
 		"Hyperdrive"
 		"Outfits Expansion"
-		"Luxury Accomodations" 3
+		"Luxury Accommodations" 3
 		"Fuel Pod" 5
 		"Catalytic Ramscoop"
 		`"Benga" Reverse Thruster`
@@ -136,8 +138,7 @@ ship "Ibis" "Ibis (Delegate)"
 
 ship "Heavy Shuttle" "Heavy Shuttle (Delegate)"
 	add attributes
-		"outfit space" 40
-		"cargo space" -40
+		"outfit space" 47
 	outfits
 		"Antimatter Core"
 		"Antimatter Power Cell"
@@ -239,7 +240,7 @@ ship "Carrier" "Carrier (Delegate)"
 		"Quantum Bloodstone"
 		"Security Station" 2
 		"Tactical Scanner"
-		"Bellows Class Afterburner"
+		"Bellows-Class Afterburner"
 		"Catalytic Ramscoop"
 
 

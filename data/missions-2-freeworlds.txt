@@ -142,7 +142,7 @@ mission "Wormholes 2.1.2"
 					goto sure
 				`	"That will be a no then."`
 					goto no
-				`	"How did you get here."`
+				`	"How did you get here?"`
 					set "wormholes 2.1 set 1"
 					to display 
 						not "wormholes 2.1 set 1"
