@@ -41,7 +41,11 @@ mission "Wormholes 1.2"
 		has "Wormholes 1.1: done"
 	on offer
 		conversation
-			`You enter the spaceport but the Quarg who helped you is not present. There isn't any Quarg at all, even though most other species seem to be present. You are looking around in a bewildered manner when a human appears from behind you. He laughs at your shock and introduces himself. "I am Prefect Chilia of the Remnant. You may not remember me but I have seen you many times. I am the chief defense prefect, although I am handling less of that now that I am a galactic diplomat. It is good to see that you have gotten recognition for you numerous travels. Am I to understand that you are part of our diplomatic journey to the Successors?"`
+			`You enter the spaceport but the Quarg who helped you is not present. There isn't any Quarg at all, even though most other species seem to be present. You are looking around in a bewildered manner when a human appears from behind you. He laughs at your shock and introduces himself. "I am Prefect Chilia of the Remnant. You may not remember me but I have seen you many times. I am the chief defense prefect, although I am handling less of that now that I am a galactic diplomat. It is good to see that you have gotten recognition for you numerous travels`
+			`, especially for your work in the latest war against the Alphas`
+				to display
+					has "Endgame Alpha 4.3.1: done"
+			`. Am I to understand that you are part of our diplomatic journey to the Successors?"`
 			choice
 				`	"Huh?"`
 					goto huh
@@ -127,7 +131,7 @@ mission "Wormholes 1.2"
 			`	"Why do you question me little human, my motivations are beyond your understanding. There are so many things that would astonish your race that are mere table talk to us." He leans down closer, you never realized quite how tall this particular Pug was until now. "Do not let it go to your head that you were selected to represent your race. I say again, my motivations are beyond your understanding. I will be in the cargo compartment if others look for me." He turns around and strides out the door and down the passage like a large beetle.` 
 			label end
 	on complete
-		log "People" "Chilia" "Chilia has been a galactic diplomat for quite some time now, taking up the task long before you have. He helped orchestrate the Human side of the coalition."
+		log "People" "Chilia" "Aside from his duties as a defense prefect, Chilia has been a galactic diplomat for quite some time now, taking up the task long before you have. He helped orchestrate the Human side of the coalition."
 
 mission "Wormholes 1.3"
 	landing
