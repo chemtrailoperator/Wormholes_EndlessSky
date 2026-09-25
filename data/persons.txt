@@ -1,9 +1,9 @@
 person "Living_Adblocker"
-	frequency 400
+	frequency 300
 	government "Author"
 	personality surveillance unconstrained forbearing
 	system
-		system Quaru
+		government Coalition
 	phrase
 		word
 			"The Quarg "
@@ -56,7 +56,7 @@ person "Living_Adblocker"
 		word
 			"What's black and in the back of a cop car?   The Seat!       what is wrong with you people..."
 			"How do you keep an idiot in suspense?"
-			"Why did the reactor scientist get so angry? His coworker was having a meltdown."
+			"Why did the reactor scientist get so worried? His coworker was having a meltdown."
 			"A lot of things don't taste how they smell. Especially those chemical cakes in urinals. Never making that mistake again."
 			"HELP HOW DO I LAND"
 			"There's a button in here that says nukes. I keep pressing it but nothing happens."
@@ -73,6 +73,7 @@ person "Living_Adblocker"
 ship "Heliarch Executioner"
 	plural "Heliarch Executioners"
 	sprite "ship/heliarch executioner"
+		center 0 43
 	thumbnail "ship/heliarch executioner"
 	attributes
 		category "Superheavy"
@@ -90,8 +91,8 @@ ship "Heliarch Executioner"
 		"scramble protection" .3
 		"fuel capacity" 1500
 		"cargo space" 124
-		"outfit space" 1793
-		"weapon capacity" 568
+		"outfit space" 17930
+		"weapon capacity" 5680
 		"engine capacity" 313
 		weapon
 			"blast radius" 600
@@ -117,41 +118,63 @@ ship "Heliarch Executioner"
 		"Hyperdrive"
 		"Jump Drive"
 
-	engine 0 218
-		over
+	engine 0 215
+		under
 		zoom 1.5
-	engine -25 216
-		over
+	engine 25 213
+		under
 		zoom 1.1
-	engine 25 216
-		over
+	engine -25 213
+		under
 		zoom 1.1
-	engine -40 212
-		over
-		zoom .6
-	engine 40 212
-		over
-		zoom .6
-	"steering engine" 81 168
-		zoom .6
-		over
-		angle 300
-		right
-	"steering engine" -81 168
-		zoom .6
-		over
-		angle 60
-		left
-	"steering engine" 28 -36
+	engine 47 211
+		under
+		zoom .9
+	engine -47 211
+		under
+		zoom .9
+		
+	"steering engine" 100 128
+		under
 		zoom .5
-		over
-		angle 270
-		left
-	"steering engine" -28 -36
-		zoom .5
-		over
-		angle 90
+		angle 200
 		right
+	"steering engine" -29 14
+		under
+		zoom .3
+		angle 53
+		right
+	"steering engine" -25 -37
+		over
+		zoom .2
+		angle 70
+		right		
+	"steering engine" -25 -125
+		under
+		zoom .2
+		angle 80
+		right
+	
+	"steering engine" -100 128
+		under
+		zoom .5
+		angle -200
+		left
+	"steering engine" 29 14
+		under
+		zoom .3
+		angle -53
+		left
+	"steering engine" 25 -37
+		over
+		zoom .2
+		angle -70
+		left		
+	"steering engine" 25 -125
+		under
+		zoom .2
+		angle -80
+		left
 	gun 41 -27 "Onslaught Cannon"
 	gun 44 -27 "Onslaught Cannon"
 	gun -41 -27 "Onslaught Cannon"
@@ -237,3 +260,9 @@ outfit "Onslaught Turret"
 		"firing heat" 20
 		"shield damage" 33
 		"hull damage" 37
+
+shipyard "wormholes test"
+	"Heliarch Executioner"
+	
+planet "New Boston"
+	add shipyard "wormholes test"
