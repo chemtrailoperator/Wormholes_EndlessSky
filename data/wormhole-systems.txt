@@ -124,7 +124,7 @@ system "Olympus"
 	object "Gate: Sol"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object Mons
 		sprite planet/ringworld
@@ -135,7 +135,7 @@ system "Olympus"
 	object "Gate: Ki War Ek"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 	object Mons
@@ -147,7 +147,7 @@ system "Olympus"
 	object "Gate: Heutesl"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 80
 	object Mons
@@ -159,7 +159,7 @@ system "Olympus"
 	object "Gate: Ka'ch'chrai"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 120
 	object Mons
@@ -171,7 +171,7 @@ system "Olympus"
 	object "Gate: Ya Hai"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 160
 	object Mons
@@ -183,7 +183,7 @@ system "Olympus"
 	object "Gate: Concerto"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 200
 	object Mons
@@ -195,7 +195,7 @@ system "Olympus"
 	object "Gate: Erabu Lemeta"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 240
 	object Mons
@@ -207,7 +207,7 @@ system "Olympus"
 	object "Gate: Tuur-Kella"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 280
 	object Mons
@@ -219,7 +219,7 @@ system "Olympus"
 	object "Gate: Kashikt"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 320
 	object Mons
@@ -267,54 +267,54 @@ system "Hub: Sol"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 220
 	object "Gate: Epsilon Leonis"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 240
 	object "Gate: Gamma Corvi"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 260
 	object
 		sprite planet/ringworld
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 280
 	object "Gate: Sol"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 300
 	object
 		sprite planet/ringworld
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 320
 	object "Gate: Arculus"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 340
 	object "Gate: Markab"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 
@@ -333,30 +333,30 @@ system "Hub: Ya Hai"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Ya Hai"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite planet/ringworld
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 	object "Gate: Wah Yoot"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 60
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 80
 
@@ -375,42 +375,42 @@ system "Hub: Ki War Ek"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Sol Arach"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object "Gate: Sol Kimek"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 	object "Gate: Ki War Ek"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 60
 	object "Gate: Sol Saryd"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 80
 	object
 		sprite planet/ringworld
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 100
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 120
 
@@ -424,25 +424,24 @@ system "Hub: Concerto"
 	habitable 700
 	belt 1245
 	haze _menu/haze-67
-	fleet "Avgi Delegates" 100
 	object
 		sprite star/a5
 		period 10
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Concerto"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -461,18 +460,18 @@ system "Hub: Tuur-Kella"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Tuur-Kella"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -491,18 +490,18 @@ system "Hub: Kashikt"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Kashikt"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -521,30 +520,30 @@ system "Hub: Erabu Lemeta"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Erabu Lemeta"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite planet/ringworld
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 	object "Gate: Mego Inito"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 60
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 80
 
@@ -563,30 +562,30 @@ system "Hub: Heutesl"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Heutesl"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite planet/ringworld
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 	object "Gate: Zeinar"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 60
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 80
 
@@ -605,30 +604,30 @@ system "Hub: Ka'ch'chrai"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Ka'ch'chrai"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite planet/ringworld
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 	object "Gate: Kaliptari"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 60
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 80
 
@@ -651,18 +650,18 @@ system "Terminal: Gamma Corvi"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Gamma Corvi"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -685,18 +684,18 @@ system "Terminal: Epsilon Leonis"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Epsilon Leonis"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -716,18 +715,18 @@ system "Terminal: Arculus"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Arculus"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -746,18 +745,18 @@ system "Terminal: Markab"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Markab"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -776,18 +775,18 @@ system "Terminal: Wah Yoot"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Wah Yoot"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -806,18 +805,18 @@ system "Terminal: Sol Arach"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Sol Arach"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -836,18 +835,18 @@ system "Terminal: Sol Kimek"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Sol Kimek"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -870,18 +869,18 @@ system "Terminal: Sol Saryd"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Sol Saryd"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -900,18 +899,18 @@ system "Terminal: Mego Inito"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Mego Inito"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -930,18 +929,18 @@ system "Terminal: Zeinar"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Zeinar"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
 
@@ -960,17 +959,17 @@ system "Terminal: Kaliptari"
 	object
 		sprite "planet/ringworld right"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 	object "Gate: Kaliptari"
 		sprite planet/jumpring
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 20
 	object
 		sprite "planet/ringworld left"
 			scale 0.5
-		distance 813
+		distance 812
 		period 349.820
 		offset 40
