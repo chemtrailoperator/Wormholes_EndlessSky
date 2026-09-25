@@ -73,9 +73,9 @@ person "Living Adblocker"
 		
 
 ship "Heliarch Executioner"
-	sprite "ship/heliarch executioner"
+	sprite "ship/heliarchexecutioner"
 		center 0 43
-	thumbnail "ship/heliarch executioner"
+	thumbnail "ship/heliarchexecutioner"
 	attributes
 		category Superheavy
 		cost 3141000000
