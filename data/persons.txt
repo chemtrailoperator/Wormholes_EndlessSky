@@ -1,7 +1,7 @@
-person "LivingAdblocker"
+person "Living Adblocker"
 	government "Author"
 	personality
-		heroic opportunistic
+		heroic opportunistic hunting vindictive
 	phrase
 		word
 			"The Quarg "
@@ -24,6 +24,9 @@ person "LivingAdblocker"
 			"you do NOT want ads in this game."
 			"true wealth comes through the blaster."
 			"you should try the More-Formations plugin."
+			"you should try the Wormholes plugin."
+			"you should try the Endgame Alpha plugin."
+			"you should try the Asteroid Expansion plugin."
 	phrase
 		word
 			"Swimming in a nuclear waste pool is safer (radiation-wise) than standing next to it. (not counting bullets of security guards.)"
@@ -70,134 +73,170 @@ person "LivingAdblocker"
 		
 
 ship "Heliarch Executioner"
-	plural "Heliarch Executioners"
-	sprite "ship/heliarchexecutioner"
+	sprite "ship/heliarch executioner"
 		center 0 43
-	thumbnail "ship/heliarchexecutioner"
+	thumbnail "ship/heliarch executioner"
 	attributes
-		category "Superheavy"
-		licenses
-			Heliarch
-		"cost" 2000000000
-		"shields" 168000
-		"hull" 110000
-		"required crew" 174
-		"bunks" 213
-		"mass" 2530
-		"drag" 21.3
-		"heat dissipation" .35
-		"ion protection" .3
-		"scramble protection" .3
-		"fuel capacity" 1500
+		category Superheavy
+		cost 3141000000
+		mass 2530
+		bunks 213
 		"cargo space" 124
-		"outfit space" 17930
-		"weapon capacity" 5680
+		drag 21.3
 		"engine capacity" 313
-		weapon
-			"blast radius" 600
-			"shield damage" 100000
-			"hull damage" 100000
-			"hit force" 20000
+		"fuel capacity" 1500
+		"gun ports" 12
+		"heat dissipation" 0.35
+		hull 110000
+		"ion protection" 0.3
+		"outfit space" 17930
+		"required crew" 174
+		"scramble protection" 0.3
+		shields 168000
+		"turret mounts" 8
+		"weapon capacity" 5680
 	outfits
-		"Onslaught Cannon" 12
-		"Onslaught Turret" 8
-		
-		"Large Reactor Module" 4
+		"Cooling Module" 8
+		"Enforcer Confrontation Gear" 124
+		"Enforcer Riot Staff" 150
+		"Finisher Maegrolain" 2
+		"Finisher Pod" 4
+		"Finisher Storage Tube" 8
+		"Finisher Torpedo" 440
+		Hyperdrive
+		"Jump Drive"
 		"Large Battery Module" 2
+		"Large Reactor Module" 4
+		"Large Steering Module" 4
+		"Large Thrust Module" 6
+		"Onslaught Cannon" 6
+		"Onslaught Turret" 8
 		"Overcharged Shield Module" 6
 		"Overclocked Repair Module" 4
-		"Cooling Module" 8
 		"Scanning Module" 4
-		"Enforcer Riot Staff" 150
-		"Enforcer Confrontation Gear" 124
-		
-		"Large Thrust Module" 6
-		"Large Steering Module" 4
 		"Small Steering Module" 3
-		"Hyperdrive"
-		"Jump Drive"
-
+	crew 190
+	fuel 1500
+	shields 168000
+	hull 110000
+	position 172.78924 383.97504
 	engine 0 215
-		under
 		zoom 1.5
+		angle 0
+		gimbal 0
+		under
 	engine 25 213
-		under
 		zoom 1.1
+		angle 0
+		gimbal 0
+		under
 	engine -25 213
-		under
 		zoom 1.1
+		angle 0
+		gimbal 0
+		under
 	engine 47 211
+		zoom 0.9
+		angle 0
+		gimbal 0
 		under
-		zoom .9
 	engine -47 211
+		zoom 0.9
+		angle 0
+		gimbal 0
 		under
-		zoom .9
-		
 	"steering engine" 100 128
+		zoom 0.5
+		angle -159.99939
+		gimbal 0
 		under
-		zoom .5
-		angle 200
 		right
 	"steering engine" -29 14
+		zoom 0.3
+		angle 52.998047
+		gimbal 0
 		under
-		zoom .3
-		angle 53
 		right
 	"steering engine" -25 -37
+		zoom 0.2
+		angle 69.99939
+		gimbal 0
 		over
-		zoom .2
-		angle 70
-		right		
-	"steering engine" -25 -125
-		under
-		zoom .2
-		angle 80
 		right
-	
-	"steering engine" -100 128
+	"steering engine" -25 -125
+		zoom 0.2
+		angle 80.002441
+		gimbal 0
 		under
-		zoom .5
-		angle -200
+		right
+	"steering engine" -100 128
+		zoom 0.5
+		angle 159.99939
+		gimbal 0
+		under
 		left
 	"steering engine" 29 14
+		zoom 0.3
+		angle -52.998047
+		gimbal 0
 		under
-		zoom .3
-		angle -53
 		left
 	"steering engine" 25 -37
+		zoom 0.2
+		angle -69.99939
+		gimbal 0
 		over
-		zoom .2
-		angle -70
-		left		
-	"steering engine" 25 -125
-		under
-		zoom .2
-		angle -80
 		left
-	gun 41 -27 "Onslaught Cannon"
+	"steering engine" 25 -125
+		zoom 0.2
+		angle -80.002441
+		gimbal 0
+		under
+		left
+	gun 41 -27 "Finisher Maegrolain"
+		under
 	gun 44 -27 "Onslaught Cannon"
-	gun -41 -27 "Onslaught Cannon"
+		under
+	gun -41 -27 "Finisher Maegrolain"
+		under
 	gun -44 -27 "Onslaught Cannon"
+		under
 	gun 21 -160 "Onslaught Cannon"
+		under
 	gun -21 -160 "Onslaught Cannon"
+		under
 	gun 26 -156 "Onslaught Cannon"
+		under
 	gun -26 -156 "Onslaught Cannon"
-	gun -75 72 "Onslaught Cannon"
-	gun 75 72 "Onslaught Cannon"
-	gun -95 72 "Onslaught Cannon"
-	gun 95 72 "Onslaught Cannon"
+		under
+	gun -75 72 "Finisher Pod"
+		under
+	gun 75 72 "Finisher Pod"
+		under
+	gun -95 72 "Finisher Pod"
+		under
+	gun 95 72 "Finisher Pod"
+		under
 	turret -16 -27 "Onslaught Turret"
+		over
 	turret 16 -27 "Onslaught Turret"
+		over
 	turret 0 -6 "Onslaught Turret"
+		over
 	turret -7 -117 "Onslaught Turret"
+		over
 	turret 7 -117 "Onslaught Turret"
+		over
 	turret -68 120 "Onslaught Turret"
+		over
 	turret 68 120 "Onslaught Turret"
-	turret 0 166 "Onslaught Turret"	
-	explode "small explosion" 30
-	explode "medium explosion" 60
-	explode "large explosion" 40
+		over
+	turret 0 166 "Onslaught Turret"
+		over
 	explode "huge explosion" 60
+	explode "large explosion" 40
+	explode "medium explosion" 60
+	explode "small explosion" 30
 	"final explode" "final explosion large" 3
 
 outfit "Onslaught Cannon"
