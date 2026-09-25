@@ -1,4 +1,4 @@
-person "LivingAdblocker"
+person `Living Adblocker`
 	government "Author"
 	personality
 		heroic opportunistic
