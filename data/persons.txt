@@ -1,9 +1,9 @@
 person "Living_Adblocker"
 	frequency 300
 	government "Author"
-	personality surveillance unconstrained forbearing
+	personality surveillance forbearing
 	system
-		government Coalition
+		government Coalition Republic
 	phrase
 		word
 			"The Quarg "
