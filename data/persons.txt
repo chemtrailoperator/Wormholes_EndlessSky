@@ -1,9 +1,8 @@
-person "Living_Adblocker"
-	frequency 300
+person "LivingAdblocker"
+	frequency 100
 	government "Author"
-	personality surveillance forbearing
-	system
-		government Coalition Republic
+	personality
+		heroic surveillance opportunistic
 	phrase
 		word
 			"The Quarg "
@@ -68,13 +67,16 @@ person "Living_Adblocker"
 			"The ads fear me. None go unblocked."
 			"Dozens of ads lay slain at my feet, yet more arise. When will they learn? When will this end?" 
 			"Will there ever be enough death? No... There can never be enough death for ads."
-	ship "Heliarch Executioner"
+	ship "Heliarch Executioner" "Heliarch Executioner"
+		sprite "ship/heliarch executioner"
+			center 0 43
+		"never disabled"
 
 ship "Heliarch Executioner"
 	plural "Heliarch Executioners"
-	sprite "ship/heliarch executioner"
+	sprite "ship/heliarchexecutioner"
 		center 0 43
-	thumbnail "ship/heliarch executioner"
+	thumbnail "ship/heliarchexecutioner"
 	attributes
 		category "Superheavy"
 		licenses
