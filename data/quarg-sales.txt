@@ -59,7 +59,7 @@ outfitter "Quarg Advanced"
 
 
 # Test outfitter
-planet "Echo"
+planet "Mons"
 	add outfitter "Quarg Simple"
 	add outfitter "Quarg Advanced"
 	add outfitter "Quarg New Outfits"
