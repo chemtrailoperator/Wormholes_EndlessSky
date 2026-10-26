@@ -28,16 +28,20 @@ mission "Wormholes 2.0"
 				`	(Go over.)`
 					goto reminder
 				`	(Ignore the Hai.)`
-			`	The Hai calls to you, and being ignored still it gives you an eyeroll and walks over. "In my culture, it is considered disrespectful to disregard even a subordinate. Is it not so in your own ways as well?`
+			`	The Hai calls to you again, then rolls its eyes and walks over. "In my culture, it is considered disrespectful to disregard even a subordinate. Is it not so in your own ways as well?`
 			choice
 				`	"Yes, it is, I apologize."`
+					goto pology
 				`	"It is no such thing."`
 			`	"That is most interesting." the Hai replies. "I understand there are similar concepts with the Avgi, and the Coalition, and it is especially strong with the Gegno. But no more of this, I could talk for hours about cultures and their nuances. I have a message to deliver."`
+				goto main
+			label pology
+			`	"Do not fret, I am sure there was some reason for your disrespect. We could go into more detail, but I have a message to deliver, and then I must depart, I have urgent business."`
 				goto main
 			label reminder
 			`	The Hai begins speaking immediately. "Good evening, Captain. I have a message to deliver."`
 			label main
-			`	"The work of a delegation cannot be done by one's self, you should be thinking of other delegates to work with. You have the privilege of selecting an auxiliary and an assistant representative. The auxiliary will have the same power as you if you cannot be reached, while the assistant can only handle administrative tasks and messages. There is little urgency, choose your companions wisely." The Hai turns and leaves before you can reply.`
+			`	"The work of a delegation cannot be done by one's self, you should be thinking of other delegates to work with. You have the privilege of selecting an auxiliary and an assistant representative. The auxiliary will have the same power as you if you cannot be reached, while the assistant can only handle administrative tasks and messages. There is little urgency, choose your companions wisely and carefully." The Hai turns and leaves before you can reply.`
 				decline
 	on decline
 		event "Wormholes 2.0 hold timer" 15
@@ -94,7 +98,7 @@ mission "Wormholes 2.1.1"
 			choice
 				`	"Nice to meet you."`
 				`	"Umm... Hi.`
-			`	He leans back, throwing the rest of his drink to the back of his throat. He begins speaking again without any sign that he had swallowed. "I came over to beg your acquaintance, but also to ask a favor. I am retiring from the militia soon and I was wondering if you had any knowledge of a position that might fit an experienced Free Worlds officer...?"`
+			`	He leans back, throwing the rest of his drink to the back of his throat. He begins speaking again without any sign that he had swallowed. "I came over to beg your acquaintance, but also to ask a favor. I am retiring from the militia soon and I thought that you might have some knowledge of a position that might fit an experienced Free Worlds officer given your... renowned well-travelledness?"`
 			choice
 				`	"I have nothing. Unless you want to join my crew."`
 					goto crew
@@ -110,7 +114,7 @@ mission "Wormholes 2.1.1"
 	on defer
 		"Wormholes 2.1.1 defer locker" ++
 	on decline
-		event "Wormholes 2.1.1 hold timer" 30
+		event "Wormholes 2.1.1 hold timer" 20
 		
 event "Wormholes 2.1 hold timer"
 
@@ -124,7 +128,7 @@ mission "Wormholes 2.1.2"
 		government "Free Worlds"
 	to offer
 		random < 50
-		has "event: Wormholes 2.1 hold timer"
+		has "event: Wormholes 2.1.1 hold timer"
 	on offer
 		conversation
 			`As you are walking through the spaceport, you are surprised to see James Kyle, the Free Worlds officer you met recently.`
@@ -135,7 +139,7 @@ mission "Wormholes 2.1.2"
 				`	"Nope."`
 					goto no
 				`	"That depends what kind of sticky your situation is."`
-			`	"While it isn't strictly legal, I can assure you it isn't felonious, and it won't touch you if you carry me."`
+			`	"While it isn't strictly legal, I can assure you it isn't felonious, and it won't touch you if you carry me. At least I hope not."`
 			label secondchoice
 			choice
 				`	"Okay, sounds good."`
@@ -146,7 +150,7 @@ mission "Wormholes 2.1.2"
 					set "wormholes 2.1 set 1"
 					to display 
 						not "wormholes 2.1 set 1"
-			`	"In a spaceship, how else."`
+			`	"In a spaceship, how else?"`
 				goto secondchoice
 			label sure
 			`	"Thanks, I've been wondering how I was going to get out of this place until you showed up. Oh, and one thing, we have to leave right now."`
@@ -174,7 +178,7 @@ mission "Wormholes 2.1.2"
 				launch
 	on enter
 		conversation
-			`	James approaches you in the cockpit. "Mind if I have a seat?"`
+			`	James approaches you in the cockpit once you've reached deep space. "Mind if I have a seat?"`
 			choice
 				`	"Sure."`
 					goto sure
@@ -203,7 +207,7 @@ mission "Wormholes 2.1.2"
 				`	"I got it from the things that made it."`
 					goto contacts
 				`	"I get it from black market dealers on various pirate planets."`
-			`	"Now that's not the whole truth." he says with a knowing smile, "Much of this cannot be bought at the best dealers in the galaxy, I've tried. That's what I was doing when I found you, dealing alien tech. Sometimes Korath tech pops up for sale, and once every few years some crippled or destroyed ship will drift into the south, but even that doesn't account for this. So tell me, where did you actually get all this stuff?"`
+			`	"Now that's not the whole truth." he says with a knowing smile, "Much of this cannot be bought at the best dealers in the galaxy. I know because I've tried, and I've gone some shady places to do so. That's what I was doing when I found you, dealing alien tech. Sometimes Korath tech pops up for sale outside the Syndicate, and once every few years some crippled or destroyed ship will drift into the south, but even that doesn't account for this. So tell me, where did you actually get all this stuff?"`
 			choice
 				`	"No, I mean it."`
 					goto insist
@@ -233,7 +237,7 @@ mission "Wormholes 2.1.2"
 					goto rejected
 				`	"The Quarg gave it to me."`
 			label quarg
-			`	He stares at you intently. "That's hardly believable, the Quarg never give out their tech, and ruthlessly hunt down the people that take it. How did you come by that trinket?"`
+			`	He stares at you intently. "That's hardly believable, the Quarg never give out their tech, and ruthlessly hunt down the people that take it without permission. How did you come by that trinket?"`
 			choice
 				`	(Tell him about Galactic Command.)`
 					goto tell
@@ -285,7 +289,7 @@ mission "Wormholes 2.1.3"
 		has "event: Wormholes 2.1.2 decline timer"
 	on offer
 		conversation
-			`	As you walk out of your ship, you are surprised to see James Kyle, the Free Worlds Officer you met recently, waiting for you on the landing pad.`
+			`	As you walk out of your ship, you are surprised to see James Kyle again. For someone who is ostensibly a retired Free Worlds Officer he sure gets around. He is standing waiting for you on the landing pad.`
 			`	"Hello Captain <last>, any choice I can get a ride out of here? I need to get to Poseidos and I can pay you 20000 credits."`
 			choice
 				`	"Nope, sorry."`
@@ -295,7 +299,7 @@ mission "Wormholes 2.1.3"
 			`	Thankfully you left the repulsors running, and you are just lifting off when a man jumps out of the jeep and starts yelling at your ship and shaking his fist. After you clear the spaceport airspace you turn to James, who has been nervously looking over your shoulder the whole time.`
 			choice
 				`	"What was that about?!"`
-			`	"Thank you for that, I needed to get out rather quickly. While I am not technically a felon, and so not subjected to be hunted down, my list of misdemeanors is hefty enough that there are individuals that have hired bounty hunters to detain me. Rest assured, I have done my legal studying, and this can't hurt you. Just say you don't know me if you get interrogated. You should probably get into orbit now."`
+			`	"Thank you for that, I needed to get out rather quickly. While I am not technically a felon, and so not subjected to be hunted down by an actual government, my list of misdemeanors is hefty enough that there are individuals that have hired bounty hunters to detain me. Rest assured, I have done my legal studying, and this can't hurt you. Just say you don't know me if you get interrogated. You should probably get into orbit now."`
 			choice
 				`	"This ought to be fun."`
 				`	"You had better be right about that."`

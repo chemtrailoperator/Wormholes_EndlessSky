@@ -477,7 +477,7 @@ system "Hub: Tuur-Kella"
 
 system "Hub: Kashikt"
 	hidden
-	pos -73.5695 -199.812
+	pos -76.5695 -199.812
 	government "Drak"
 	attributes capital command
 	arrival 700
@@ -762,7 +762,7 @@ system "Terminal: Markab"
 
 system "Terminal: Wah Yoot"
 	hidden
-	pos 50.9382 -685.994
+	pos 54 -696
 	government "Drak"
 	attributes terminal command
 	arrival 700
@@ -946,7 +946,7 @@ system "Terminal: Zeinar"
 
 system "Terminal: Kaliptari"
 	hidden
-	pos 65.4305 -402.812
+	pos 60.4305 -393.812
 	government "Drak"
 	attributes terminal command
 	arrival 700
