@@ -1,4 +1,7 @@
 # Wormholes
+
+![Downloads](https://img.shields.io/github/downloads/chemtrailoperator/Wormholes_EndlessSky/total)
+
 The Wormholes plugin is a content addition that allows you to serve as a galactic diplomat once you have visited every civilization (and faction).
 The perks of being a diplomat include access to a massive network of wormholes that allow access to every faction.
 
